@@ -145,7 +145,7 @@ fig_1 <- ggplot(scree_data, aes(x = Factors, y = Value)) +
   scale_y_continuous(0:5, 0:5, name = "Eigenvalues") +
   theme_bw() +
   facet_wrap(~ Variable)
-ggsave(file = "~/Dropbox/WX Summer Fun/paper_1_figures/fig_1.png", fig_1, width = 10, height = 2, dpi = 500)
+ggsave(file = "~/Documents/GitHub/wxsurvey/measuring tornado warning reception, comprehension, and response/figures/fig_1.png", fig_1, width = 10, height = 2, dpi = 500)
 
 # Table 6: Objective Comprehension Correlations -----------------------------
 polycor::polychor(WX18$watch_warn_correct, WX18$warn_time_correct, std.err = TRUE)
@@ -249,7 +249,7 @@ p2 <- ggplot(lines2, aes(x = z, y = info)) +
   ggtitle("(b) Single Item Information Functions") +
   facet_wrap(~ Variable, scale = "free", nrow = 1)
 fig_2 <- gridExtra::grid.arrange(p1, p2)
-ggsave(file = "~/Dropbox/WX Summer Fun/paper_1_figures/fig_2.png", fig_2, width = 10, height = 4, dpi = 500)
+ggsave(file = "~/Documents/GitHub/wxsurvey/measuring tornado warning reception, comprehension, and response/figures/fig_2.png", fig_2, width = 10, height = 4, dpi = 500)
 
 # Footnote 2: Dimensionality for Objective Comprehension -----------------------------
 obj_comp_data <- WX18 %>% # scale with warning size
@@ -373,7 +373,7 @@ p3 <- ggplot(all_estimates, aes(y = qi_ci_median, x = grp)) +
   theme(axis.text.x = element_text(size = 8, angle = 70, hjust = 1)) +
   facet_wrap(~ measure, nrow = 1)
 fig_3 <- gridExtra::grid.arrange(p1, p2, p3, ncol = 1)
-ggsave(file = "~/Dropbox/WX Summer Fun/paper_1_figures/fig_3.png", fig_3, width = 10, height = 8, dpi = 500)
+ggsave(file = "~/Documents/GitHub/wxsurvey/measuring tornado warning reception, comprehension, and response/figures//fig_3.png", fig_3, width = 10, height = 8, dpi = 500)
 
 # Appendix, Table A1 -----------------------------
 # RECEPTION TEST
