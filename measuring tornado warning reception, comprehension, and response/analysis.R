@@ -12,7 +12,7 @@ library(tidyverse)
 options(scipen = 9999)
 
 # Import Survey Data -----------------------------
-WX18 <- read_csv("https://raw.githubusercontent.com/oucrcm/wxsurvey/master/replication_data.csv")
+WX18 <- read_csv("https://raw.githubusercontent.com/oucrcm/wxsurvey/master/measuring%20tornado%20warning%20reception%2C%20comprehension%2C%20and%20response/data.csv")
 
 # Table 1: Demographics -----------------------------
 round(prop.table(table(WX18$gend)) * 100, 1) # Gender
