@@ -23,10 +23,10 @@ WX18$age_category <- ifelse(WX18$age >= 35 & WX18$age <= 44, 3, WX18$age_categor
 WX18$age_category <- ifelse(WX18$age >= 45 & WX18$age <= 54, 4, WX18$age_category)
 WX18$age_category <- ifelse(WX18$age >= 55 & WX18$age <= 64, 5, WX18$age_category)
 WX18$age_category <- ifelse(WX18$age >= 65, 6, WX18$age_category)
-round(prop.table(table(WX18$age_category)) * 100, 1) # Age
-round(prop.table(table(WX18$hisp)) * 100, 1) # Hispanic
-round(prop.table(table(WX18$race)) * 100, 1) # Race
-round(prop.table(table(WX18$nws_region)) * 100, 1) # Region
+round(prop.table(table(WX18$age_category)) * 100, 1) # age
+round(prop.table(table(WX18$hisp)) * 100, 1) # hispanic
+round(prop.table(table(WX18$race)) * 100, 1) # race
+round(prop.table(table(WX18$nws_region)) * 100, 1) # region
 
 # Add Weights to Data for Tables 2-5 -----------------------------
 data.wtd <- svydesign(ids = ~1, weights = ~weightfactor, data = WX18)
@@ -81,12 +81,10 @@ round(prop.table(svytable(~resp_morn, design = data.wtd)) * 100, 1) # resp_morn
 round(prop.table(svytable(~resp_aft, design = data.wtd)) * 100, 1) # resp_aft
 round(prop.table(svytable(~resp_eve, design = data.wtd)) * 100, 1) # resp_eve
 
-## Full Scale Analyses -----------------------------
-# Subjective Reception
+# Subjective Reception Scale -----------------------------
 recep_data <- WX18 %>% 
   dplyr::select(rec_all, rec_most, rec_soon, rec_sleep, rec_driving, rec_work, rec_store, rec_small_group, rec_large_group, 
-         rec_morn, rec_aft, rec_eve)
-psych::alpha(recep_data)
+                rec_morn, rec_aft, rec_eve)
 recep_eigen_values <- c(scree(recep_data, factors = TRUE, pc = FALSE))$fv
 recep_fact_loadings <- loadings(factanal(na.omit(recep_data), factors = 1))
 recep_fit <- grm(recep_data)
@@ -94,17 +92,16 @@ summary(recep_fit)
 recep_scores <- ltm::factor.scores(recep_fit, resp.patterns = recep_data)
 WX18$reception <- recep_scores$score.dat$z1
 
-# Subjective Comprehension
+# Subjective Comprehension Scale -----------------------------
 subj_comp_data <- WX18 %>% 
   dplyr::select(alert_und, tor_watchwarn_und, tor_map_und, tor_radar_und, svr_watchwarn_und, und_morn, und_aft, und_eve)
-psych::alpha(subj_comp_data)
 subj_comp_eigen_values <- c(scree(subj_comp_data, factors = TRUE, pc = FALSE))$fv
 subj_comp_fact_loadings <- loadings(factanal(na.omit(subj_comp_data), factors = 1))
 subj_comp_fit <- grm(subj_comp_data)
 subj_comp_scores <- ltm::factor.scores(subj_comp_fit, resp.patterns = subj_comp_data)
 WX18$subj_comprehension <- subj_comp_scores$score.dat$z1
 
-# Objective Comprehension
+# Objective Comprehension Scale -----------------------------
 WX18$watch_warn_group <- ifelse(is.na(WX18$torwatch) == FALSE, "watch", "warn")
 WX18$watch_warn_correct <- NA
 WX18$watch_warn_correct <- ifelse(WX18$watch_warn_group == "watch" & WX18$torwatch == 1, 1, WX18$watch_warn_correct)
@@ -112,30 +109,28 @@ WX18$watch_warn_correct <- ifelse(WX18$watch_warn_group == "watch" & WX18$torwat
 WX18$watch_warn_correct <- ifelse(WX18$watch_warn_group == "warn" & WX18$torwarn == 2, 1, WX18$watch_warn_correct)
 WX18$watch_warn_correct <- ifelse(WX18$watch_warn_group == "warn" & WX18$torwarn != 2, 0, WX18$watch_warn_correct)
 WX18$warn_time_correct <- ifelse(WX18$warn_time == 1 & WX18$warn_time_minutes < 30, 1, 0)
-WX18$watch_time_correct <- ifelse(WX18$watch_time == 2 & WX18$watch_time_hours >= 1 & WX18$watch_time_hours <= 6, 1, 0)
+WX18$watch_time_correct <- ifelse(WX18$watch_time == 2 & WX18$watch_time_hours >= 1 & WX18$watch_time_hours <= 3, 1, 0)
 WX18$warn_size_correct <- ifelse(WX18$warn_size == 1 | WX18$warn_size == 2, 1, 0)
 WX18$watch_size_correct <- ifelse(WX18$watch_size == 3 | WX18$watch_size == 4 | WX18$watch_size == 5, 1, 0)
 obj_comp_data <- WX18 %>% 
   dplyr::select(watch_warn_correct, warn_time_correct, watch_time_correct, watch_size_correct)
-psych::alpha(obj_comp_data)
 obj_comp_eigen_values <- c(scree(obj_comp_data, factors = TRUE, pc = FALSE))$fv
 obj_comp_fact_loadings <- loadings(factanal(na.omit(obj_comp_data), factors = 1, rotation = "varimax"))
 obj_comp_fit <- ltm(obj_comp_data ~ z1)
 obj_comp_scores <- ltm::factor.scores(obj_comp_fit, resp.patterns = obj_comp_data)
 WX18$obj_comprehension <- obj_comp_scores$score.dat$z1
 
-# Subjective Response
+# Subjective Response Scale -----------------------------
 resp_data <- WX18 %>% 
   dplyr::select(resp_prot, resp_sleep, resp_driving, resp_work, resp_store, resp_small_group, resp_large_group,
-         resp_morn, resp_aft, resp_eve)
-psych::alpha(resp_data)
+                resp_morn, resp_aft, resp_eve)
 resp_eigen_values <- c(scree(resp_data, factors = TRUE, pc = FALSE))$fv
 resp_fact_loadings <- loadings(factanal(na.omit(resp_data), factors = 1))
 resp_fit <- grm(resp_data)
 resp_scores <- ltm::factor.scores(resp_fit, resp.patterns = resp_data)
 WX18$response <- resp_scores$score.dat$z1
 
-# Figure 1: Scree Plots
+# Figure 1: Scree Plots -----------------------------
 scree_data <- data_frame(
   Variable = c(rep("Reception", 8), rep("Comprehension (Subjective)", 8), rep("Response", 8)),
   Factors = rep(1:8, 3),
@@ -150,15 +145,21 @@ fig_1 <- ggplot(scree_data, aes(x = Factors, y = Value)) +
   scale_y_continuous(0:5, 0:5, name = "Eigenvalues") +
   theme_bw() +
   facet_wrap(~ Variable)
-ggsave(file = "~/Dropbox/WX Summer Fun/paper_1_figures.png", fig_1, width = 10, height = 2, dpi = 500)
+ggsave(file = "~/Dropbox/WX Summer Fun/paper_1_figures/fig_1.png", fig_1, width = 10, height = 2, dpi = 500)
 
-# Table 6: Objective Comprehension Correlations
-C <- WX18 %>% dplyr::select(watch_warn_correct, warn_time_correct, warn_size_correct, watch_time_correct, watch_size_correct)
-round(weights::wtd.cor(C, w = C$weightfactor)$correlation, 2)
-round(weights::wtd.cor(C, w = C$weightfactor)$std.err, 2)
-round(weights::wtd.cor(C, w = C$weightfactor)$p.value, 2) < 0.05
+# Table 6: Objective Comprehension Correlations -----------------------------
+polycor::polychor(WX18$watch_warn_correct, WX18$warn_time_correct, std.err = TRUE)
+polycor::polychor(WX18$watch_warn_correct, WX18$warn_size_correct, std.err = TRUE)
+polycor::polychor(WX18$watch_warn_correct, WX18$watch_time_correct, std.err = TRUE)
+polycor::polychor(WX18$watch_warn_correct, WX18$watch_size_correct, std.err = TRUE)
+polycor::polychor(WX18$warn_time_correct, WX18$warn_size_correct, std.err = TRUE)
+polycor::polychor(WX18$warn_time_correct, WX18$watch_time_correct, std.err = TRUE)
+polycor::polychor(WX18$warn_time_correct, WX18$watch_size_correct, std.err = TRUE)
+polycor::polychor(WX18$warn_size_correct, WX18$watch_time_correct, std.err = TRUE)
+polycor::polychor(WX18$warn_size_correct, WX18$watch_size_correct, std.err = TRUE)
+polycor::polychor(WX18$watch_time_correct, WX18$watch_size_correct, std.err = TRUE)
 
-# Figure 2: IRT Plots
+# Figure 2: IRT Plots -----------------------------
 x1 <- data.frame(plot(recep_fit, "IIC", item = 0, zrange = c(-5, 5)))
 information(recep_fit, range = c(-100, 0))
 information(recep_fit, range = c(0, 100))
@@ -230,7 +231,6 @@ lines2$Variable <- factor(lines2$Variable, levels = c("Rec_All",
                                                       "Scomp_WW_Difference",
                                                       "Resp_Always"))
 
-quartz(height = 4, width = 10)
 p1 <- ggplot(lines1, aes(x = z, y = info)) +
   geom_line(size = 1) +
   geom_vline(xintercept = 0, linetype = 2) +
@@ -248,23 +248,23 @@ p2 <- ggplot(lines2, aes(x = z, y = info)) +
   theme(legend.position = "none") +
   ggtitle("(b) Single Item Information Functions") +
   facet_wrap(~ Variable, scale = "free", nrow = 1)
-gridExtra::grid.arrange(p1, p2)
+fig_2 <- gridExtra::grid.arrange(p1, p2)
+ggsave(file = "~/Dropbox/WX Summer Fun/paper_1_figures/fig_2.png", fig_2, width = 10, height = 4, dpi = 500)
 
-
-# Footnote 2: Another Test of Dimensionality for Objective Comprehension -----------------------------
-obj_comp_data <- WX18 %>% #scale with warning size
+# Footnote 2: Dimensionality for Objective Comprehension -----------------------------
+obj_comp_data <- WX18 %>% # scale with warning size
   dplyr::select(watch_warn_correct, 
-         warn_time_correct, watch_time_correct,
-         watch_size_correct, warn_size_correct)
+                warn_time_correct, watch_time_correct,
+                watch_size_correct, warn_size_correct)
 obj_comp_fit <- ltm(obj_comp_data ~ z1)
 
 obj_comp_data <- WX18 %>% # scale without warning size
   dplyr::select(watch_warn_correct, 
-         warn_time_correct, watch_time_correct,
-         watch_size_correct)
+                warn_time_correct, watch_time_correct,
+                watch_size_correct)
 obj_comp_fit <- ltm(obj_comp_data ~ z1)
 
-unidimTest(obj_comp_fit) # Another way to demonstrate unidimensionality
+unidimTest(obj_comp_fit)
 
 # Recode/Rename Survey Variables -----------------------------
 WX18$MALE <- factor(WX18$gend)
@@ -372,9 +372,8 @@ p3 <- ggplot(all_estimates, aes(y = qi_ci_median, x = grp)) +
   ggtitle("(c) The Effect of Gender, Ethnicity, and Race on Scale Scores") +
   theme(axis.text.x = element_text(size = 8, angle = 70, hjust = 1)) +
   facet_wrap(~ measure, nrow = 1)
-quartz(height = 8, width = 10)
-gridExtra::grid.arrange(p1, p2, p3, ncol = 1)
-
+fig_3 <- gridExtra::grid.arrange(p1, p2, p3, ncol = 1)
+ggsave(file = "~/Dropbox/WX Summer Fun/paper_1_figures/fig_3.png", fig_3, width = 10, height = 8, dpi = 500)
 
 # Appendix, Table A1 -----------------------------
 # RECEPTION TEST
@@ -410,7 +409,13 @@ information(resp_fit, c(-10, 0))
 information(resp_fit, c(0, 10))
 
 # Cronbachs Aplha
-psych::alpha(recep_data) #0.9
-psych::alpha(obj_comp_data) #0.35
+psych::alpha(recep_data) #0.90
+obj_comp_cor_matrix <- as.matrix(data.frame(
+  A = c(1.00,	0.28,	0.17,	0.22),
+  B = c(0.28,	1.00,	0.31,	0.19),
+  C = c(0.17,	0.31,	1.00,	0.06),
+  D = c(0.22,	0.19,	0.06,	1.00)))
+rownames(obj_comp_cor_matrix) <- colnames(obj_comp_cor_matrix)
+psych::alpha(obj_comp_cor_matrix) #0.51
 psych::alpha(subj_comp_data) #0.9
 psych::alpha(resp_data) #0.91
