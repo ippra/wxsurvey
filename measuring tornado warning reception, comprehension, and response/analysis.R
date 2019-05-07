@@ -373,7 +373,7 @@ p3 <- ggplot(all_estimates, aes(y = qi_ci_median, x = grp)) +
   theme(axis.text.x = element_text(size = 8, angle = 70, hjust = 1)) +
   facet_wrap(~ measure, nrow = 1)
 fig_3 <- gridExtra::grid.arrange(p1, p2, p3, ncol = 1)
-ggsave(file = "~/Documents/GitHub/wxsurvey/measuring tornado warning reception, comprehension, and response/figures//fig_3.png", fig_3, width = 10, height = 8, dpi = 500)
+ggsave(file = "~/Documents/GitHub/wxsurvey/measuring tornado warning reception, comprehension, and response/figures/fig_3.png", fig_3, width = 10, height = 8, dpi = 500)
 
 # Appendix, Table A1 -----------------------------
 # RECEPTION TEST
