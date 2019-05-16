@@ -82,6 +82,7 @@ system1.data$color <- car::recode(system1.data$warn_rec_matrix, "'True Positive'
 system2.data$color <- car::recode(system2.data$warn_rec_matrix, "'True Positive' = '#40e54b80'; 'False Negative' = '#6948ff80'; 'False Positive' = '#e5404080'; 'True Negative' = '#5e5e5e80'")
 
 #Figure 1
+png("~/Documents/GitHub/wxsurvey/thinking outisde the polygon/figures/fig_1.png", height = 6, width = 12, units = "in", res = 200)
 plot(oklahoma.county10, lwd = 1, border = "black")
 plot(subset(iem.torn.shp, CSTDATE %in% c("2016-04-29") & PHENOM == "TO" & SIG == "W" & GTYPE == "P"), add = TRUE, col = "#FF000040", border = "#FF0000", lwd = 2)
 text(-500000, -160000, paste("True Positive = ",apr_TP,'%',sep=''), cex = 1.7, col = '#40e54b')
@@ -89,6 +90,7 @@ text(-500000, -200000,paste("False Negative = ",apr_FN,'%',sep=''), cex = 1.7, c
 text(-500000, -240000,paste("False Positive = ",apr_FP,'%',sep=''), cex = 1.7, col = '#e54040')
 text(-500000, -280000,paste("True Negative = ",apr_TN,'%',sep=''), cex = 1.7, col = '#5e5e5e')
 points(system1.data, col = system1.data$color, pch = 19, cex = 1.25)
+dev.off()
 
 #Figure 2
 plot(oklahoma.county10, lwd = 1, border = "black")
