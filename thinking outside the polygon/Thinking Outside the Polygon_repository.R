@@ -1,6 +1,4 @@
 # Libraries and Options ---------------------------------------------------------------
-install.county("osx")
-
 library(data.table)
 library(rgdal)
 library(rgeos)
