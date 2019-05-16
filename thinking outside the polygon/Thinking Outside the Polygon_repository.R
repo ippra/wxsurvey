@@ -17,11 +17,12 @@ data(oklahoma.county10)
 options(scipen=999)
 
 # Survey Data ---------------------------------------------------------------
-recruitment.data <- read_csv("/Users/makenzie.krocak/Downloads/survey.data1.csv")
+
+recruitment.data <- read_csv("https://raw.githubusercontent.com/oucrcm/wxsurvey/master/thinking%20outside%20the%20polygon/polygon_data.csv")
 recruitment.data <- filter(recruitment.data, is.na(recruitment.data$long) == FALSE)
 
 # Watch/Warning Data ---------------------------------------------------------------
-setwd("/Users/makenzie.krocak/Desktop/PhD Stuff/CRCM PhD Stuff/False positives work/wwa_201601010000_201612310000")
+setwd("~/GitHub/wxsurvey/thinking outside the polygon/wwa_201601010000_201612310000")
 iem.torn.shp <- readOGR('.', 'wwa_201601010000_201612310000') #IEM Watch/Warning Archive
 iem.torn.shp$UTCDATE <- paste(substr(iem.torn.shp$ISSUED, 5, 6), substr(iem.torn.shp$ISSUED, 7, 8), substr(iem.torn.shp$ISSUED, 3, 4), sep = "/")
 iem.torn.shp$UTCTIME <- paste(substr(iem.torn.shp$ISSUED, 9, 10), substr(iem.torn.shp$ISSUED, 11, 12), sep = ":")
