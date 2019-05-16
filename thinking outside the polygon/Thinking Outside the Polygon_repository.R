@@ -31,7 +31,7 @@ iem.torn.shp$UTCDATETIME <- as.POSIXct(strptime(iem.torn.shp$UTCDATETIME, "%m/%d
 iem.torn.shp$CSTDATETIME <- format(iem.torn.shp$UTCDATETIME, tz = "CST6CDT", usetz = TRUE)
 iem.torn.shp$CSTDATE <- substr(iem.torn.shp$CSTDATETIME, 1, 10)
 iem.torn.shp <- subset(iem.torn.shp,WFO %in% c("OUN", "TSA", "AMA", "LUB", "FWD", "SHV", "LZK", "SGF", "ICT", "DDC", "PUB"))
-table(subset(iem.torn.shp, PHENOM %in% c("TO", "FF", "SV") & SIG == "W" & GTYPE == "P")$SIG)
+
 
 # Projections ---------------------------------------------------------------
 albers <- CRS("+proj=aea +lat_1=29.5 +lat_2=45.5 +lat_0=37.5 +lon_0=-96 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs +ellps=GRS80 +towgs84=0,0,0")
@@ -78,10 +78,8 @@ may_FN<-round(sum(ifelse(system2.data$warn_rec_matrix=='False Negative',1,0))/su
 
 # Map Reception Matrices ---------------------------------------------------------------
 system1.data$color <- car::recode(system1.data$warn_rec_matrix, "'True Positive' = '#40e54b80'; 'False Negative' = '#6948ff80'; 'False Positive' = '#e5404080'; 'True Negative' = '#5e5e5e80'")
-table(system1.data$color)
 
 system2.data$color <- car::recode(system2.data$warn_rec_matrix, "'True Positive' = '#40e54b80'; 'False Negative' = '#6948ff80'; 'False Positive' = '#e5404080'; 'True Negative' = '#5e5e5e80'")
-table(system2.data$color)
 
 #Figure 1
 plot(oklahoma.county10, lwd = 1, border = "black")
@@ -141,10 +139,8 @@ may_FN_geo<-round(sum(ifelse(system2.data$warn_rec_matrix2=='False Negative',1,0
 
 #Map the Geospill (Buffer) Figures
 system1.data$color <- car::recode(system1.data$warn_rec_matrix2, "'True Positive' = '#40e54b80'; 'False Negative' = '#6948ff80'; 'False Positive' = '#e5404080'; 'True Negative' = '#5e5e5e80'")
-table(system1.data$color)
 
 system2.data$color <- car::recode(system2.data$warn_rec_matrix2, "'True Positive' = '#40e54b80'; 'False Negative' = '#6948ff80'; 'False Positive' = '#e5404080'; 'True Negative' = '#5e5e5e80'")
-table(system2.data$color)
 
 #Figure 3
 plot(oklahoma.county10, lwd = 1, border = "black")
@@ -169,10 +165,8 @@ text(-500000, -280000,paste("True Negative = ",may_TN_geo,'%',sep=''), cex = 1.7
 
 #---------------------------------------------------------Watch vs. Warning Confusion ---------------------------------------------------------------
 system1.data$color <- car::recode(system1.data$warn_rec_matrix, "'True Positive' = '#40e54b80'; 'False Negative' = '#6948ff80'; 'False Positive' = '#e5404080'; 'True Negative' = '#5e5e5e80'")
-table(system1.data$color)
 
 system2.data$color <- car::recode(system2.data$warn_rec_matrix, "'True Positive' = '#40e54b80'; 'False Negative' = '#6948ff80'; 'False Positive' = '#e5404080'; 'True Negative' = '#5e5e5e80'")
-table(system2.data$color)
 
 #Figure 5
 plot(oklahoma.county10,lwd=1,border="black")
@@ -205,20 +199,16 @@ points(system2.data,col=system2.data$color,pch=19,cex=1.25)
 #in a watch
 system1.data$in_watch<-data.frame(system1.data,over(system1.data,subset(iem.torn.shp,CSTDATE %in% c("2016-04-29") & PHENOM=="TO" & SIG=="A" & GTYPE=="C"),logical=T))$CSTDATE
 system1.data$in_watch<-ifelse(is.na(system1.data$in_watch),0,1)
-table(system1.data$in_watch)
 
 system2.data$in_watch<-data.frame(system2.data,over(system2.data,subset(iem.torn.shp,CSTDATE %in% c("2016-05-09") & PHENOM=="TO" & SIG=="A" & GTYPE=="C"),logical=T))$CSTDATE
 system2.data$in_watch<-ifelse(is.na(system2.data$in_watch),0,1)
-table(system2.data$in_watch)
 
 #in another warning
 system1.data$in_oth_warn<-data.frame(system1.data,over(system1.data,subset(iem.torn.shp,CSTDATE %in% c("2016-04-29") & PHENOM %in% c("SV","FF") & SIG=="W" & GTYPE=="P"),logical=T))$CSTDATE
 system1.data$in_oth_warn<-ifelse(is.na(system1.data$in_oth_warn),0,1)
-table(system1.data$in_oth_warn)
 
 system2.data$in_oth_warn<-data.frame(system2.data,over(system2.data,subset(iem.torn.shp,CSTDATE %in% c("2016-05-09") & PHENOM %in% c("SV","FF") & SIG=="W" & GTYPE=="P"),logical=T))$CSTDATE
 system2.data$in_oth_warn<-ifelse(is.na(system2.data$in_oth_warn),0,1)
-table(system2.data$in_oth_warn)
 
 #number of tornado warnings received on the event day
 system1.data$num_tor_warnings<-sapply(over(system1.data,subset(iem.torn.shp,PHENOM=="TO" & SIG=="W" & GTYPE=="P" & CSTDATETIME < as.POSIXct("2016-08-01 00:00:00 CDT")),returnList=TRUE),nrow)
@@ -266,9 +256,6 @@ recruitment.data$wthr_info_soc_network1<-rowMeans(with(recruitment.data@data,dat
 #code race
 recruitment.data$race1<-car::recode(recruitment.data$race,"'1'=0;'2'=1;'3'=2;'4'=3;'5'=3;'6'=3;'7'=3")
 
-#recruitment.data$distance<-ifelse(recruitment.data$distance >150, NA, recruitment.data$distance)
-#hist(recruitment.data$distance)
-
 
 # Fit Model, Table 4 ---------------------------------------------------------------
 outside.data<-subset(recruitment.data@data,warn_rec_matrix %in% c("False Positive","True Negative"))
@@ -282,17 +269,3 @@ false_positive
 1 - (994.1/1074) #--> R2 = 0.074
 #Significant: distance,  in_oth_warn, num_tor_warnings, age, wthr_info_soc_network, rec_subscribe.
 #107 missing from 954
-
-#plot distance effect
-means<-as.data.frame.list(colMeans(with(outside.data,data.frame(distance,in_watch,in_oth_warn,days_after_warn,num_tor_warnings, age,gender,race1,
-                                                                wthr_info_TV1,wthr_info_int1,wthr_info_soc_network1,wthr_info_radio1,wthr_info_phone1,
-                                                                  rec_subscribe,education,income)),na.rm=T))
-p.distance<-predict(false_positive,newdata=data.frame(distance=1:100,means),type="response",se.fit=T)
-
-plot(p.distance$fit,type="l",lty=1,ylab="Prop",cex.lab=1.25,xlab='Miles',ylim=c(0,1),main="Distance",cex.axis=1.5,yaxs="i",xaxt='n',cex.main=1.5,font.main=1,lwd=4)
-lines(p.distance$fit+(1.96*p.distance$se.fit),type="l",lty=1,col="steelblue",lwd=2)
-lines(p.distance$fit-(1.96*p.distance$se.fit),type="l",lty=1,col="steelblue",lwd=2)
-axis(1,seq(1,100,25),seq(1,100,25),cex.axis=1.5)
-
-
-
