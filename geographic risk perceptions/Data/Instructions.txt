@@ -1,0 +1,13 @@
+Run files in this order:
+1) Create County_Census_Data_AgeSexRaceHisp.R
+2) Create CWA_Census_Data_AgeSexRaceHisp.R
+3) Create Storm_Data_by_CWA.R
+4) Create Howe_Data_by_CWA.R
+5) Data.R
+
+Doing so will produce: 
+1) census_data.csv
+2) survey_data.csv
+
+These files are necessary for:
+1) Analysis.R
