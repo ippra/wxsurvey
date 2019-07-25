@@ -18,7 +18,7 @@ options(scipen=999)
 
 # Survey Data ---------------------------------------------------------------
 
-recruitment.data <- read_csv("https://raw.githubusercontent.com/oucrcm/wxsurvey/master/thinking%20outside%20the%20polygon/polygon_data.csv")
+recruitment.data <- read_csv("https://raw.githubusercontent.com/oucrcm/wxsurvey/master/thinking%20outside%20the%20polygon/data.csv")
 recruitment.data <- filter(recruitment.data, is.na(recruitment.data$long) == FALSE)
 
 # Watch/Warning Data ---------------------------------------------------------------
