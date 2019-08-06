@@ -1,4 +1,4 @@
-﻿library(tidyverse) 
+library(tidyverse) 
 library(psych)
 library(car)
 library(ggplot2)
@@ -9,21 +9,14 @@ library(ggridges)
 options(scipen = 9999)
 theme_set(theme_minimal())
 
+# Import Data -----------------------------------
+twitter_data <- read_csv("/Users/josephripberger/Documents/GitHub/wxsurvey/how likely is that chance of thunderstorms/twitter_data.csv")
+survey_data <- read_csv("/Users/josephripberger/Documents/GitHub/wxsurvey/how likely is that chance of thunderstorms/survey_data.csv")
+WX18 <- filter(survey_data, survey == "WX18")
+WX19 <- filter(survey_data, survey == "WX19")
 
-# Import Data-----------------------------------
-tweetdata <- read_csv("C:/Users/rcros/Documents/CRCM 2019 Project/data.csv")
-
-
-WX18 <- read.csv("C:/Users/rcros/Documents/CRCM 2019 Project/survey_2018.csv", stringsAsFactors = FALSE)
-
-
-WX19 <- read.csv("C:/Users/rcros/Documents/CRCM 2019 Project/survey_2019.csv", stringsAsFactors = FALSE)
-
-
-
-
-# Probability Words 2018-----------------------------
-svr_prob_word_data <- WX18 %>%
+# Probability Words 2018 -----------------------------------
+svr_prob_word_data_18 <- WX18 %>%
   filter(prob_event == "severe thunderstorm") %>% 
   select(vry_low, vry_small, prty_low, small, low, slight, moderate, 
          good, sig) %>% 
@@ -31,8 +24,7 @@ svr_prob_word_data <- WX18 %>%
   na.omit %>% 
   mutate(event = "Severe Thunderstorm")
 
-
-tor_prob_word_data <- WX18 %>%
+tor_prob_word_data_18 <- WX18 %>%
   filter(prob_event == "tornado") %>% 
   select(vry_low, vry_small, prty_low, small, low, slight, moderate, 
          good, sig) %>% 
@@ -40,21 +32,18 @@ tor_prob_word_data <- WX18 %>%
   na.omit %>% 
   mutate(event = "Tornado")
 
+# Combine Severe Thunderstorm and Tornado Datasets for 2018 -----------------------------------
+prob_word_data_18 <- rbind(svr_prob_word_data_18, tor_prob_word_data_18)
+prob_word_data_18$key <- as.factor(prob_word_data_18$key)
+prob_word_data_18 <- transform(prob_word_data_18, key = reorder(key, value))
 
-# Combine Severe Thunderstorm and Tornado Datasets for 2018 -----------------------
-prob_word_data <- rbind(svr_prob_word_data, tor_prob_word_data)
-prob_word_data$key <- as.factor(prob_word_data$key)
-prob_word_data <- transform(prob_word_data, key = reorder(key, value))
-
-
-# Probability Words 2019-----------------------------
+# Probability Words 2019 -----------------------------------
 svr_prob_word_data_19 <- WX19 %>%
   filter(prob_event == "severe thunderstorms") %>% 
   select(risk_chan, risk_poss, risk_may, risk_exp) %>% 
   gather() %>% 
   na.omit %>% 
   mutate(event = "Severe Thunderstorm")
-
 
 tor_prob_word_data_19 <- WX19 %>%
   filter(prob_event == "tornadoes") %>% 
@@ -63,57 +52,47 @@ tor_prob_word_data_19 <- WX19 %>%
   na.omit %>% 
   mutate(event = "Tornado")
 
-
-# Combine Severe Thunderstorm and Tornado Datasets for 2019 -----------------------
+# Combine Severe Thunderstorm and Tornado Datasets for 2019 -----------------------------------
 prob_word_data_19 <- rbind(svr_prob_word_data_19, tor_prob_word_data_19)
+prob_word_data_19$value <- as.numeric(prob_word_data_19$value)
 prob_word_data_19$key <- as.factor(prob_word_data_19$key)
 prob_word_data_19 <- transform(prob_word_data_19, key = reorder(key, value))
 
-
-
-
-# FIGURE 1 -------------------- 
-forecasts <- tweetdata %>% 
+# FIGURE 1 -----------------------------------
+forecasts <- twitter_data %>% 
   group_by(F) %>%
   drop_na(F) %>% 
   summarize(n = n())
 forecasts
 
-
-probability <- tweetdata %>%
+probability <- twitter_data %>%
   group_by(P) %>%
   drop_na(P) %>%
   summarize(n = n()) %>%
-  mutate(p = (n / sum(n))*100)
+  mutate(p = (n / sum(n)) * 100)
 probability
 
-
-verbal <-tweetdata %>%
+verbal <-twitter_data %>%
   group_by(V) %>%
   drop_na(V) %>%
   summarize(n = n()) %>%
   mutate(p = (n / sum(n)) * 100) 
 verbal
 
-
-total <- tweetdata %>% 
+total <- twitter_data %>% 
   group_by(T) %>%
   drop_na(T) %>% 
   summarize(n = n())
 total
 
-
-total_probabilistic <- tweetdata %>% 
+total_probabilistic <- twitter_data %>% 
   group_by(TP) %>%
   drop_na(TP) %>% 
   summarize(n = n()) %>%
   mutate(p = (n / sum(n)) * 100) 
 total_probabilistic
 
-
-
-
-# FIGURE 2-----------------------------------------
+# FIGURE 2 -----------------------------------
 ggplot(total_probabilistic, aes(x = reorder(TP, -p), y = p, fill=p)) +
   geom_bar(stat = "identity") + 
   theme_gray()+
@@ -128,9 +107,8 @@ ggplot(total_probabilistic, aes(x = reorder(TP, -p), y = p, fill=p)) +
   scale_fill_gradient(low = "Light Blue", high = "#DC143C") 
 ggsave("C:/Users/Emily/Documents/CRCM Project/DvsNDvsBoth.png", device = png())
 
-
-#FIGURE 3A-----------------------------
-(first <- ggplot(prob_word_data, aes(x = value, y = key)) +
+# FIGURE 3A -----------------------------------
+(first <- ggplot(prob_word_data_18, aes(x = value, y = key)) +
    geom_density_ridges(aes(fill = key), alpha = 0.8, from = 0, to = 100, col = "white") +
    guides(fill = FALSE, color = FALSE) +
    scale_x_continuous(breaks = seq(0, 100, 10), labels = paste0(seq(0, 100, 10), "%")) +
@@ -151,10 +129,7 @@ ggsave("C:/Users/Emily/Documents/CRCM Project/DvsNDvsBoth.png", device = png())
    theme(plot.title = element_text(size = 18, face = "bold")))
 ggsave("C:/Users/Emily/Documents/CRCM Project/Density18.png", first, device = png(), width = 18, height = 10, units = "in")
 
-
-
-
-#FIGURE 3B------------------------------------
+# FIGURE 3B -----------------------------------
 (second <- ggplot(prob_word_data_19, aes(x = value, y = key)) +
    geom_density_ridges(aes(fill = key), alpha = 0.8, from = 0, to = 100, col = "white") +
    guides(fill = FALSE, color = FALSE) +
@@ -171,9 +146,7 @@ ggsave("C:/Users/Emily/Documents/CRCM Project/Density18.png", first, device = pn
    theme(plot.title = element_text(size = 18, face = "bold")))
 ggsave("C:/Users/Emily/Documents/CRCM Project/Density19.png", second, device = png(), width = 18, height = 10, units = "in")
 
-
-windows()
-CombinedSurveys<-grid.arrange(grobs = list(first,second), ncol=1, nrow=2)
+CombinedSurveys <- grid.arrange(grobs = list(first,second), ncol=1, nrow=2)
 ggsave(filename='CombinedSurveys.png', plot = CombinedSurveys, device = 'png', path = 'C:/Users/Emily/Documents/CRCM Project', width=18, height=10, dpi = 300)  
 
 
