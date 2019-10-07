@@ -341,7 +341,7 @@ agg_data <- agg_data %>%
 
 agg_data <- fit_data %>% 
   group_by(CWA) %>% 
-  summarise(n = n(), TORN = mean(TORN), region = getmode(CWA_REGION)) %>% 
+  summarise(n = n(), TORN = mean(TORN)) %>% 
   right_join(., agg_data, by = "CWA") %>% 
   mutate(person_percentile_difference = person_percentile - person_percentile_validation) %>% 
   mutate(cwa_percentile_difference = cwa_percentile - cwa_percentile_validation) 
@@ -361,10 +361,9 @@ maes <- agg_data %>%
   summarise(mae = mean(abs(person_percentile_difference)))
 stats_text <- tibble(label = paste0("r = ", sprintf("%.2f", round(cors$cor, 2)), "\nMD = ", sprintf("%.2f", round(maes$mae, 2))), measure = cors$measure)
 
-agg_data$region <- as.factor(agg_data$region)
 agg_data$measure <- as.factor(agg_data$measure)
 
-diffs_fit <- lm(person_percentile_difference ~ region + measure, agg_data)
+diffs_fit <- lm(person_percentile_difference ~ measure, agg_data)
 plot(effects::allEffects(diffs_fit))
 
 top_diffs_recep <- agg_data %>% 
