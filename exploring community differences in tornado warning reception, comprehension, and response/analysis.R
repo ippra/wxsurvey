@@ -1,14 +1,18 @@
 # Libraries, Options, and Themes -------------------------
-library(rgdal)
 library(arm)
+library(rgdal)
+library(rmapshaper)
+library(data.table)
+library(scales)
 library(rstanarm)
 library(ltm)
-library(scales)
 library(tidyverse)
 library(ggrepel)
 library(robustbase)
+library(cowplot)
 options(scipen = 999)
 options(max.print = 99999)
+"%ni%" <- Negate("%in%")
 getmode <- function(v) {
   uniqv <- unique(v)
   uniqv[which.max(tabulate(match(v, uniqv)))]
@@ -36,6 +40,9 @@ file_path <- paste0("~/Documents/GitHub/wxsurvey/exploring community differences
 
 # Census Data -------------------------
 census_data <- read_csv(paste0(file_path, "data/census_data.csv"))
+census_data %>% 
+  filter(CWA %in% c("BMX", "FFC")) %>% 
+  print(n = Inf)
 
 # Survey Data -------------------------
 survey_data <- read_csv(paste0(file_path, "data/survey_data.csv"))
@@ -258,6 +265,8 @@ all_predictions %>%
 # Plot Maps ----------------------------------------
 setwd(paste0(file_path, "shapefile"))
 cwa_shp <- readOGR('.','cwa_shapefile')
+cwa_shp <- subset(cwa_shp, !ST %in% c("HI", "AK", "PR", "AS", "GU"))
+cwa_shp <- ms_simplify(cwa_shp, keep = 0.01, keep_shapes = TRUE)
 
 cwa_shp@data$id <- rownames(cwa_shp@data)
 cwa_shp_points <- fortify(cwa_shp, region = "id")
@@ -271,37 +280,89 @@ cwa_shp_df$measure <- factor(cwa_shp_df$measure, levels = c(
   "Response"
 ))  
 
-fig2a <- cwa_shp_df %>% 
+fig2 <- cwa_shp_df %>% 
   ggplot(., aes(x = long, y = lat, group = group, fill = person_percentile)) +
   geom_polygon(color = "grey", size = 0.2) +
   scale_fill_gradient2(midpoint = 50, low = "darkred", high = "darkblue", mid = "white", limits = c(30, 70)) +
   facet_wrap(~measure, ncol = 2) +
   theme_bw() +
-  labs(fill = "Average Person Percentile", title = "(a)") +
-  map_theme + 
+  labs(fill = "Average Person Percentile", title = "") +
+  # xlim(-125, -67) +
+  map_theme +
   coord_map("polyconic")
 
-fig2b <- cwa_shp_df %>% 
-  ggplot(., aes(x = person_percentile, y = ..density..)) +
+fig2_inset_1 <- cwa_shp_df %>% 
+  filter(measure == "Reception") %>% 
+  ggplot(., aes(x = person_percentile, y = ..density..)) + 
   geom_histogram(alpha = 0.8, binwidth = 5, color = "grey20", fill = "grey20") +
-  xlim(30, 70) +
-  facet_wrap(~measure, ncol = 2) +
-  theme_bw() +
-  scale_y_continuous(breaks = seq(0, 0.15, 0.05), labels = percent_format(accuracy = 5), limits = c(0, 0.15)) +
-  labs(title = "(b)", y = "Density", x = "Average Person Percentile") +
-  plot_theme
+  lims(x = c(30, 70)) +
+  labs(x = "Average Person Percentile", y = "Density") +
+  scale_y_continuous(breaks = seq(0, 0.15, 0.03), labels = paste0(seq(0, 0.15, 0.03) * 100, "%"), limits = c(0, 0.15)) +
+  theme_bw(base_size = 8) + 
+  theme(panel.border = element_blank(), 
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(), 
+        axis.line = element_line(colour = "black"))
 
-fig_2 <- gridExtra::grid.arrange(fig2a, fig2b, ncol = 2)
-ggsave(paste0(file_path, "figures/Fig_2.png"), fig_2, width = 17, height = 6, dpi = "retina")
+fig2_inset_2 <- cwa_shp_df %>% 
+  filter(measure == "Comprehension (Objective)") %>% 
+  ggplot(., aes(x = person_percentile, y = ..density..)) + 
+  geom_histogram(alpha = 0.8, binwidth = 5, color = "grey20", fill = "grey20") +
+  lims(x = c(30, 70)) +
+  labs(x = "Average Person Percentile", y = "Density") +
+  scale_y_continuous(breaks = seq(0, 0.15, 0.03), labels = paste0(seq(0, 0.15, 0.03) * 100, "%"), limits = c(0, 0.15)) +
+  theme_bw(base_size = 8) + 
+  theme(panel.border = element_blank(), 
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(), 
+        axis.line = element_line(colour = "black"))
+
+fig2_inset_3 <- cwa_shp_df %>% 
+  filter(measure == "Comprehension (Subjective)") %>% 
+  ggplot(., aes(x = person_percentile, y = ..density..)) + 
+  geom_histogram(alpha = 0.8, binwidth = 5, color = "grey20", fill = "grey20") +
+  lims(x = c(30, 70)) +
+  labs(x = "Average Person Percentile", y = "Density") +
+  scale_y_continuous(breaks = seq(0, 0.15, 0.03), labels = paste0(seq(0, 0.15, 0.03) * 100, "%"), limits = c(0, 0.15)) +
+  theme_bw(base_size = 8) + 
+  theme(panel.border = element_blank(), 
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(), 
+        axis.line = element_line(colour = "black"))
+
+fig2_inset_4 <- cwa_shp_df %>% 
+  filter(measure == "Response") %>% 
+  ggplot(., aes(x = person_percentile, y = ..density..)) + 
+  geom_histogram(alpha = 0.8, binwidth = 5, color = "grey20", fill = "grey20") +
+  lims(x = c(30, 70)) +
+  labs(x = "Average Person Percentile", y = "Density") +
+  scale_y_continuous(breaks = seq(0, 0.15, 0.03), labels = paste0(seq(0, 0.15, 0.03) * 100, "%"), limits = c(0, 0.15)) +
+  theme_bw(base_size = 8) + 
+  theme(panel.border = element_blank(), 
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(), 
+        axis.line = element_line(colour = "black"))
+
+quartz(height = 10.8, width = 17)
+fig_2 <- ggdraw() +
+  draw_plot(fig2) +
+  draw_plot(fig2_inset_1, x = 0.38, y = 0.535, width = 0.11, height = 0.14) +
+  draw_plot(fig2_inset_2, x = 0.38, y = 0.085, width = 0.11, height = 0.14) +
+  draw_plot(fig2_inset_3, x = 0.872, y = 0.535, width = 0.11, height = 0.14) +
+  draw_plot(fig2_inset_4, x = 0.872, y = 0.085, width = 0.11, height = 0.14)
+
+ggsave(paste0(file_path, "figures/Fig_2.png"), fig_2, width = 17, height = 10.8, dpi = "retina")
 
 # Explore Differences within Regions -------------------------
 all_predictions %>% filter(measure == "Comprehension (Subjective)", CWA %in% "OUN")
 all_predictions %>% filter(measure == "Comprehension (Subjective)", CWA %in% "FWD")
+
 all_predictions %>% filter(measure == "Comprehension (Objective)", CWA %in% "BMX")
 all_predictions %>% filter(measure == "Comprehension (Objective)", CWA %in% "FFC")
 
 # Validation -------------------------
 os_data <- survey_data %>% filter(sample == "OS")
+os_data <- os_data %>% filter(!CWA == "MTR")
 
 recep_means <- tibble(
   CWA = unique(os_data$CWA),
@@ -360,6 +421,18 @@ maes <- agg_data %>%
   group_by(measure) %>% 
   summarise(mae = mean(abs(person_percentile_difference)))
 stats_text <- tibble(label = paste0("r = ", sprintf("%.2f", round(cors$cor, 2)), "\nMD = ", sprintf("%.2f", round(maes$mae, 2))), measure = cors$measure)
+stats_text$measure <- factor(stats_text$measure, levels = c(
+  "Reception",
+  "Comprehension (Subjective)",
+  "Comprehension (Objective)",
+  "Response"
+))  
+stats_text$label <- factor(stats_text$label, levels = c(
+  "r = 0.73\nMD = 4.17",
+  "r = 0.79\nMD = 5.03",
+  "r = 0.80\nMD = 2.87",
+  "r = 0.45\nMD = 3.98"
+)) 
 
 agg_data$measure <- as.factor(agg_data$measure)
 
@@ -398,20 +471,6 @@ diff_data <- diff_data %>%
   arrange(measure, person_percentile_difference) %>% 
   mutate(order = 1:40)
 
-stats_text$measure <- factor(stats_text$measure, levels = c(
-  "Reception",
-  "Comprehension (Subjective)",
-  "Comprehension (Objective)",
-  "Response"
-))  
-
-stats_text$label <- factor(stats_text$label, levels = c(
-  "r = 0.68\nMD = 4.40",
-  "r = 0.75\nMD = 5.44",
-  "r = 0.75\nMD = 3.06",
-  "r = 0.43\nMD = 4.03"
-)) 
-
 fig3a <- ggplot(agg_data, aes(x = person_percentile_validation, y = person_percentile, label = CWA)) +
   geom_abline(intercept = 0, slope = 1, linetype = "dashed") +
   geom_point(color = "grey20", fill = "grey20", alpha = 0.8, size = 4) +
@@ -433,3 +492,175 @@ fig3b <- ggplot(diff_data, aes(x = person_percentile_difference, y = order)) +
 
 fig_3 <- gridExtra::grid.arrange(fig3a, fig3b, ncol = 2)
 ggsave(paste0(file_path, "figures/Fig_3.png"), fig_3, width = 17, height = 6, dpi = "retina")
+
+# Appendix on Pooling -------------------------
+pool_data <- cbind(
+  os_data %>% group_by(CWA) %>% summarise(mean_recep = mean(recep)),
+  os_data %>% group_by(CWA) %>% summarise(mean_subj_comp = mean(subj_comp)) %>% select(mean_subj_comp),
+  os_data %>% group_by(CWA) %>% summarise(mean_obj_comp = mean(obj_comp)) %>% select(mean_obj_comp),
+  os_data %>% group_by(CWA) %>% summarise(mean_resp = mean(resp)) %>% select(mean_resp),
+  pp_mean_recep = c(predict(lmer(recep ~ 1 + (1|CWA), data = os_data), newdata = tibble(CWA = unique(os_data$CWA)))),
+  pp_mean_subj_comp = c(predict(lmer(subj_comp ~ 1 + (1|CWA), data = os_data), newdata = tibble(CWA = unique(os_data$CWA)))),
+  pp_mean_obj_comp = c(predict(lmer(obj_comp ~ 1 + (1|CWA), data = os_data), newdata = tibble(CWA = unique(os_data$CWA)))),
+  pp_mean_resp = c(predict(lmer(resp ~ 1 + (1|CWA), data = os_data), newdata = tibble(CWA = unique(os_data$CWA))))) %>% 
+  gather(variable, value, -CWA) %>%
+  mutate(measure = rep(c("Reception", "Comprehension (Subjective)", "Comprehension (Objective)", "Response"), each = 30, times = 2)) 
+ 
+pool_data$measure <- factor(pool_data$measure, levels = c(
+  "Reception",
+  "Comprehension (Subjective)",
+  "Comprehension (Objective)",
+  "Response"
+))  
+
+figA1a <- ggplot(pool_data, aes(y = value, x = variable, label = CWA)) +
+  geom_boxplot(fill = "grey", alpha = 0.5) +
+  theme_bw() +
+  geom_line(aes(group = CWA), size = 0.2, color = "red", linetype = "dashed") +
+  geom_text(hjust = -0.3) +
+  geom_point(color = "red", size = 1) +
+  lims(y = c(-0.7, 0.7)) +
+  scale_x_discrete(labels = c("No Pooling", "Partial Pooling")) +
+  labs(y = "Independent Survey Observation") +
+  facet_wrap(~measure, scales = "free_x", ncol = 4) +
+  plot_theme
+
+fig_A1 <- gridExtra::grid.arrange(figA1a, ncol = 1)
+ggsave(paste0(file_path, "figures/Fig_A1.png"), fig_A1, width = 17, height = 6, dpi = "retina")
+
+recep_means <- os_data %>% 
+  group_by(CWA) %>% 
+  summarise(person_z_validation = mean(recep)) %>% 
+  mutate(measure = "Reception", 
+         cwa_z_validation = c(scale(person_z_validation)),
+         person_percentile_validation = pnorm(person_z_validation) * 100, 
+         cwa_percentile_validation = pnorm(cwa_z_validation) * 100)
+
+subj_comp_means <- os_data %>% 
+  group_by(CWA) %>% 
+  summarise(person_z_validation = mean(subj_comp)) %>% 
+  mutate(measure = "Comprehension (Subjective)", 
+         cwa_z_validation = c(scale(person_z_validation)),
+         person_percentile_validation = pnorm(person_z_validation) * 100, 
+         cwa_percentile_validation = pnorm(cwa_z_validation) * 100)
+
+obj_comp_means <- os_data %>% 
+  group_by(CWA) %>% 
+  summarise(person_z_validation = mean(obj_comp)) %>% 
+  mutate(measure = "Comprehension (Objective)", 
+  cwa_z_validation = c(scale(person_z_validation)),
+  person_percentile_validation = pnorm(person_z_validation) * 100, 
+  cwa_percentile_validation = pnorm(cwa_z_validation) * 100)
+
+resp_means <- os_data %>% 
+  group_by(CWA) %>% 
+  summarise(person_z_validation = mean(resp)) %>% 
+  mutate(measure = "Response", 
+  cwa_z_validation = c(scale(person_z_validation)),
+  person_percentile_validation = pnorm(person_z_validation) * 100, 
+  cwa_percentile_validation = pnorm(cwa_z_validation) * 100)
+
+agg_data <- bind_rows(recep_means, subj_comp_means, obj_comp_means, resp_means)
+agg_data <- agg_data %>% 
+  left_join(., all_predictions, by = c("CWA", "measure"))
+
+agg_data <- fit_data %>% 
+  group_by(CWA) %>% 
+  summarise(n = n(), TORN = mean(TORN)) %>% 
+  right_join(., agg_data, by = "CWA") %>% 
+  mutate(person_percentile_difference = person_percentile - person_percentile_validation) %>% 
+  mutate(cwa_percentile_difference = cwa_percentile - cwa_percentile_validation) 
+
+agg_data$measure <- factor(agg_data$measure, levels = c(
+  "Reception",
+  "Comprehension (Subjective)",
+  "Comprehension (Objective)",
+  "Response"
+))  
+
+cors <- agg_data %>% 
+  group_by(measure) %>% 
+  summarise(cor = cor(person_z, person_z_validation, method = 'pearson'))
+maes <- agg_data %>% 
+  group_by(measure) %>% 
+  summarise(mae = mean(abs(person_percentile_difference)))
+stats_text <- tibble(label = paste0("r = ", sprintf("%.2f", round(cors$cor, 2)), "\nMD = ", sprintf("%.2f", round(maes$mae, 2))), measure = cors$measure)
+stats_text$measure <- factor(stats_text$measure, levels = c(
+  "Reception",
+  "Comprehension (Subjective)",
+  "Comprehension (Objective)",
+  "Response"
+))  
+stats_text$label <- factor(stats_text$label, levels = c(
+  "r = 0.72\nMD = 5.79",
+  "r = 0.79\nMD = 5.78",
+  "r = 0.79\nMD = 3.61",
+  "r = 0.45\nMD = 6.39"
+)) 
+
+agg_data$measure <- as.factor(agg_data$measure)
+
+diffs_fit <- lm(person_percentile_difference ~ measure, agg_data)
+plot(effects::allEffects(diffs_fit))
+
+top_diffs_recep <- agg_data %>% 
+  filter(measure == "Reception") %>% 
+  top_n(., n = 5, person_percentile_difference)
+top_diffs_subj_comp <- agg_data %>% 
+  filter(measure == "Comprehension (Subjective)") %>% 
+  top_n(., n = 5, person_percentile_difference)
+top_diffs_obj_comp <- agg_data %>% 
+  filter(measure == "Comprehension (Objective)") %>% 
+  top_n(., n = 5, person_percentile_difference)
+top_diffs_resp <- agg_data %>% 
+  filter(measure == "Response") %>% 
+  top_n(., n = 5, person_percentile_difference)
+
+bottom_diffs_recep <- agg_data %>% 
+  filter(measure == "Reception") %>% 
+  top_n(., n = -5, person_percentile_difference)
+bottom_diffs_subj_comp <- agg_data %>% 
+  filter(measure == "Comprehension (Subjective)") %>% 
+  top_n(., n = -5, person_percentile_difference)
+bottom_diffs_obj_comp <- agg_data %>% 
+  filter(measure == "Comprehension (Objective)") %>% 
+  top_n(., n = -5, person_percentile_difference)
+bottom_diffs_resp <- agg_data %>% 
+  filter(measure == "Response") %>% 
+  top_n(., n = -5, person_percentile_difference)
+
+diff_data <- bind_rows(top_diffs_recep, top_diffs_subj_comp, top_diffs_obj_comp, top_diffs_resp, 
+                       bottom_diffs_recep, bottom_diffs_subj_comp, bottom_diffs_obj_comp, bottom_diffs_resp)
+diff_data <- diff_data %>% 
+  arrange(measure, person_percentile_difference) %>% 
+  mutate(order = 1:40)
+
+figA2a <- ggplot(agg_data, aes(x = person_percentile_validation, y = person_percentile, label = CWA)) +
+  geom_abline(intercept = 0, slope = 1, linetype = "dashed") +
+  geom_point(color = "grey20", fill = "grey20", alpha = 0.8, size = 4) +
+  facet_wrap(~measure, ncol = 2, scales = "free") +
+  theme_bw() +
+  geom_text(data = stats_text, aes(x = 65, y = 30, label = label), hjust = 0, size = 4, inherit.aes = FALSE) +
+  plot_theme +
+  labs(y = "Estimate", x = "Independent Survey Observation", title = "(a)") +
+  lims(x = c(25, 75), y = c(25, 75))
+
+figA2b <- ggplot(diff_data, aes(x = person_percentile_difference, y = order)) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+  geom_point(color = "grey20", fill = "grey20", alpha = 0.8, size = 5) +
+  facet_wrap(~measure, nrow = 2, scales = "free_y") +
+  scale_y_continuous(breaks = diff_data$order, labels = diff_data$CWA) +
+  theme_bw() +
+  plot_theme +
+  labs(y = "", x = "Difference (Estimate vs. Observation)", title = "(b)")
+
+fig_A2 <- gridExtra::grid.arrange(figA2a, figA2b, ncol = 2)
+ggsave(paste0(file_path, "figures/Fig_A2.png"), fig_A2, width = 17, height = 6, dpi = "retina")
+
+
+
+
+
+
+
+
