@@ -32,7 +32,7 @@ map_theme <- theme(panel.grid = element_blank(),
                     plot.title = element_text(face = "bold", size = 16))
 
 # File Path - set locally!
-file_path <- paste0("~/Dropbox/Exploring Geographic Differences in Tornado Warning Reception, Comprehension, and Response/Github/")
+file_path <- paste0("~/Documents/GitHub/wxsurvey/exploring community differences in tornado warning reception, comprehension, and response/")
 
 # Census Data -------------------------
 census_data <- read_csv(paste0(file_path, "data/census_data.csv"))
