@@ -343,7 +343,6 @@ fig2_inset_4 <- cwa_shp_df %>%
         panel.grid.minor = element_blank(), 
         axis.line = element_line(colour = "black"))
 
-quartz(height = 10.8, width = 17)
 fig_2 <- ggdraw() +
   draw_plot(fig2) +
   draw_plot(fig2_inset_1, x = 0.38, y = 0.535, width = 0.11, height = 0.14) +
