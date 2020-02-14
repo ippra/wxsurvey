@@ -227,28 +227,28 @@ census_data %>% filter(CWA == "TSA")
 
 # Generate Predictions for Each Demographic Group, Weight, and Aggregate to CWA -------------------------
 recep_predictions <- census_data %>%
-  mutate(person_z = colMedians(posterior_predict(sfit1, newdata = ., allow.new.levels = TRUE))) %>%
+  mutate(person_z = colMedians(posterior_predict(sfit1, newdata = ., allow.new.levels = TRUE, seed = 10))) %>%
   mutate(person_z = person_z * DEMGRP_PROP) %>%
   group_by(CWA) %>%
   summarise(person_z = sum(person_z)) %>%
   mutate(cwa_z = (person_z - mean(person_z))/sd(person_z), measure = "Reception")
 
 subj_comp_predictions <- census_data %>%
-  mutate(person_z = colMedians(posterior_predict(sfit2, newdata = ., allow.new.levels = TRUE))) %>%
+  mutate(person_z = colMedians(posterior_predict(sfit2, newdata = ., allow.new.levels = TRUE, seed = 10))) %>%
   mutate(person_z = person_z * DEMGRP_PROP) %>%
   group_by(CWA) %>%
   summarise(person_z = sum(person_z)) %>%
   mutate(cwa_z = (person_z - mean(person_z))/sd(person_z), measure = "Comprehension (Subjective)")
 
 obj_comp_predictions <- census_data %>%
-  mutate(person_z = colMedians(posterior_predict(sfit3, newdata = ., allow.new.levels = TRUE))) %>%
+  mutate(person_z = colMedians(posterior_predict(sfit3, newdata = ., allow.new.levels = TRUE, seed = 10))) %>%
   mutate(person_z = person_z * DEMGRP_PROP) %>%
   group_by(CWA) %>%
   summarise(person_z = sum(person_z)) %>%
   mutate(cwa_z = (person_z - mean(person_z))/sd(person_z), measure = "Comprehension (Objective)")
 
 resp_predictions <- census_data %>%
-  mutate(person_z = colMedians(posterior_predict(sfit4, newdata = ., allow.new.levels = TRUE))) %>%
+  mutate(person_z = colMedians(posterior_predict(sfit4, newdata = ., allow.new.levels = TRUE, seed = 10))) %>%
   mutate(person_z = person_z * DEMGRP_PROP) %>%
   group_by(CWA) %>%
   summarise(person_z = sum(person_z)) %>%
@@ -266,7 +266,7 @@ all_predictions %>%
 setwd(paste0(file_path, "shapefile"))
 cwa_shp <- readOGR('.','cwa_shapefile')
 cwa_shp <- subset(cwa_shp, !ST %in% c("HI", "AK", "PR", "AS", "GU"))
-cwa_shp <- ms_simplify(cwa_shp, keep = 0.01, keep_shapes = TRUE)
+# cwa_shp <- ms_simplify(cwa_shp, keep = 0.01, keep_shapes = TRUE)
 
 cwa_shp@data$id <- rownames(cwa_shp@data)
 cwa_shp_points <- fortify(cwa_shp, region = "id")
@@ -427,10 +427,10 @@ stats_text$measure <- factor(stats_text$measure, levels = c(
   "Response"
 ))  
 stats_text$label <- factor(stats_text$label, levels = c(
-  "r = 0.73\nMD = 4.17",
-  "r = 0.79\nMD = 5.03",
-  "r = 0.80\nMD = 2.87",
-  "r = 0.45\nMD = 3.98"
+  "r = 0.73\nMD = 4.18",
+  "r = 0.79\nMD = 4.99",
+  "r = 0.79\nMD = 2.95",
+  "r = 0.47\nMD = 4.02"
 )) 
 
 agg_data$measure <- as.factor(agg_data$measure)
@@ -520,7 +520,7 @@ figA1a <- ggplot(pool_data, aes(y = value, x = variable, label = CWA)) +
   geom_point(color = "red", size = 1) +
   lims(y = c(-0.7, 0.7)) +
   scale_x_discrete(labels = c("No Pooling", "Partial Pooling")) +
-  labs(y = "Independent Survey Observation") +
+  labs(y = "Independent Survey Observation", x= "") +
   facet_wrap(~measure, scales = "free_x", ncol = 4) +
   plot_theme
 
@@ -591,10 +591,10 @@ stats_text$measure <- factor(stats_text$measure, levels = c(
   "Response"
 ))  
 stats_text$label <- factor(stats_text$label, levels = c(
-  "r = 0.72\nMD = 5.79",
-  "r = 0.79\nMD = 5.78",
-  "r = 0.79\nMD = 3.61",
-  "r = 0.45\nMD = 6.39"
+  "r = 0.73\nMD = 5.77",
+  "r = 0.79\nMD = 5.70",
+  "r = 0.79\nMD = 3.70",
+  "r = 0.46\nMD = 6.36"
 )) 
 
 agg_data$measure <- as.factor(agg_data$measure)
