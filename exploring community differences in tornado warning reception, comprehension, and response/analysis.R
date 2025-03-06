@@ -45,7 +45,7 @@ census_data %>%
   print(n = Inf)
 
 # Survey Data -------------------------
-survey_data <- read_csv(paste0(file_path, "set locally"))
+survey_data <- read_csv(paste0(file_path, "data/survey_data.csv"))
 survey_data <- survey_data %>% filter(survey_year %in% c(2018, 2019) | is.na(survey_year)) # INCLUDES CWA OVERSAMPLE FROM 2018 (n = 1543)
 
 # Measures -------------------------
