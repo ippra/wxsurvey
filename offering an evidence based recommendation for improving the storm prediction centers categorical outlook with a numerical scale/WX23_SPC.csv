@@ -1,0 +1,1519 @@
+spc_scale_rand,spc_level_rand,spc_scale_level_disp,spc_word_con,spc_word_resp,spc_word_eff,spc_word_def,spc_map_con,spc_map_resp,spc_map_eff,spc_label_comp,why_current,why_experimental,weightfactor
+likert_scale,4,HIGH,80,90,90,4,80,90,90,1,They both seem the same to me there is not really difference,,0.122924
+current_scale,5,HIGH,65,75,30,4,85,100,30,NA,,,1.362707
+likert_scale,2,LOW,20,0,90,2,3,0,90,2,,never really understood the marginal statement,2.989125
+levels_scale,2,LEVEL 2 OF 5,25,15,30,4,31,23,51,2,,Interesting,0.859934
+current_scale,2,SLIGHT,50,25,75,2,50,15,25,NA,,,3.35118
+levels_scale,2,LEVEL 2 OF 5,60,100,100,3,100,100,100,1,Because it tells you how severe it is in words.,,0.622387
+likert_scale,2,LOW,0,0,0,4,0,0,0,1,No,,0.386573
+current_scale,1,MARGINAL,50,50,50,1,50,50,50,NA,,,0.632221
+levels_scale,3,LEVEL 3 OF 5,10,1,80,4,20,10,80,2,,it gives people an actual figure to know what is dangerous instead of and approximation,0.306802
+likert_scale,4,HIGH,100,100,100,5,100,100,100,2,,It's much more descriptive,0.795662
+levels_scale,1,LEVEL 1 OF 5,100,100,100,1,50,50,50,1,,,1.179001
+likert_scale,2,LOW,50,30,20,1,40,60,50,2,,As per experience,0.547914
+likert_scale,1,VERY LOW,6,3,5,1,0,0,0,3,,,0.795662
+spanish_scale,1,MINIMAL,25,100,100,1,25,75,99,2,,"More people would be able to understand that list better, especially if they have lower ability to be able to comprehend the words ",1.608914
+spanish_scale,4,HIGH,0,90,90,4,50,30,50,3,,,0.519487
+levels_scale,4,LEVEL 4 OF 5,90,80,90,5,75,80,85,2,,"Numbers mean more towards a greater risk, than just words….??",1.362707
+likert_scale,1,VERY LOW,100,100,100,3,100,100,100,3,,,4.029275
+spanish_scale,2,LOW,5,2,1,2,3,1,2,2,,It explains it clearly,1.608914
+levels_scale,3,LEVEL 3 OF 5,75,100,100,4,100,100,100,2,,It gives the odds of approaching bad weather.,1.226281
+likert_scale,2,LOW,100,100,100,5,100,100,100,3,,,0.921578
+likert_scale,3,MEDIUM,50,50,75,3,50,75,75,2,,It uses simpler language,1.09183
+levels_scale,1,LEVEL 1 OF 5,66,10,89,3,90,88,100,2,,I think it is more helpful because it shows everything that you need to know,0.737672
+current_scale,3,ENHANCED,0,0,0,1,0,0,0,NA,,,2.156199
+current_scale,3,ENHANCED,65,50,50,4,75,60,75,NA,,,0.740392
+spanish_scale,5,EXTREME,50,100,100,3,100,100,100,1,Because I’m used to it,,2.097104
+spanish_scale,1,MINIMAL,40,55,50,1,15,20,40,3,,,0.866828
+levels_scale,3,LEVEL 3 OF 5,60,60,50,1,60,65,90,2,,"The current scale feels more subjective using adjectives and someone's interpretation of """"marginal to slight"""" does not convey the same level of concern as seeing Level numbers like the ones used for Hurricanes, Category 5.",0.312866
+likert_scale,5,VERY HIGH,100,100,75,5,100,100,75,2,,Due to the description offered and words that humans use each day it makes perfect sense.,0.649221
+spanish_scale,2,LOW,20,40,25,1,20,20,25,2,,It's easier to understand,0.864451
+levels_scale,3,LEVEL 3 OF 5,80,100,80,4,80,90,95,1,It seems to be more simple,,1.20171
+levels_scale,3,LEVEL 3 OF 5,50,50,50,1,50,50,50,2,,Gives definitions,0.824642
+spanish_scale,2,LOW,10,1,98,1,10,20,90,2,,I like the wording and the progression of the words.,0.824642
+spanish_scale,2,LOW,25,60,75,2,50,75,75,2,,"Experimental scale indicates more emtional response is needed, Grabs your attention more.",0.759027
+spanish_scale,3,MODERATE,70,60,40,3,70,60,40,2,,"On a scale, moderate is usually in the middle of the scale.",0.46187
+levels_scale,2,LEVEL 2 OF 5,50,25,25,1,25,25,25,1,It tells you that there is a high risk for severe storms expected,,0.552526
+spanish_scale,3,MODERATE,80,60,90,4,60,80,30,3,,,2.989125
+likert_scale,5,VERY HIGH,75,80,95,4,75,95,100,2,,"I believe that low, medium and high are simpler to define.",1.466319
+levels_scale,1,LEVEL 1 OF 5,10,50,100,2,10,50,100,1,easy to understand,,1.129695
+levels_scale,5,LEVEL 5 OF 5,100,100,75,4,100,100,75,2,,Visualization of the map helps me understand the areas where the indicated.,0.890871
+levels_scale,4,LEVEL 4 OF 5,8,7,7,1,5,5,5,2,,Because gives you an idea of what might be,0.892305
+likert_scale,1,VERY LOW,10,0,100,1,0,0,100,2,,The experimental scale offers more descriptions,1.167287
+current_scale,3,ENHANCED,80,60,90,5,50,70,90,NA,,,0.264039
+spanish_scale,4,HIGH,100,99,100,5,10,100,100,1,I enjoy the weather outlook and the temperature.,,1.015308
+levels_scale,4,LEVEL 4 OF 5,40,40,40,3,65,65,80,2,,"The storm seemed more severe than than I thought, and moderate makes it sound less dangerous. The experimental scale show a more direct degree of perceived severity. ",0.753502
+likert_scale,5,VERY HIGH,8,8,8,5,8,8,8,2,,8,0.074418
+likert_scale,4,HIGH,90,100,50,5,90,100,50,1,The experimental scale seems overly optimistic at the one end and a little hyperbolic at the other.,,0.405715
+likert_scale,2,LOW,49,50,90,5,50,50,50,1,Low,,1.466319
+levels_scale,1,LEVEL 1 OF 5,20,30,60,3,20,30,60,2,,"The values 1 - 5 seem to better describe the risk, while the Current scale leaves more room for interpretation",0.649221
+spanish_scale,4,HIGH,50,40,80,3,70,80,50,2,,Just thinking if will,0.559086
+levels_scale,5,LEVEL 5 OF 5,20,80,100,4,70,100,100,3,,,0.69864
+likert_scale,5,VERY HIGH,80,85,75,5,20,50,75,2,,Much easier to understand,0.632158
+spanish_scale,1,MINIMAL,50,60,95,2,40,50,95,2,,"The wording is easier to understand,and  is better at making you understand the severity.",0.740392
+likert_scale,3,MEDIUM,50,1,20,1,50,1,20,3,,,0.859934
+levels_scale,1,LEVEL 1 OF 5,15,20,70,1,40,30,70,1,It’s much easier for people to understand,,0.716829
+likert_scale,5,VERY HIGH,50,50,50,3,50,50,50,1,N/A,,0.892305
+spanish_scale,2,LOW,80,90,100,1,100,0,100,1,It is something that I have been used to.,,0.632158
+current_scale,1,MARGINAL,100,10,29,NA,10,20,30,NA,,,0.70286
+levels_scale,3,LEVEL 3 OF 5,90,100,75,4,98,100,80,1,Easy to understand,,0.646461
+likert_scale,5,VERY HIGH,80,90,20,5,80,80,20,2,,It's detailed and more explainable,0.245087
+current_scale,1,MARGINAL,89,97,100,1,93,97,99,NA,,,1.189076
+levels_scale,2,LEVEL 2 OF 5,25,25,25,2,25,25,25,2,,It gives you an actual word vs a number,2.097104
+current_scale,5,HIGH,0,0,0,5,0,0,0,NA,,,0.386573
+likert_scale,1,VERY LOW,3,2,1,1,1,2,1,2,,It makes sense to me,1.353853
+levels_scale,1,LEVEL 1 OF 5,25,30,20,2,35,40,50,1,More descriptive,,0.638544
+current_scale,2,SLIGHT,50,60,30,2,60,34,75,NA,,,0.969418
+likert_scale,2,LOW,60,50,100,1,60,60,100,1,"I have been in some nasty storms, and I understand them well.",,0.13571
+levels_scale,5,LEVEL 5 OF 5,50,50,50,1,100,100,100,1,It tells you how much risk you have.,,0.025502
+spanish_scale,1,MINIMAL,10,10,75,1,10,10,75,2,,"I feel like """"enhanced"""" is a confusing term, and the current scale doesnt seem to convey the seriousness as well as the experimental scale does. ",0.478766
+spanish_scale,4,HIGH,39,40,50,2,40,40,50,2,,Because it shows you what to look for,1.002656
+current_scale,5,HIGH,70,95,99,4,100,100,80,NA,,,1.984426
+current_scale,4,MODERATE,23,12,10,2,10,20,20,NA,,,1.004705
+current_scale,1,MARGINAL,50,30,20,5,50,20,30,NA,,,0.245087
+levels_scale,1,LEVEL 1 OF 5,1,1,1,1,1,1,1,2,,none,0.934602
+likert_scale,5,VERY HIGH,100,100,100,1,100,100,100,3,,,2.08157
+levels_scale,2,LEVEL 2 OF 5,30,50,50,5,50,50,50,2,,I know levels,2.989125
+likert_scale,1,VERY LOW,15,10,90,2,0,0,95,2,,The English language used on the experimental scale is easier understood by those who do not speak it.,1.259344
+current_scale,5,HIGH,75,75,75,3,70,70,70,NA,,,1.229694
+current_scale,3,ENHANCED,100,100,50,5,70,100,70,NA,,,0.234892
+levels_scale,2,LEVEL 2 OF 5,10,50,100,1,10,50,100,2,,I can’t explain how I understand it I just do . Not sure if others would . Just be around a storm spotter for 30 yrs you understand,0.740392
+spanish_scale,3,MODERATE,0,100,1,4,100,0,0,1,I don’t know,,0.04797
+spanish_scale,5,EXTREME,100,100,100,5,100,100,100,3,,,0.778252
+levels_scale,1,LEVEL 1 OF 5,10,1,3,4,1,3,2,2,,Scale,1.09183
+spanish_scale,3,MODERATE,88,100,67,4,56,69,90,2,,It's more practical,0.027572
+likert_scale,4,HIGH,100,100,100,5,4,3,2,2,,,0.34662
+levels_scale,2,LEVEL 2 OF 5,100,50,100,4,48,100,56,2,,Storms not that severe,0.717103
+spanish_scale,3,MODERATE,50,50,50,5,50,50,50,1,It’s awesome and perfect,,1.997752
+likert_scale,2,LOW,10,10,10,4,0,0,0,1,No comment,,1.002656
+levels_scale,3,LEVEL 3 OF 5,100,95,98,4,85,90,80,1,Because it gives more understanding,,4.206805
+levels_scale,3,LEVEL 3 OF 5,90,95,97,2,100,100,100,1,I understand the words.,,0.472964
+current_scale,1,MARGINAL,100,100,75,4,50,100,100,NA,,,0.632221
+current_scale,5,HIGH,100,100,100,3,100,100,100,NA,,,0.562444
+spanish_scale,3,MODERATE,30,30,40,1,60,90,20,2,,You can have a clearer understanding of the weather,1.189076
+likert_scale,3,MEDIUM,100,100,100,1,75,60,50,2,,I understand experimental skill to be more helpful because it could be understood by more people cuz low medium high can tell you the effect and the damage that can possibly happen of the storm,0.122924
+spanish_scale,5,EXTREME,100,95,90,1,100,95,90,1,Marginal,,1.397115
+likert_scale,4,HIGH,100,99,100,3,100,100,100,1,High,,0.245087
+levels_scale,5,LEVEL 5 OF 5,90,100,90,5,100,100,95,2,,Having five noted as the worst scenario it’s easier to judge the other levels relative to the number five,0.622387
+levels_scale,1,LEVEL 1 OF 5,50,50,60,1,30,20,30,1,It just comes off more transparent to me for some reason.,,0.245087
+likert_scale,2,LOW,100,100,100,5,100,100,100,1,,,4.029275
+likert_scale,1,VERY LOW,10,50,10,1,10,50,10,2,,Current scale has more mild risk categories. Experimental has ranges of mild to severe with equal risk category ranges.,0.46187
+levels_scale,2,LEVEL 2 OF 5,100,100,100,1,100,100,100,3,,,0.65099
+spanish_scale,5,EXTREME,60,40,50,4,100,80,90,3,,,0.563084
+levels_scale,4,LEVEL 4 OF 5,90,80,95,3,90,80,95,2,,"The numbers make it easier to measure the threat. Not a lot of people I know what those words mean, but most everyone knows what one out of five, or 3 out of 5 mean. ",0.355784
+levels_scale,3,LEVEL 3 OF 5,12,28,34,1,27,45,33,3,,,0.027572
+current_scale,5,HIGH,60,60,60,5,70,70,70,NA,,,0.436955
+levels_scale,2,LEVEL 2 OF 5,7,6,4,1,6,7,4,3,,,0.161544
+levels_scale,2,LEVEL 2 OF 5,30,30,89,3,30,30,89,2,,"The numbers kind of simplify how dangerous it is for me to understand, whereas the words take a bit more time to process. I'd know I was in extreme danger if someone announced that there is a level 5 tornado headed my way.",0.586218
+likert_scale,4,HIGH,40,50,100,5,75,90,100,1,I understand the language,,0.716829
+spanish_scale,4,HIGH,50,75,50,3,50,50,50,2,,No,0.695565
+current_scale,2,SLIGHT,10,30,90,2,20,20,100,NA,,,0.652745
+levels_scale,1,LEVEL 1 OF 5,90,96,100,4,80,75,90,1,Opinion,,1.66665
+levels_scale,2,LEVEL 2 OF 5,84,46,93,1,57,83,75,2,,enchanted,0.061773
+spanish_scale,3,MODERATE,20,50,10,3,70,100,20,2,,Simple words,0.644904
+likert_scale,5,VERY HIGH,27,15,83,5,14,75,44,2,,The first time you were able and I didn’t have a chance I just wanted you know I love your mom,0.665293
+likert_scale,1,VERY LOW,50,50,50,2,50,50,50,1,It’s better understanding,,1.231367
+current_scale,5,HIGH,80,10,7,3,80,7,40,NA,,,0.652745
+spanish_scale,1,MINIMAL,30,10,40,2,10,5,30,2,,I think the word extreme tells me I’d better find some shelter.,0.737672
+current_scale,1,MARGINAL,6,6,100,5,30,30,50,NA,,,0.717103
+levels_scale,4,LEVEL 4 OF 5,7,4,8,5,85,55,63,3,,,0.717103
+current_scale,1,MARGINAL,90,87,87,3,1,1,1,NA,,,0.92537
+current_scale,3,ENHANCED,55,80,60,1,60,80,80,NA,,,0.677358
+likert_scale,4,HIGH,100,10,10,5,10,8,9,1,Keeps you safe,,0.031411
+likert_scale,1,VERY LOW,10,20,10,5,10,10,10,3,,,0.428022
+current_scale,2,SLIGHT,50,70,30,5,30,50,70,NA,,,0.355784
+current_scale,2,SLIGHT,10,15,5,1,15,10,5,NA,,,0.717103
+spanish_scale,3,MODERATE,70,60,65,2,75,65,70,3,,,0.717103
+spanish_scale,2,LOW,0,0,0,5,0,0,0,3,,,0.038923
+current_scale,1,MARGINAL,50,50,50,5,5,50,50,NA,,,0.038923
+levels_scale,5,LEVEL 5 OF 5,75,80,50,5,99,100,75,1,the words convey a sense of urgency to me,,0.717103
+current_scale,2,SLIGHT,50,50,50,2,50,50,50,NA,,,1.174691
+likert_scale,2,LOW,25,30,45,1,85,90,95,1,Easier to understand,,0.873599
+levels_scale,4,LEVEL 4 OF 5,100,100,100,3,50,50,50,2,,Slight,0.652745
+levels_scale,5,LEVEL 5 OF 5,57,85,28,2,0,67,90,3,,,0.873599
+likert_scale,2,LOW,59,40,20,1,25,26,26,2,,nothing,0.652745
+likert_scale,4,HIGH,50,20,50,2,20,20,50,2,,i don’t know,0.061374
+levels_scale,3,LEVEL 3 OF 5,47,47,50,1,36,69,100,2,,That’s the energy it gives off,0.567948
+levels_scale,5,LEVEL 5 OF 5,80,95,20,5,95,95,50,2,,"Level 1 is not bad, easy in game terms so it would be easy to survive, while level 5 is harder, the hardest level to prepare for and survive",0.019231
+spanish_scale,2,LOW,5,0,0,2,20,20,15,2,,More explanatory in the words,0.652745
+spanish_scale,4,HIGH,55,30,75,5,85,100,75,2,,,0.677358
+likert_scale,2,LOW,1,1,1,5,1,1,1,2,,Xsisusnsisnshnsudns,0.074418
+likert_scale,5,VERY HIGH,50,70,100,5,60,70,40,1,i really dont know,,0.737672
+spanish_scale,5,EXTREME,80,80,80,4,100,100,70,2,,Simpler terms.,0.717103
+current_scale,5,HIGH,80,80,80,5,100,100,100,NA,,,1.185
+current_scale,5,HIGH,80,70,65,4,100,99,70,NA,,,1.174691
+levels_scale,5,LEVEL 5 OF 5,100,100,95,1,100,100,100,2,,it’s easier to understand the severity of what’s happening,0.873599
+likert_scale,4,HIGH,70,67,89,5,67,76,77,2,,easier words to understand,0.652745
+spanish_scale,3,MODERATE,100,100,100,3,50,100,50,3,,,0.716829
+spanish_scale,3,MODERATE,40,50,70,2,50,60,70,2,,The only way I could see the picture is by looking,5.020584
+levels_scale,2,LEVEL 2 OF 5,70,95,85,2,100,60,50,2,,It gives you a range of how high the risks are,0.005909
+spanish_scale,1,MINIMAL,100,98,72,5,65,23,77,3,,,0.652745
+spanish_scale,3,MODERATE,45,0,45,2,60,45,50,1,It’s easier to read and understand.,,0.677358
+likert_scale,5,VERY HIGH,90,100,99,3,90,100,99,2,,Accurate,9.655306
+spanish_scale,5,EXTREME,50,70,75,4,90,95,70,1,It is more straightforward,,0.873599
+levels_scale,1,LEVEL 1 OF 5,45,50,24,2,67,54,89,2,,63,0.061773
+spanish_scale,5,EXTREME,80,75,58,5,100,97,77,2,,It uses more common words that more people can understand.,1.997752
+spanish_scale,3,MODERATE,78,68,42,5,73,28,53,3,,,1.878426
+likert_scale,1,VERY LOW,50,60,33,4,66,99,99,2,,55,1.997752
+levels_scale,3,LEVEL 3 OF 5,10,0,2,5,0,0,0,2,,,0.717103
+spanish_scale,3,MODERATE,40,79,30,3,35,30,15,2,,no i’m not sure,0.725852
+spanish_scale,1,MINIMAL,50,0,100,2,0,50,100,2,,"Science would help because I understand science 
+",0.716829
+levels_scale,5,LEVEL 5 OF 5,90,80,90,5,100,90,90,2,,I understand it better than the words,0.716829
+spanish_scale,1,MINIMAL,0,5,90,2,0,5,90,2,,The terms used in the experimental scale feel more accurate and understandable to a broad group of people,0.92537
+current_scale,4,MODERATE,49,50,50,1,50,50,50,NA,,,0.873599
+current_scale,2,SLIGHT,16,17,23,3,31,21,11,NA,,,0.563084
+levels_scale,3,LEVEL 3 OF 5,65,75,50,3,70,60,50,2,,It ranks the level of storms rather than explaining them.,0.717103
+spanish_scale,2,LOW,0,0,80,1,50,50,50,1,I accidentally clicked too fast,,0.717103
+likert_scale,5,VERY HIGH,45,60,40,5,75,70,65,3,,,0.428022
+levels_scale,2,LEVEL 2 OF 5,80,80,100,4,90,90,100,2,,the rankings out of five are a lot more easier to understand than trying to decider which word is a greater risk than another word,0.677358
+likert_scale,4,HIGH,65,70,50,3,60,70,50,1,It’s what has been previously documented as the most accurate scale,,0.019231
+likert_scale,5,VERY HIGH,85,75,100,3,85,85,100,1,It’s better focused on the sizing.,,0.652745
+likert_scale,1,VERY LOW,10,6,0,2,2,0,0,1,Because it is current,,0.725852
+likert_scale,3,MEDIUM,50,100,50,2,50,100,50,NA,,,0.652745
+spanish_scale,2,LOW,70,78,74,4,52,72,64,2,,Hsvev jdbrv hebekob. Jehevsj jagg fjib,0.652745
+spanish_scale,1,MINIMAL,55,78,45,3,0,0,0,2,,,0.180357
+likert_scale,4,HIGH,98,100,100,3,100,100,100,2,,It’s easier for children to understand and learn,0.716829
+current_scale,5,HIGH,98,96,95,3,86,78,56,NA,,,0.586218
+current_scale,3,ENHANCED,60,100,50,5,30,50,80,NA,,,0.586218
+likert_scale,3,MEDIUM,45,87,20,4,34,69,83,3,,,1.66665
+likert_scale,1,VERY LOW,60,70,50,5,0,20,30,1,I made a mistake I think that the experimental is easier to understand,,0.801784
+spanish_scale,2,LOW,70,50,90,1,50,60,100,1,,,0.034676
+likert_scale,2,LOW,20,30,50,5,40,60,50,2,,Because it has better wording,3.620973
+spanish_scale,2,LOW,23,20,22,3,30,34,43,2,,Extremely,2.381485
+current_scale,4,MODERATE,90,90,50,3,90,90,50,NA,,,0.586218
+levels_scale,4,LEVEL 4 OF 5,90,100,90,5,90,90,90,1,becuase it provides an accurate name,,0.873599
+likert_scale,3,MEDIUM,5,2,3,4,5,5,5,1,Good,,2.381485
+current_scale,5,HIGH,1,2,2,1,1,1,1,NA,,,1.997752
+likert_scale,2,LOW,5,5,5,5,40,50,50,1,You can get it done before the election,,0.632158
+levels_scale,5,LEVEL 5 OF 5,75,90,78,5,100,100,78,1,I clicked the wrong answer and meant to choose the experimental. I believe the experimental scale provides more intensity/warning than the current scale.,,0.652745
+current_scale,5,HIGH,15,11,11,5,2,11,13,NA,,,1.66665
+likert_scale,5,VERY HIGH,90,50,30,3,70,30,30,2,,The words used are simpler.,1.362707
+likert_scale,4,HIGH,15,10,5,NA,18,16,25,2,,No,0.835425
+likert_scale,5,VERY HIGH,3,5,4,3,5,5,6,3,,,0.801784
+levels_scale,2,LEVEL 2 OF 5,75,80,95,3,60,56,89,1,tells me what each scale means,,0.716829
+current_scale,5,HIGH,100,100,100,5,100,100,100,NA,,,0.652745
+levels_scale,4,LEVEL 4 OF 5,60,80,70,2,50,70,65,1,Because of the possible of the storms,,0.061773
+levels_scale,2,LEVEL 2 OF 5,50,50,50,1,50,50,50,3,,,0.513461
+current_scale,4,MODERATE,0,0,0,5,0,0,0,NA,,,0.717103
+likert_scale,2,LOW,50,99,100,2,0,0,0,2,,"Due to experience, it should be taken more serious as it has occurred before",0.717103
+likert_scale,2,LOW,60,4,90,1,16,100,12,2,,100,0.428022
+current_scale,3,ENHANCED,100,100,100,5,80,80,80,NA,,,0.586218
+likert_scale,1,VERY LOW,30,25,10,2,0,0,0,3,,,0.717103
+spanish_scale,2,LOW,70,80,90,2,10,0,0,2,,words r simpler,0.677358
+current_scale,5,HIGH,60,90,15,5,85,100,10,NA,,,0.717103
+spanish_scale,4,HIGH,100,100,100,5,100,100,100,2,,shows if it’s low or high in easier terms,0.080772
+spanish_scale,2,LOW,50,50,50,3,0,0,0,2,,Wording is easier to understand,0.514912
+likert_scale,5,VERY HIGH,50,50,50,3,50,75,50,1,I just understand it,,0.08282
+likert_scale,1,VERY LOW,10,0,95,1,5,0,100,1,low-high makes more sense to me,,0.652745
+likert_scale,5,VERY HIGH,80,90,100,5,100,100,100,1,It’s what I’m used to and I understand it perfectly,,0.716829
+spanish_scale,5,EXTREME,50,50,50,5,100,50,80,2,,,0.07667
+levels_scale,4,LEVEL 4 OF 5,100,100,100,3,100,100,100,3,,,1.174691
+likert_scale,3,MEDIUM,50,50,50,5,50,50,50,2,,current scale,0.652745
+current_scale,2,SLIGHT,20,40,10,1,10,20,10,NA,,,0.835425
+likert_scale,1,VERY LOW,80,90,65,1,80,75,88,1,I’m going out for dinner tonight with the girls so if you’re interested you,,0.562444
+levels_scale,2,LEVEL 2 OF 5,50,50,70,5,40,30,85,1,Explains each definition,,0.038923
+current_scale,4,MODERATE,75,90,80,5,85,100,90,NA,,,1.174691
+levels_scale,1,LEVEL 1 OF 5,45,70,30,2,56,40,35,2,,It it’s a help with an estímenos that can help in the near future,0.027572
+levels_scale,1,LEVEL 1 OF 5,100,100,100,1,5,0,100,1,,,0.716829
+levels_scale,3,LEVEL 3 OF 5,67,89,34,5,78,89,35,2,,it gives me a numerical understanding of the levels because I would mix up the words and think one is worse than the other even if it isnt,1.997752
+spanish_scale,2,LOW,50,20,30,5,70,10,20,2,,2,0.820107
+spanish_scale,3,MODERATE,20,24,25,5,100,45,90,1,Dillon,,0.355784
+spanish_scale,3,MODERATE,80,60,70,1,60,60,80,1,More information,,0.716829
+spanish_scale,3,MODERATE,50,40,20,4,100,100,100,2,,i understand the words more,0.07134
+likert_scale,3,MEDIUM,70,50,80,3,80,70,70,2,,the words are basic and easy to understand,0.019231
+spanish_scale,4,HIGH,3,5,7,4,2,7,9,1,Cool,,0.725852
+current_scale,3,ENHANCED,2,2,2,2,1,2,3,NA,,,1.231367
+levels_scale,2,LEVEL 2 OF 5,70,70,70,5,70,70,70,1,Easier to understand,,0.22222
+spanish_scale,2,LOW,0,6,100,1,5,10,31,1,Single,,0.801784
+levels_scale,4,LEVEL 4 OF 5,50,60,70,2,60,70,80,2,,I just do,1.66665
+current_scale,2,SLIGHT,50,6,8,2,5,7,50,NA,,,0.644904
+levels_scale,4,LEVEL 4 OF 5,5,5,5,NA,5,5,5,1,,,2.306484
+levels_scale,3,LEVEL 3 OF 5,70,70,70,2,80,70,80,2,,It seems we like to experience it,0.245087
+spanish_scale,1,MINIMAL,40,60,50,1,50,40,35,2,,Yes,0.70286
+current_scale,2,SLIGHT,100,50,60,4,100,60,50,NA,,,0.338703
+levels_scale,2,LEVEL 2 OF 5,50,50,50,1,50,50,50,3,,,0.013746
+levels_scale,4,LEVEL 4 OF 5,100,50,50,1,50,50,50,1,Yeah,,0.93403
+levels_scale,3,LEVEL 3 OF 5,30,50,70,5,49,60,59,1,Very bad,,0.453272
+likert_scale,3,MEDIUM,70,90,100,4,70,80,100,2,,Because it is more helpful definely absolutely more helpful,0.559086
+levels_scale,1,LEVEL 1 OF 5,60,50,70,2,60,80,70,2,,Very good and satisfied with great experience,0.93403
+spanish_scale,5,EXTREME,50,40,78,4,46,97,88,2,,I don't know,0.301515
+current_scale,1,MARGINAL,100,50,56,5,50,60,40,NA,,,0.559086
+spanish_scale,3,MODERATE,50,60,80,1,100,100,20,2,,more precise,0.705403
+spanish_scale,1,MINIMAL,0,0,70,1,10,0,80,2,,The word enhanced is not clear enough for me.,0.890871
+likert_scale,4,HIGH,100,100,100,4,5,5,5,3,,,0.759027
+current_scale,2,SLIGHT,3,19,20,5,10,20,50,NA,,,0.552526
+current_scale,1,MARGINAL,10,60,70,3,25,10,25,NA,,,1.26321
+levels_scale,4,LEVEL 4 OF 5,100,100,100,4,100,100,100,1,Easyuer to understand,,0.622387
+spanish_scale,3,MODERATE,40,30,40,3,50,30,100,2,,it  better,0.953837
+likert_scale,3,MEDIUM,50,60,60,2,50,60,60,2,,It's pretty straight forward in a language that most people can understand.,0.622387
+likert_scale,2,LOW,25,0,80,1,80,20,80,3,,,0.751324
+likert_scale,4,HIGH,75,50,50,4,50,40,50,2,,Seems to be more definitive,0.89507
+levels_scale,2,LEVEL 2 OF 5,50,80,80,3,80,100,80,1,make a lot more since.,,0.552526
+levels_scale,5,LEVEL 5 OF 5,80,50,60,1,10,10,10,1,Very good to know,,0.245087
+current_scale,5,HIGH,85,100,100,5,100,100,100,NA,,,0.824642
+likert_scale,2,LOW,25,25,50,1,20,10,70,2,,"The intensities of the storms are more easily understood with common terms such as low, very low, medium, high, and very high.",0.552526
+levels_scale,1,LEVEL 1 OF 5,5,5,5,1,3,5,5,1,More descriptive,,1.050215
+levels_scale,1,LEVEL 1 OF 5,15,5,90,2,20,10,90,2,,current scale is more subjective to interpret,0.844192
+likert_scale,3,MEDIUM,80,80,60,1,90,100,100,2,,I like the wording much more the wording in this case I feel gets to the point much more,0.786514
+levels_scale,1,LEVEL 1 OF 5,15,50,100,1,30,75,100,1,Won’t be able to remember what a Level 1 means. Current chart takes away the guesswork.,,0.89507
+levels_scale,5,LEVEL 5 OF 5,100,100,100,4,0,0,0,2,,IT SHOWS THE AREA,1.290443
+current_scale,2,SLIGHT,100,100,100,2,5,5,5,NA,,,0.759027
+levels_scale,2,LEVEL 2 OF 5,75,50,100,4,50,25,75,1,To me I think it just explains it better,,0.836303
+current_scale,4,MODERATE,50,50,75,2,75,75,100,NA,,,1.050215
+spanish_scale,5,EXTREME,50,40,75,4,100,100,90,3,,,0.552526
+spanish_scale,1,MINIMAL,20,30,70,1,15,30,90,1,The scale seems more defined such as explaining marginal and minimal possibilities of severe thunderstorms.,,0.027666
+levels_scale,3,LEVEL 3 OF 5,30,50,40,5,40,40,20,1,Its easier descriptive for me,,0.245087
+current_scale,3,ENHANCED,67,53,77,1,58,70,78,NA,,,0.245087
+spanish_scale,2,LOW,80,70,90,1,80,90,70,2,,Nothing much to say,0.859934
+spanish_scale,2,LOW,80,75,40,1,80,75,40,3,,,0.138648
+levels_scale,4,LEVEL 4 OF 5,20,40,20,5,50,40,70,2,,3,0.563084
+current_scale,3,ENHANCED,80,75,95,5,50,30,99,NA,,,6.715158
+likert_scale,4,HIGH,30,30,30,1,80,80,80,3,,,0.691314
+current_scale,3,ENHANCED,40,40,50,4,40,40,50,NA,,,0.691314
+spanish_scale,3,MODERATE,5,5,5,5,50,50,50,2,,Safety,0.890871
+levels_scale,2,LEVEL 2 OF 5,25,10,10,2,10,10,10,3,,,0.646461
+current_scale,3,ENHANCED,20,15,25,4,25,20,20,NA,,,0.519487
+current_scale,3,ENHANCED,60,70,40,4,60,50,30,NA,,,0.234892
+spanish_scale,2,LOW,20,29,20,1,25,25,25,2,,Understand it better,0.659765
+levels_scale,1,LEVEL 1 OF 5,1,10,95,1,1,10,95,1,"I'm often a numbers guy, but they don't necessarily work as well, here. They might not be numerically exact or proportional, or even descriptive at all. Level 5 sounds dangerous, but does that mean I'm 100% a target, or 40%? The verbal descriptions communicate better, here.",,1.318858
+spanish_scale,2,LOW,10,5,95,2,10,5,95,1,The word current,,0.751324
+current_scale,1,MARGINAL,50,10,70,2,20,20,80,NA,,,0.824642
+likert_scale,3,MEDIUM,50,75,100,3,25,15,75,2,,"Makes more sense to me, better understanding",0.519487
+levels_scale,2,LEVEL 2 OF 5,40,40,40,2,40,40,40,1,Easier for me to understand the risk,,0.622387
+likert_scale,1,VERY LOW,0,60,90,5,1,1,0,2,,Clearer understandable and better description,0.751324
+levels_scale,1,LEVEL 1 OF 5,75,100,75,3,25,35,75,1,no to bad i think,,1.180128
+spanish_scale,2,LOW,40,40,30,2,60,50,40,2,,North is a big guy at the beach ???? we will have a good night at dinner tomorrow night,0.562444
+likert_scale,5,VERY HIGH,80,80,80,5,100,100,100,3,,,0.148036
+spanish_scale,1,MINIMAL,0,0,0,1,10,0,5,2,,I think the wording is better and clearer but I think I need to get used to these new wording as well,0.722613
+current_scale,2,SLIGHT,65,40,75,3,67,70,78,NA,,,0.969418
+likert_scale,1,VERY LOW,0,0,0,1,0,0,0,3,,,0.682902
+likert_scale,3,MEDIUM,75,100,100,5,75,75,75,1,For me I feel I understand the current scale much more than the experimental scale,,0.453144
+likert_scale,5,VERY HIGH,30,10,10,5,80,90,90,2,,"The experimental scale has words that are a little easier to understand. Enhanced isn't exactly as clear as medium, in my opinion.",0.844192
+current_scale,5,HIGH,50,50,50,2,50,50,50,NA,,,1.027323
+spanish_scale,3,MODERATE,40,5,100,3,45,75,100,2,,That’s just the way I feel,0.970041
+current_scale,3,ENHANCED,90,5,5,2,2,5,1,NA,,,0.786514
+levels_scale,5,LEVEL 5 OF 5,75,60,65,1,55,70,65,2,,It gives more in-depth,0.338703
+levels_scale,4,LEVEL 4 OF 5,80,80,90,3,80,80,90,1,The words are more important,,0.39442
+spanish_scale,2,LOW,20,20,55,2,15,10,70,2,,I think the average person would understand the wording better.,0.622387
+likert_scale,1,VERY LOW,20,25,75,2,10,5,65,2,,"the current scale is not the one used by any services  I have ever seen, only the experimental one",0.817028
+spanish_scale,1,MINIMAL,35,30,35,2,30,35,35,1,It’s quite amazing and awesome,,0.338703
+current_scale,1,MARGINAL,90,90,90,4,90,90,90,NA,,,0.245087
+likert_scale,3,MEDIUM,60,55,75,4,60,55,75,2,,Marginal and slight are too close to the same thing.,0.836303
+spanish_scale,4,HIGH,80,50,75,5,80,50,75,2,,The words on the experimental scale seem more informative.,0.158553
+levels_scale,4,LEVEL 4 OF 5,100,100,100,5,100,100,100,1,It uses number and colors to indicate the risk level,,0.562444
+levels_scale,2,LEVEL 2 OF 5,30,50,100,2,30,50,100,1,It defines the percentage of risk,,0.786514
+current_scale,1,MARGINAL,40,70,40,1,30,90,40,NA,,,0.530008
+current_scale,5,HIGH,50,50,50,4,75,75,75,NA,,,0.751324
+likert_scale,1,VERY LOW,10,10,10,2,5,5,5,2,,more specific,0.824642
+levels_scale,2,LEVEL 2 OF 5,40,50,70,3,60,70,75,1,Words convey more meaning & sense of urgency over numbers,,0.646461
+levels_scale,3,LEVEL 3 OF 5,95,100,95,1,90,100,95,1,"To me, numbers do not mean much.  I want the words that state risks.  Those I understand.",,0.638544
+likert_scale,1,VERY LOW,80,75,65,2,45,45,44,2,,IT HAS A BETTER EXPLANATION OF WHAT TO EXCEPT,0.751324
+likert_scale,1,VERY LOW,20,20,50,3,25,10,60,1,I am used to seeing it on forecasts,,0.526926
+likert_scale,1,VERY LOW,0,0,0,1,0,0,100,2,,i t explains  definition from very low to very high,0.600513
+current_scale,5,HIGH,100,100,100,4,100,100,100,NA,,,0.218011
+current_scale,3,ENHANCED,90,80,100,1,10,10,70,NA,,,1.107928
+spanish_scale,1,MINIMAL,40,40,20,3,30,40,30,1,,,0.234892
+likert_scale,1,VERY LOW,5,15,35,3,15,20,25,1,It might be more real time,,0.682902
+likert_scale,1,VERY LOW,10,0,90,2,10,10,90,2,,easy to understand scale words,1.107928
+levels_scale,5,LEVEL 5 OF 5,100,100,100,1,100,100,100,2,,Because it tells people exactly what they need to know about the weather,0.245087
+likert_scale,2,LOW,10,10,80,2,10,10,75,2,,It is so easy that even a 5th grader will understand,0.245087
+current_scale,5,HIGH,30,40,30,5,65,55,75,NA,,,0.245087
+spanish_scale,5,EXTREME,60,60,60,3,90,75,90,1,Gives chance  and degree,,0.751324
+likert_scale,4,HIGH,40,40,20,5,30,40,20,2,,It’s nice for the sun,0.859934
+likert_scale,4,HIGH,50,60,60,3,50,50,50,2,,Like the words better,0.622387
+current_scale,1,MARGINAL,50,60,85,1,30,20,55,NA,,,0.520334
+levels_scale,1,LEVEL 1 OF 5,10,5,95,2,50,75,55,2,,Understanding current scale give yo the definition of experimental predictions,0.829344
+current_scale,1,MARGINAL,60,70,100,2,20,25,100,NA,,,1.226281
+likert_scale,4,HIGH,50,50,50,5,40,40,40,2,,The experimental scale seems somewhat more detailed than the other one. Something about this one seems more accurate than the other. I feel a lot more comfortable with this one.,1.153716
+current_scale,5,HIGH,80,80,80,5,90,90,95,NA,,,9.290192
+current_scale,5,HIGH,60,90,50,3,70,100,70,NA,,,1.189076
+spanish_scale,1,MINIMAL,15,15,60,1,10,10,70,1,More definitive,,0.890871
+spanish_scale,1,MINIMAL,10,10,30,2,5,3,80,2,,specific words,0.931884
+spanish_scale,2,LOW,0,0,90,1,10,0,90,2,,"Enhanced does not give me any clue that storms are numerous. Exp scale has more of an impact on me. That is, high would make me take notice right away.  Moderate does not. ",0.519487
+likert_scale,4,HIGH,95,100,75,5,100,100,80,2,,"Words such as Low, Medium and High are familiar to most people and have about the same meaning.  Words like Marginal, Slight and Enhanced can mean different interpretations to different people.",1.180128
+likert_scale,1,VERY LOW,100,100,100,1,10,10,10,2,,Some people don't know the differances,0.953837
+levels_scale,5,LEVEL 5 OF 5,75,100,100,3,100,100,100,1,it gives us more information,,0.691314
+spanish_scale,5,EXTREME,30,40,80,3,85,95,80,2,,To me this scale is easier to understand when it comes to severe weather.,0.622387
+current_scale,2,SLIGHT,80,80,80,1,20,30,30,NA,,,0.817028
+spanish_scale,4,HIGH,100,100,100,5,80,100,90,2,,The terms use are very clear to me.,0.380964
+spanish_scale,5,EXTREME,4,6,6,5,60,60,80,3,,,0.89507
+current_scale,3,ENHANCED,80,80,80,5,80,80,80,NA,,,1.248574
+spanish_scale,5,EXTREME,35,30,65,5,88,85,85,1,Clear data and information conveyed by the chart,,0.036498
+current_scale,5,HIGH,90,20,50,3,100,75,50,NA,,,1.290443
+levels_scale,2,LEVEL 2 OF 5,25,50,50,2,25,20,75,1,"It tells you more than a number, gives you a better idea of what is or might happen",,0.638544
+current_scale,2,SLIGHT,25,25,50,2,25,25,50,NA,,,0.722933
+likert_scale,2,LOW,80,70,65,3,30,50,60,2,,Because is easy to understand,0.859934
+levels_scale,1,LEVEL 1 OF 5,50,90,85,5,25,55,60,1,Current scale gives you more detail,,0.600513
+current_scale,4,MODERATE,50,60,60,1,70,60,60,NA,,,1.466319
+current_scale,4,MODERATE,80,65,60,2,70,80,75,NA,,,0.245087
+likert_scale,5,VERY HIGH,50,100,100,3,90,100,50,3,,,0.789127
+likert_scale,2,LOW,45,30,90,1,45,65,90,2,,We believe that the experimental scale is a little better understood explanation than the current scale.,0.844192
+spanish_scale,5,EXTREME,100,90,70,4,100,100,70,2,,the categories are easier to understand,0.722933
+current_scale,4,MODERATE,20,20,80,2,30,20,80,NA,,,0.519487
+levels_scale,4,LEVEL 4 OF 5,100,100,100,2,80,100,76,1,Evacuation orders and emergency response teams,,0.234892
+current_scale,2,SLIGHT,9,6,5,5,8,6,8,NA,,,0.17507
+current_scale,2,SLIGHT,50,60,60,3,50,60,60,NA,,,1.466319
+likert_scale,4,HIGH,88,98,89,4,89,87,89,2,,I just got a phone charger for my,3.92412
+spanish_scale,3,MODERATE,8,9,9,1,8,8,8,2,,it gives you a better look at what might happen,0.836303
+spanish_scale,1,MINIMAL,25,10,50,1,25,10,50,2,,Marginal & enhanced sound more like descriptive ajectives than levels of storm intensity,0.638544
+likert_scale,2,LOW,10,0,90,2,10,0,100,2,,"The words are more common, every day words",1.226281
+current_scale,5,HIGH,50,70,90,NA,90,100,100,NA,,,0.39442
+spanish_scale,5,EXTREME,100,100,100,4,100,100,100,3,,,1.14639
+spanish_scale,3,MODERATE,50,50,80,5,50,50,80,1,makes more sense,,0.622387
+current_scale,4,MODERATE,50,60,70,4,90,90,100,NA,,,0.474948
+levels_scale,1,LEVEL 1 OF 5,4,5,3,2,2,5,3,1,1 of 5,,0.17013
+levels_scale,1,LEVEL 1 OF 5,75,80,90,5,10,20,30,1,Marginal,,4.14141
+current_scale,5,HIGH,90,80,95,1,80,70,80,NA,,,0.40764
+levels_scale,2,LEVEL 2 OF 5,10,10,50,1,50,50,75,1,you know more of what to expect,,1.107928
+current_scale,1,MARGINAL,40,40,20,5,30,40,30,NA,,,0.338703
+current_scale,2,SLIGHT,50,75,95,5,55,60,77,NA,,,0.831752
+spanish_scale,2,LOW,20,10,90,2,10,10,80,2,,better defined,0.632025
+current_scale,1,MARGINAL,40,50,60,4,50,40,60,NA,,,0.562444
+likert_scale,4,HIGH,70,10,50,5,80,20,50,2,,more descriptive,1.180128
+levels_scale,3,LEVEL 3 OF 5,50,30,70,3,50,50,80,3,,,0.817028
+likert_scale,4,HIGH,80,75,80,5,80,75,80,2,,It makes the depth of the issue seem more important as you go to different degrees.,0.682902
+spanish_scale,5,EXTREME,80,75,85,5,100,98,65,1,"In my opinion, the word """"Marginal"""" is a Lot Different than the word """"Minimal"""". I take storms seriously, and although I am never sure exactly What to do when I hear of an impending storm, I try to take sensible action to protect myself.",,0.552526
+current_scale,4,MODERATE,78,98,88,3,76,88,80,NA,,,0.234892
+levels_scale,4,LEVEL 4 OF 5,75,100,100,5,75,100,100,1,"It gives you levels as opposed slight, enhanced, etc",,0.622387
+spanish_scale,1,MINIMAL,5,5,10,2,5,5,5,2,,the words mean more to me like moderate vs. enhanced,0.89507
+levels_scale,4,LEVEL 4 OF 5,89,99,60,3,90,99,75,2,,better understanding,0.519487
+spanish_scale,4,HIGH,60,20,20,4,80,20,20,NA,,,1.226281
+levels_scale,3,LEVEL 3 OF 5,75,75,100,3,75,75,100,1,its more specific,,1.33826
+spanish_scale,3,MODERATE,30,80,50,1,50,50,50,2,,More clear language,0.338703
+levels_scale,1,LEVEL 1 OF 5,50,50,50,2,50,50,50,2,,"As it is in increasing order it clearly means higher the number, higher the risk",0.254883
+levels_scale,1,LEVEL 1 OF 5,100,100,100,1,25,50,75,1,Better understand.,,0.600513
+levels_scale,1,LEVEL 1 OF 5,0,0,0,1,0,0,0,3,,,0.39442
+current_scale,4,MODERATE,0,0,100,1,90,100,90,NA,,,0.405715
+levels_scale,2,LEVEL 2 OF 5,95,95,95,3,80,80,80,2,,more definitive,1.14639
+likert_scale,4,HIGH,80,85,80,5,90,90,95,1,Can't explain I just like the current scale,,1.552719
+current_scale,3,ENHANCED,70,80,80,5,70,80,70,NA,,,0.051903
+likert_scale,3,MEDIUM,100,100,99,5,60,70,60,2,,it is more detailed and understandable,2.305536
+spanish_scale,2,LOW,0,0,100,2,0,0,50,2,,It's common tongue,0.29234
+likert_scale,2,LOW,100,100,100,5,100,100,100,2,,It has more of a scale and not words that some might not understand,0.058302
+likert_scale,4,HIGH,15,10,10,5,100,100,100,3,,,0.363055
+likert_scale,5,VERY HIGH,50,0,50,3,50,0,50,3,,,0.338703
+levels_scale,1,LEVEL 1 OF 5,40,50,60,2,30,10,40,2,,Pinpoints the actual  chance,0.519487
+current_scale,2,SLIGHT,100,10,30,2,30,30,30,NA,,,0.510972
+likert_scale,2,LOW,50,39,50,1,45,45,59,1,it seems im use to these terms and others are  vague,,0.751324
+likert_scale,5,VERY HIGH,88,87,87,1,88,76,58,1,easy to see where the weather is,,0.809053
+spanish_scale,1,MINIMAL,53,67,46,2,45,56,56,3,,,0.051903
+levels_scale,2,LEVEL 2 OF 5,25,10,20,2,30,20,30,1,The description wording is more helpful to me to understand the intensity of what is coming to my area.,,1.201086
+levels_scale,2,LEVEL 2 OF 5,75,75,75,1,75,100,45,2,,tells  and explains better,1.449467
+likert_scale,1,VERY LOW,10,10,100,1,20,15,100,2,,The words used in the experimental scale are easier to understand than the current scale.,0.89507
+spanish_scale,3,MODERATE,50,80,99,2,50,60,99,2,,IT IS MORE DESCRIPTIVE OF THE POTENTIAL WEATHER SCENE,0.751324
+current_scale,2,SLIGHT,50,50,50,1,50,50,50,NA,,,0.786514
+spanish_scale,4,HIGH,50,100,70,4,100,100,70,2,,The words explain the degrees better,0.786514
+current_scale,3,ENHANCED,60,55,85,3,60,65,70,NA,,,0.405715
+spanish_scale,4,HIGH,70,70,90,5,60,60,60,2,,Wording is precise,0.624969
+current_scale,3,ENHANCED,50,50,75,4,50,50,75,NA,,,0.844192
+levels_scale,5,LEVEL 5 OF 5,8,8,9,4,9,8,8,2,,love the idea of this,0.43173
+levels_scale,3,LEVEL 3 OF 5,30,25,25,4,25,35,40,2,,Praise God always,1.259344
+current_scale,1,MARGINAL,20,25,80,2,25,15,90,NA,,,1.259344
+spanish_scale,5,EXTREME,50,50,50,3,50,75,75,3,,,1.180128
+spanish_scale,2,LOW,20,15,90,1,15,15,90,2,,The word extreme,0.659765
+likert_scale,5,VERY HIGH,100,100,100,5,70,80,70,3,,,0.514912
+likert_scale,2,LOW,5,2,10,3,3,8,20,3,,,0.034676
+levels_scale,2,LEVEL 2 OF 5,50,50,50,3,25,10,20,2,,puts in percentages instead of descriptions,0.632025
+likert_scale,3,MEDIUM,20,34,56,1,50,62,56,1,It be an help to us,,0.338703
+likert_scale,1,VERY LOW,68,90,87,2,87,19,76,2,,,1.86181
+current_scale,1,MARGINAL,50,50,80,1,20,20,100,NA,,,0.682902
+spanish_scale,3,MODERATE,50,30,20,2,40,60,50,1,Current scale looks normal and experimental looks little scary,,0.547914
+spanish_scale,4,HIGH,88,90,90,3,75,100,100,2,,Easier to handle,1.259344
+current_scale,2,SLIGHT,5,14,5,4,12,1,4,NA,,,0.563084
+likert_scale,1,VERY LOW,50,50,90,2,25,25,50,2,,The wording gives a better visual of what to expect.,0.705659
+current_scale,1,MARGINAL,54,56,66,5,56,55,78,NA,,,0.338703
+spanish_scale,4,HIGH,60,50,70,1,30,50,30,3,,,0.490032
+levels_scale,3,LEVEL 3 OF 5,50,50,50,3,50,50,50,1,Show risk,,1.241617
+spanish_scale,4,HIGH,75,100,100,4,75,75,100,1,It Is what grew up and known since childhood.,,1.318858
+spanish_scale,3,MODERATE,70,60,55,1,60,75,70,2,,I think it’s a better choice of words,0.453272
+current_scale,3,ENHANCED,80,70,80,5,90,90,90,NA,,,0.795662
+current_scale,4,MODERATE,40,40,50,3,75,60,75,NA,,,0.836303
+likert_scale,2,LOW,10,7,70,5,5,10,6,2,,Medium,0.835425
+likert_scale,4,HIGH,50,45,45,4,5,10,15,1,I understand the words,,1.116703
+likert_scale,1,VERY LOW,0,0,0,2,0,0,0,2,,make you think,0.622387
+current_scale,3,ENHANCED,60,70,40,4,60,70,80,NA,,,0.552526
+current_scale,2,SLIGHT,75,100,90,2,50,75,75,NA,,,1.107928
+levels_scale,1,LEVEL 1 OF 5,20,50,100,5,50,50,50,2,,It involves the number this just involves. Umbers.,1.306807
+levels_scale,3,LEVEL 3 OF 5,50,70,90,1,60,90,90,1,I gives a better idea on the severity,,0.638544
+current_scale,5,HIGH,50,25,100,5,100,100,100,NA,,,0.759027
+likert_scale,1,VERY LOW,50,50,50,4,50,50,50,3,,,0.453272
+current_scale,2,SLIGHT,0,0,0,2,0,0,0,NA,,,0.519487
+spanish_scale,1,MINIMAL,0,0,95,2,10,10,90,2,,Easier to relate to quickly,0.722933
+likert_scale,5,VERY HIGH,90,90,90,1,85,90,95,1,Clear to understand,,0.632158
+likert_scale,1,VERY LOW,75,80,100,3,20,25,70,1,It's very clear. Everyone will understand it.,,0.622387
+likert_scale,5,VERY HIGH,100,100,100,4,100,100,100,1,easier to understand fast,,0.519487
+spanish_scale,1,MINIMAL,1,2,3,5,90,80,95,1,later,,0.632158
+spanish_scale,4,HIGH,60,40,100,5,100,100,100,2,,I think the wording is better related.,0.844192
+levels_scale,3,LEVEL 3 OF 5,50,50,50,4,3,3,3,3,,,0.829344
+levels_scale,1,LEVEL 1 OF 5,0,2,100,3,0,0,100,1,I just understand some of the words better I guess.,,0.717103
+levels_scale,2,LEVEL 2 OF 5,50,70,100,2,45,80,100,2,,The numbers make it more precise and understandable to everyone while the words can be interpreted by people in various ways.,0.519487
+current_scale,4,MODERATE,35,0,90,2,30,10,90,NA,,,0.624969
+likert_scale,2,LOW,100,100,100,4,80,80,80,2,,It’s easy to understand by anyone,1.208131
+levels_scale,5,LEVEL 5 OF 5,50,70,60,2,5,5,5,1,It works for me,,0.05945
+current_scale,5,HIGH,100,95,100,4,100,100,100,NA,,,0.624969
+likert_scale,4,HIGH,85,95,90,4,55,55,75,2,,"The wording is more understandable. What does """"enhanced"""" mean. Medium is more in common usage.",0.854622
+current_scale,5,HIGH,90,50,95,5,99,95,95,NA,,,0.638544
+spanish_scale,3,MODERATE,88,100,100,2,80,100,100,2,,It makes it more understandable and straightforward,1.397115
+likert_scale,5,VERY HIGH,100,100,100,4,100,100,100,3,,,0.552526
+levels_scale,2,LEVEL 2 OF 5,20,20,100,2,15,15,100,2,,Numbers help to identify severity,0.386573
+levels_scale,2,LEVEL 2 OF 5,25,25,75,1,25,20,72,1,it gives me a better idea that the numbers,,0.363055
+current_scale,2,SLIGHT,20,20,40,1,40,40,30,NA,,,0.579082
+current_scale,1,MARGINAL,80,80,100,2,20,50,100,NA,,,0.34839
+spanish_scale,4,HIGH,100,100,100,4,100,100,100,2,,I understand the experimental scale than the current one,0.824642
+current_scale,2,SLIGHT,60,100,100,1,40,100,100,NA,,,0.622387
+levels_scale,5,LEVEL 5 OF 5,50,25,25,3,15,50,25,1,Because of high risk speading of the climate change,,0.355784
+spanish_scale,3,MODERATE,50,40,30,4,50,40,30,2,,No sorry,0.019231
+current_scale,4,MODERATE,5,5,5,4,5,5,5,NA,,,0.520334
+likert_scale,1,VERY LOW,0,0,100,2,0,0,100,1,easier to read,,0.019231
+spanish_scale,1,MINIMAL,50,35,100,2,40,20,100,2,,It's a lot easier to read and understand,0.632025
+spanish_scale,2,LOW,33,22,12,2,32,22,12,2,,no,0.013746
+levels_scale,4,LEVEL 4 OF 5,90,100,80,5,80,100,90,1,Do not understand what an experimental scale is.,,0.786514
+levels_scale,4,LEVEL 4 OF 5,60,80,50,1,50,60,50,1,like words rather than number level,,1.20171
+levels_scale,3,LEVEL 3 OF 5,75,65,80,3,50,35,90,2,,the words are easily mixed up whereas numbers are in a specific order,0.716829
+levels_scale,4,LEVEL 4 OF 5,100,100,100,3,100,100,100,1,Because it’s so reliable,,0.338703
+spanish_scale,2,LOW,0,0,0,2,0,0,0,3,,,0.824642
+spanish_scale,5,EXTREME,50,50,50,3,50,100,50,1,Since it shows the steps or ways to it,,0.038923
+likert_scale,1,VERY LOW,0,10,100,3,0,0,100,2,,no i think the experimental might be not a good thing to follow,0.012798
+levels_scale,2,LEVEL 2 OF 5,70,80,0,5,30,40,100,2,,Numbers help with the perspective rather than the words,0.801784
+spanish_scale,4,HIGH,75,50,30,4,50,10,0,1,It breaks it down so you know exactly what severity it is,,0.795662
+levels_scale,3,LEVEL 3 OF 5,50,70,100,5,100,90,100,2,,The analysis will be clear and well understandable,0.338703
+levels_scale,5,LEVEL 5 OF 5,20,30,50,5,40,50,50,1,Cause the current scale is more preferable,,0.969418
+spanish_scale,2,LOW,80,90,90,1,80,90,90,2,,Easier to understand between each level.,0.391617
+current_scale,5,HIGH,50,10,5,1,50,50,50,NA,,,0.301515
+spanish_scale,3,MODERATE,80,100,90,4,70,80,95,1,It give me the actual indication of the conditions of the weather and how dangerous it is,,0.245087
+levels_scale,3,LEVEL 3 OF 5,75,80,100,4,50,60,100,3,,,0.786514
+likert_scale,4,HIGH,70,80,100,3,70,80,100,2,,I like how direct this scale is at letting people know the weather activity in their area.,2.11724
+levels_scale,4,LEVEL 4 OF 5,2,1,3,4,2,2,2,2,,The only way I can get a job in a field is if I’m a good person and I’m a,0.562444
+levels_scale,4,LEVEL 4 OF 5,55,66,70,3,65,70,66,1,"Yeah due to the situated experimental scale performed above, I feel it has an higher probability ",,0.562444
+levels_scale,3,LEVEL 3 OF 5,60,80,90,3,50,50,50,1,Not sure,,0.63345
+current_scale,5,HIGH,20,80,80,5,95,100,80,NA,,,0.453272
+spanish_scale,2,LOW,20,50,30,4,50,20,30,1,Very perfect,,1.997752
+levels_scale,2,LEVEL 2 OF 5,70,90,95,4,70,80,85,2,,The experimental scale shows the degree of severity of the storm,0.562444
+levels_scale,4,LEVEL 4 OF 5,85,90,80,5,80,80,7,2,,Being numerical it conveys hard boundaries.  I think this gets peoples attention better.  It sence of real danger going from 4 to5,1.140466
+spanish_scale,1,MINIMAL,100,0,0,2,100,0,0,2,,Everyone,0.563084
+current_scale,2,SLIGHT,50,70,80,2,70,80,60,NA,,,0.559086
+likert_scale,2,LOW,60,80,70,1,70,70,60,2,,The overall features and quality,0.234892
+spanish_scale,1,MINIMAL,0,0,100,1,0,0,100,2,,Better one-word descriptions,0.751324
+likert_scale,1,VERY LOW,0,0,100,1,0,0,100,1,easier,,0.789127
+current_scale,5,HIGH,90,90,90,5,100,90,90,NA,,,0.524347
+levels_scale,4,LEVEL 4 OF 5,65,85,90,5,85,85,85,1,I think it is clear and easy to understand.,,1.563552
+likert_scale,1,VERY LOW,0,0,100,1,0,0,100,2,,The words marginal and enhanced can mean many different things to different people. Enhanced can mean ANYTHING if there is no based point to start from.,1.053077
+spanish_scale,5,EXTREME,100,90,80,5,100,80,100,2,,It's easier to understand.,0.9471
+current_scale,5,HIGH,98,99,97,2,100,100,100,NA,,,0.717103
+levels_scale,5,LEVEL 5 OF 5,50,100,100,5,100,100,100,1,Just my way of understanding it,,0.180357
+levels_scale,4,LEVEL 4 OF 5,80,100,80,5,50,70,80,2,,I feel like the numbers give me a better idea of how high or low the risk is,0.665496
+spanish_scale,2,LOW,50,60,50,1,60,50,60,1,All ok,,0.682902
+levels_scale,2,LEVEL 2 OF 5,80,80,70,2,70,70,70,1,This scale is very helpful.,,0.234892
+current_scale,3,ENHANCED,80,70,85,4,85,65,75,NA,,,0.562444
+levels_scale,3,LEVEL 3 OF 5,100,100,100,5,100,100,100,1,Current scale is more helpful because it’s explanatory enough,,0.234892
+spanish_scale,5,EXTREME,78,56,73,4,100,100,98,1,It makes it easier to understand,,0.801784
+current_scale,3,ENHANCED,90,70,70,5,70,60,60,NA,,,0.01927
+levels_scale,5,LEVEL 5 OF 5,95,95,90,5,100,100,90,2,,"prefer numbered warnings, words can be misunderstood",0.632158
+likert_scale,1,VERY LOW,30,40,30,3,50,30,50,1,It’s help a lot,,1.984426
+spanish_scale,5,EXTREME,75,50,70,5,100,100,100,2,,both about the same but not quite,0.691314
+current_scale,5,HIGH,85,100,60,5,100,100,75,NA,,,0.234892
+likert_scale,4,HIGH,100,100,90,3,100,100,90,1,Because you of the was it was said,,0.234892
+current_scale,4,MODERATE,50,40,10,4,80,30,10,NA,,,0.019231
+spanish_scale,3,MODERATE,2,46,57,5,5,30,20,1,Cause now u know what Moderate really means!!,,2.11724
+spanish_scale,4,HIGH,100,100,0,5,50,75,0,2,,I can understand the words in the Experimental Scale much better than the Current scale.  I don't like the words Marginal and Enhanced.,0.809053
+current_scale,2,SLIGHT,2,0,8,2,2,0,8,NA,,,1.33826
+likert_scale,4,HIGH,90,100,100,5,25,10,100,2,,more defining,0.786514
+spanish_scale,5,EXTREME,25,30,30,5,90,90,90,2,,The urgency in the experimental one makes it more clear,4.206805
+levels_scale,1,LEVEL 1 OF 5,20,0,90,2,20,0,90,2,,I think the numeric scale is better because words can have slightly different meanings to different people.,0.552526
+spanish_scale,1,MINIMAL,50,50,100,2,10,0,100,1,it's easier to read,,1.050215
+current_scale,3,ENHANCED,10,10,10,3,25,10,10,NA,,,0.306802
+spanish_scale,4,HIGH,100,100,100,5,25,20,40,2,,It alerts you more of what could happen if you choose to ignore the weather forecast,0.245087
+levels_scale,3,LEVEL 3 OF 5,65,85,85,5,75,75,75,1,i understand it.,,0.817028
+spanish_scale,4,HIGH,60,80,75,2,75,60,85,2,,It give more explanation than current scale,0.245087
+levels_scale,3,LEVEL 3 OF 5,50,50,80,2,60,80,80,2,,numbers based,0.487959
+levels_scale,1,LEVEL 1 OF 5,83,96,94,4,14,29,100,1,Ezpermential scal would only mean something to me if I knew the difference between level 1 and other levels.,,0.622387
+likert_scale,3,MEDIUM,10,100,100,3,10,100,100,1,I’m not sure,,0.921578
+current_scale,4,MODERATE,100,100,100,3,100,100,100,NA,,,0.786514
+levels_scale,4,LEVEL 4 OF 5,100,100,100,4,100,100,100,2,,5 is the highest rate for the range which tells me severe,0.241044
+spanish_scale,4,HIGH,50,50,50,3,50,30,30,3,,,0.659765
+likert_scale,3,MEDIUM,50,50,70,3,50,50,75,3,,,0.309048
+current_scale,1,MARGINAL,10,20,50,1,10,20,50,NA,,,0.831752
+current_scale,4,MODERATE,100,95,100,1,90,100,100,NA,,,1.306807
+levels_scale,1,LEVEL 1 OF 5,0,0,0,3,50,50,50,3,,,0.866828
+spanish_scale,5,EXTREME,75,90,40,5,90,100,65,2,,Because going for low to extreme seems easier,0.835425
+spanish_scale,3,MODERATE,40,40,60,3,60,50,70,2,,The words used make it easier to understand,0.649221
+levels_scale,5,LEVEL 5 OF 5,90,100,90,4,80,70,70,1,Shows how intense weather can be,,0.273991
+likert_scale,5,VERY HIGH,80,90,75,3,75,75,90,2,,The terminology is just easier to understand the wrist level,0.795662
+likert_scale,2,LOW,100,100,98,2,30,20,60,2,,Improved Communication: A new scale could be designed to better communicate the potential threats of tornadoes to the public and emergency responders. Clear and concise information about a tornado's strength and impacts can help people make informed decisions regarding safety measures.,1.397115
+current_scale,5,HIGH,50,50,50,4,70,70,70,NA,,,0.682902
+current_scale,2,SLIGHT,20,10,25,1,35,80,25,NA,,,0.148036
+likert_scale,3,MEDIUM,50,50,50,3,50,50,50,2,,the scale is clearer,0.79745
+current_scale,1,MARGINAL,10,0,90,3,5,0,95,NA,,,0.795662
+current_scale,2,SLIGHT,6,7,8,2,3,4,6,NA,,,2.440332
+current_scale,5,HIGH,75,75,75,4,100,100,80,NA,,,0.638544
+spanish_scale,4,HIGH,90,80,90,4,90,90,80,2,,enhanced is too vague; moderate is too weak for the risk,0.829344
+likert_scale,4,HIGH,50,70,50,1,40,10,0,3,,,0.552526
+likert_scale,1,VERY LOW,2,0,99,2,1,0,99,2,,The more emphatic verbage is more meaningful to me.,3.44598
+likert_scale,4,HIGH,100,100,100,5,75,100,75,2,,Makes it easier to understand,0.747799
+spanish_scale,2,LOW,4,4,4,2,2,2,2,1,It lets you know that the possibility of a storm is most likely to occur.,,0.705403
+current_scale,2,SLIGHT,50,40,60,3,40,50,60,NA,,,0.844192
+current_scale,2,SLIGHT,70,50,80,3,90,80,90,NA,,,0.69864
+likert_scale,5,VERY HIGH,80,80,100,3,80,80,100,2,,simple language,0.646461
+current_scale,4,MODERATE,40,20,80,1,100,100,100,NA,,,0.795662
+likert_scale,2,LOW,45,37,50,1,25,35,25,2,,Is more easy understanding,0.04293
+levels_scale,3,LEVEL 3 OF 5,75,60,60,3,60,75,60,1,Numeric values might make me assume more risk.,,1.020391
+likert_scale,2,LOW,15,15,85,2,15,15,85,2,,"Easier to understand than the other. However, without understanding the definitions, it's still not very helpful. ",0.659765
+spanish_scale,3,MODERATE,5,5,50,2,5,5,50,1,just looks better,,0.831752
+likert_scale,2,LOW,0,0,100,2,100,100,100,1,,,0.659765
+levels_scale,1,LEVEL 1 OF 5,0,0,0,2,10,0,100,2,,The experimental scale has objective numbers. The current scale is open to interpretation.,0.646461
+spanish_scale,2,LOW,0,0,100,2,0,0,100,1,It provides more information. The more information provided the better.,,0.786514
+likert_scale,5,VERY HIGH,40,0,50,4,30,0,50,1,it tells me what i need to know,,0.789127
+current_scale,1,MARGINAL,25,25,50,1,15,10,10,NA,,,0.659765
+spanish_scale,3,MODERATE,30,30,40,2,20,10,40,2,,Where I live there’s no place to go and and sometimes the experimental is better than the others,0.682902
+likert_scale,4,HIGH,50,80,50,5,80,100,50,2,,It's easier to understand for novices,0.39442
+levels_scale,5,LEVEL 5 OF 5,90,90,50,3,90,90,50,1,It seems a bit clearer,,0.722933
+levels_scale,4,LEVEL 4 OF 5,50,50,57,5,60,50,57,3,,,0.033417
+likert_scale,1,VERY LOW,0,0,0,2,0,0,0,2,,Makes more sense,0.649221
+current_scale,5,HIGH,70,87,90,5,80,89,90,NA,,,1.3462
+spanish_scale,1,MINIMAL,20,20,80,1,10,10,80,1,The current scale conveys the risks without inducing panic.,,0.795662
+levels_scale,2,LEVEL 2 OF 5,30,10,20,1,30,10,20,2,,the numerical scale is easier to comprehend,0.01271
+current_scale,1,MARGINAL,20,69,2,2,0,0,0,NA,,,0.520334
+levels_scale,4,LEVEL 4 OF 5,90,90,25,5,90,90,25,2,,Easy to understand,0.405715
+current_scale,2,SLIGHT,50,70,90,2,50,70,90,NA,,,0.646461
+likert_scale,1,VERY LOW,15,15,15,2,0,0,0,2,,It’s clear to everyone without needing definitions,0.638544
+current_scale,3,ENHANCED,75,60,100,5,70,60,100,NA,,,0.524347
+likert_scale,3,MEDIUM,60,40,10,5,50,25,30,2,,"It is easy to use, and I get it",0.524347
+levels_scale,2,LEVEL 2 OF 5,50,59,50,5,25,25,25,1,Because it explains everything,,0.921578
+likert_scale,3,MEDIUM,30,20,20,3,30,20,20,2,,WE AS PEOPLE USE SIMPLE ENLISH INSTEAD OF FANCY WORDS,0.844192
+levels_scale,4,LEVEL 4 OF 5,100,100,70,5,100,100,80,1,Use to it and understand it fT,,0.622387
+likert_scale,5,VERY HIGH,50,50,50,1,80,75,80,2,,seems more definite,4.671842
+current_scale,1,MARGINAL,40,50,60,3,60,90,60,NA,,,1.226281
+likert_scale,4,HIGH,100,100,100,5,100,100,100,1,none,,1.180128
+current_scale,4,MODERATE,100,100,100,4,100,100,100,NA,,,0.824642
+likert_scale,2,LOW,50,60,60,1,50,70,70,2,,These are more common words that everyone would understand.  It is hard to think of what enhanced weather would be in an emergency.,0.809053
+spanish_scale,3,MODERATE,30,20,90,2,40,40,70,2,,it is more direct and to the point,0.646461
+likert_scale,2,LOW,10,25,45,1,20,30,40,2,,It is somewhat easier to interpret for the average person,1.33826
+levels_scale,4,LEVEL 4 OF 5,80,90,50,5,75,90,50,2,,More descriptive,1.140466
+levels_scale,2,LEVEL 2 OF 5,10,10,10,1,10,10,10,1,It gives the best definition and likelihood of severe weather,,0.786514
+likert_scale,3,MEDIUM,70,70,70,3,70,70,70,1,think those words are more descriptive of a possible storm.,,0.524347
+spanish_scale,1,MINIMAL,70,100,30,1,60,50,35,2,,"Just because the words themselves roll off the tongue more clearly than the """"current scale"""" seems to in my personal opinion.",0.562444
+levels_scale,1,LEVEL 1 OF 5,25,30,10,1,25,30,50,1,"Because it says it in words we understand, Not numbers.",,1.552719
+current_scale,1,MARGINAL,70,80,80,3,65,60,75,NA,,,0.646461
+current_scale,4,MODERATE,50,100,90,1,100,100,100,NA,,,0.831752
+spanish_scale,4,HIGH,90,100,80,5,100,100,75,2,,The wording on the experimental scale is much more specific and enhances the danger that is implied by the wording in the definitions.,0.519487
+current_scale,1,MARGINAL,15,15,80,1,15,15,80,NA,,,0.691314
+current_scale,1,MARGINAL,11,11,100,1,11,1,100,NA,,,0.759027
+likert_scale,5,VERY HIGH,80,80,100,5,80,80,100,3,,,1.973736
+current_scale,2,SLIGHT,10,10,1,1,3,5,5,NA,,,1.318858
+levels_scale,5,LEVEL 5 OF 5,100,100,20,5,100,100,25,2,,Numbers are better than terminology that could be confusing.,0.722933
+spanish_scale,5,EXTREME,70,50,50,5,100,95,95,3,,,0.751324
+levels_scale,1,LEVEL 1 OF 5,50,90,100,1,50,90,100,1,The current scale is easier to understand.,,0.831752
+spanish_scale,1,MINIMAL,20,20,60,1,10,20,10,1,1,,0.687537
+spanish_scale,1,MINIMAL,25,0,99,1,45,25,99,3,,,0.552526
+levels_scale,5,LEVEL 5 OF 5,100,100,50,5,100,100,50,3,,,0.646461
+current_scale,2,SLIGHT,20,10,90,2,20,20,90,NA,,,0.638544
+levels_scale,2,LEVEL 2 OF 5,90,80,100,1,80,90,100,1,100,,0.552526
+spanish_scale,2,LOW,10,10,90,2,10,10,90,2,,the wording is easier to understand,0.646461
+current_scale,4,MODERATE,30,40,90,3,60,50,90,NA,,,0.809053
+likert_scale,2,LOW,10,10,20,2,10,10,25,2,,"The experimental scale depicts risk clearly, unlike the current scale that uses """"moderate"""", """"enhanced"""" and """"marginal"""" ",1.312386
+levels_scale,4,LEVEL 4 OF 5,90,90,90,4,100,100,90,2,,Seems more clear than the current scale,1.290443
+levels_scale,3,LEVEL 3 OF 5,65,90,100,5,65,85,100,1,it tells me more what is happening,,0.218011
+levels_scale,5,LEVEL 5 OF 5,80,100,100,5,100,100,75,1,Because the experimental scale is just numbers and they could mean anything. The current scale is very descriptive,,1.589262
+spanish_scale,2,LOW,20,50,60,1,40,70,70,3,,,0.600541
+current_scale,4,MODERATE,20,10,95,1,50,75,90,NA,,,0.552526
+current_scale,5,HIGH,40,30,40,3,90,90,100,NA,,,0.789127
+current_scale,1,MARGINAL,10,15,70,1,10,50,80,NA,,,0.682902
+likert_scale,5,VERY HIGH,100,90,80,3,100,100,90,1,It's very understandable,,0.692982
+spanish_scale,4,HIGH,50,50,50,1,50,50,50,2,,"""""slight"""" and """"enhanced"""" are vague terms",1.140466
+current_scale,1,MARGINAL,60,60,60,1,60,60,60,NA,,,0.89507
+spanish_scale,4,HIGH,50,25,25,4,90,50,50,2,,Easier to understand,0.722933
+likert_scale,2,LOW,10,1,5,2,20,10,10,1,the current scale is more literal verbally,,1.552719
+spanish_scale,2,LOW,0,0,100,1,10,0,100,2,,More common language,0.844192
+current_scale,1,MARGINAL,10,15,0,2,50,25,10,NA,,,0.751324
+spanish_scale,4,HIGH,65,55,45,5,75,55,65,3,,,0.245087
+current_scale,5,HIGH,80,85,90,5,100,100,100,NA,,,1.226281
+likert_scale,2,LOW,0,0,0,2,50,50,50,1,terms,,0.649221
+levels_scale,2,LEVEL 2 OF 5,25,50,25,3,0,0,0,3,,,0.722933
+levels_scale,3,LEVEL 3 OF 5,30,10,50,1,40,10,60,1,the written scale is better,,0.682902
+likert_scale,2,LOW,50,50,50,4,50,50,50,1,Because it is current.,,0.969418
+spanish_scale,4,HIGH,80,80,80,5,90,80,80,2,,word descriptions are more recognizable,1.226281
+spanish_scale,1,MINIMAL,40,45,80,1,20,15,100,2,,"For example, for """"Widespread severe storms likely"""", Moderate doesn't seem as attention-getting as High does.",0.824642
+current_scale,3,ENHANCED,50,60,60,3,50,60,65,NA,,,1.306807
+spanish_scale,2,LOW,10,10,10,2,20,20,20,1,easy to read,,0.789127
+likert_scale,5,VERY HIGH,95,45,85,3,89,87,95,2,,Easy to understand,0.722933
+current_scale,4,MODERATE,50,80,90,3,75,100,100,NA,,,0.751324
+spanish_scale,3,MODERATE,50,50,50,2,30,30,30,2,,,0.432912
+spanish_scale,4,HIGH,80,90,100,4,80,80,90,2,,"My understanding of the 'experimental scale' is the map with various color-coded grids, whereas the 'current scale' refers to the table like the one above.",0.73267
+levels_scale,3,LEVEL 3 OF 5,60,40,90,3,80,90,90,1,"I like the word description better because it is more easily interpreted...some may not understand that 5... not 10 is the highest value whereas high is the superlative 
+",,1.362707
+current_scale,1,MARGINAL,69,86,75,5,66,43,25,NA,,,0.245087
+spanish_scale,5,EXTREME,50,50,60,5,50,50,50,2,,Because I think it’s more easy to understand,0.969418
+likert_scale,4,HIGH,90,70,60,5,40,30,20,2,,words show degree  of danger.,0.836303
+likert_scale,5,VERY HIGH,90,85,70,5,88,80,74,3,,,0.890871
+likert_scale,5,VERY HIGH,95,100,85,5,55,56,45,2,,Add directly tells you the rate of which hazard is coming,0.801784
+spanish_scale,1,MINIMAL,80,80,85,5,75,90,75,2,,Just a storm feeling.,0.05289
+current_scale,3,ENHANCED,50,30,50,4,80,80,80,NA,,,0.622387
+likert_scale,4,HIGH,40,0,40,3,0,0,0,1,very clear,,0.158553
+spanish_scale,5,EXTREME,100,90,50,5,100,100,80,2,,the words used are more clear - easier to understand,0.705403
+spanish_scale,1,MINIMAL,20,10,10,1,30,30,90,2,,it definitions that is easier to understand,0.649221
+likert_scale,1,VERY LOW,60,60,50,1,0,10,50,2,,It's more direct,0.766085
+spanish_scale,3,MODERATE,25,25,25,1,25,25,25,3,,,0.39442
+levels_scale,5,LEVEL 5 OF 5,100,100,90,4,100,100,90,2,,The numeric scale gives a better understanding of risk than a descriptive word like “high”,0.824642
+likert_scale,4,HIGH,100,100,60,4,100,100,70,2,,"I am more used to the terms of “low, medium, high etc”",0.34662
+current_scale,1,MARGINAL,90,100,100,1,25,10,100,NA,,,0.786514
+spanish_scale,4,HIGH,60,75,70,3,80,90,85,2,,"Seem to be more understandable than generic terms like enhanced , marginal etc.",0.691314
+likert_scale,1,VERY LOW,0,0,100,1,0,0,100,2,,Much clearer as to the relative risk of harm between the levels.,0.405715
+likert_scale,1,VERY LOW,0,0,6,2,5,4,7,1,Na,,1.231367
+levels_scale,3,LEVEL 3 OF 5,60,60,100,3,50,50,100,1,Not everyone understands the number system but the clearly defined words are easy to understand.,,0.844192
+likert_scale,2,LOW,0,0,0,1,0,0,0,3,,,0.519487
+levels_scale,4,LEVEL 4 OF 5,80,80,80,5,80,90,90,2,,"numbers are better, enhanced opposed to moderate",0.405715
+likert_scale,5,VERY HIGH,95,100,90,5,95,100,95,2,,the terms Marginal and Enhanced do not clearly convey the relative level of severity.  I think the terms Very Low to Very High are easily understandable and more clearly provides relative position of the warning in the scale.,0.659765
+spanish_scale,2,LOW,5,5,50,1,5,5,50,2,,more emphasis,0.831752
+spanish_scale,4,HIGH,85,95,85,3,80,95,90,NA,,,0.831752
+levels_scale,1,LEVEL 1 OF 5,60,80,65,4,70,90,75,1,It breaks down the various degrees of intensity.,,0.692982
+likert_scale,5,VERY HIGH,90,100,85,4,95,95,85,2,,Better description of conditions,0.682902
+likert_scale,3,MEDIUM,50,10,30,2,60,40,80,2,,better measure of risk,0.751324
+levels_scale,5,LEVEL 5 OF 5,100,50,0,4,50,50,0,1,Is easier to understand,,0.646461
+likert_scale,5,VERY HIGH,90,90,80,4,80,90,90,2,,Language used is more like ‘everyday’ language for most people,0.646461
+likert_scale,5,VERY HIGH,100,100,100,5,100,100,100,2,,It’s more clear and understanding and self explanatory,0.563084
+spanish_scale,3,MODERATE,20,20,50,4,20,20,50,2,,Language easier to understand,0.076817
+levels_scale,3,LEVEL 3 OF 5,50,90,80,1,75,90,90,2,,EASIER TO UNDERSTAND,0.519487
+levels_scale,3,LEVEL 3 OF 5,50,50,67,5,59,56,50,3,,,0.033417
+spanish_scale,4,HIGH,80,70,90,5,90,80,90,2,,better descriptions of risk,0.890871
+current_scale,4,MODERATE,35,50,65,3,80,80,70,NA,,,0.829344
+likert_scale,2,LOW,35,40,30,4,40,50,40,1,It is a scale that is dependable.,,0.624969
+likert_scale,2,LOW,0,0,100,3,0,0,100,1,na,,0.789127
+levels_scale,5,LEVEL 5 OF 5,100,100,100,5,100,100,100,1,I believe it causes individual to pay more attention and focus. I believe words have more impact visually than the numbers.,,0.762074
+spanish_scale,1,MINIMAL,20,0,80,2,25,20,80,2,,It explains better what to expect in terms of severity.,1.226281
+levels_scale,3,LEVEL 3 OF 5,60,75,75,5,70,70,80,2,,Experimental scale gives a comparative value rather than an abstract undefined word.,0.632025
+levels_scale,2,LEVEL 2 OF 5,6,7,7,4,80,75,80,1,It’s ok,,0.737672
+levels_scale,4,LEVEL 4 OF 5,50,70,80,5,90,80,70,1,Better,,0.751324
+levels_scale,2,LEVEL 2 OF 5,20,15,90,5,65,45,35,2,,,1.589262
+likert_scale,4,HIGH,50,75,85,4,60,75,80,2,,There are many people who don't know the meaning of some of the words in the current scale.,1.300656
+likert_scale,1,VERY LOW,20,30,10,1,2,2,0,2,,clesarer,0.836303
+spanish_scale,2,LOW,55,75,95,2,99,71,45,2,,None,2.80134
+levels_scale,5,LEVEL 5 OF 5,100,100,70,5,100,100,70,1,I think looking at the map gives a better idea of where these storms are expected.,,0.622387
+likert_scale,5,VERY HIGH,90,95,80,5,90,100,90,2,,the words are more clear and definitive,0.89507
+likert_scale,3,MEDIUM,85,100,75,5,50,100,85,2,,It treats the public like they have a brain. It thankfully enhances their intelligence.,1.226281
+levels_scale,3,LEVEL 3 OF 5,60,80,70,3,60,80,70,2,,"slight and moderate are very similar in meaning, as are enhanced and high. The scale doesn'nt make a lot of sense.",1.312386
+current_scale,2,SLIGHT,33,44,33,1,44,44,33,NA,,,0.090948
+current_scale,3,ENHANCED,80,80,70,4,100,100,100,NA,,,0.9471
+likert_scale,2,LOW,10,0,100,2,0,0,100,2,,"Very low, low, etc. are easier to understand than the  Current Scale wording.",0.524347
+levels_scale,5,LEVEL 5 OF 5,100,100,100,4,100,100,100,1,The different levels words explains better,,1.053077
+likert_scale,5,VERY HIGH,10,20,95,5,20,30,95,2,,Words are more in common use and understood naturally by a larger percentage of the population,0.649221
+levels_scale,1,LEVEL 1 OF 5,1,1,1,4,1,2,3,2,,the wind rates,0.285576
+current_scale,3,ENHANCED,40,30,70,1,50,40,30,NA,,,0.303372
+likert_scale,3,MEDIUM,50,50,45,3,60,67,59,1,very high,,0.820107
+spanish_scale,4,HIGH,0,0,0,5,0,0,0,1,no reason,,0.405715
+likert_scale,1,VERY LOW,10,15,30,3,10,20,40,2,,Cool,0.857964
+current_scale,2,SLIGHT,50,100,100,2,100,100,100,NA,,,0.552526
+current_scale,5,HIGH,100,100,100,4,100,100,100,NA,,,0.829344
+spanish_scale,1,MINIMAL,20,0,10,2,0,0,10,2,,because its actually better to understand,0.245087
+spanish_scale,1,MINIMAL,10,10,100,1,5,5,0,2,,It seems to be easier to understand,1.180128
+current_scale,4,MODERATE,20,20,80,2,75,75,80,NA,,,0.682902
+current_scale,2,SLIGHT,25,25,25,4,25,25,25,NA,,,1.180128
+current_scale,5,HIGH,65,45,55,4,99,95,92,NA,,,0.836303
+spanish_scale,2,LOW,10,5,5,2,50,50,10,1,definition;  13ABC Toledo gives complete definition each time; very helpful,,1.107928
+spanish_scale,1,MINIMAL,5,5,10,1,10,10,10,2,,"""""Extreme"""" is needed to show the different gradation of the intensity.",0.245087
+levels_scale,5,LEVEL 5 OF 5,50,50,50,5,100,100,50,1,Fewer words to consider,,0.682902
+levels_scale,4,LEVEL 4 OF 5,0,5,100,3,25,25,100,1,Familiar,,0.632025
+levels_scale,3,LEVEL 3 OF 5,70,50,80,3,79,40,80,2,,People generally dismiss risks with terms like marginal and slight.,1.318858
+spanish_scale,2,LOW,30,30,80,1,20,20,0,2,,Wording is more understanding then in other,0.789127
+spanish_scale,2,LOW,2,1,85,2,75,70,85,2,,it is all about the language  - seems easier to comprehend,0.786514
+spanish_scale,2,LOW,25,100,100,1,30,15,70,2,,explains it better,0.691314
+current_scale,5,HIGH,100,100,100,5,100,100,100,NA,,,0.632025
+current_scale,1,MARGINAL,0,25,100,2,0,10,100,NA,,,0.89507
+spanish_scale,3,MODERATE,25,25,75,2,50,50,80,2,,Much more succinct in description,0.824642
+current_scale,1,MARGINAL,25,25,75,2,10,10,75,NA,,,0.953837
+spanish_scale,4,HIGH,100,100,100,5,100,100,100,2,,The Experimental scale is more clarified than than the current scale.,0.762074
+spanish_scale,2,LOW,30,50,50,2,12,20,20,2,,"because the explanation is easier to understand, simple and to the point",0.638544
+current_scale,2,SLIGHT,10,50,40,1,10,25,30,NA,,,1.318858
+spanish_scale,1,MINIMAL,40,30,40,1,10,20,20,2,,relying on the words mentioned in the experimental scale is a more confident definition of assurance...,0.519487
+levels_scale,4,LEVEL 4 OF 5,20,30,50,2,90,70,70,1,Not sure I can completely,,0.789127
+spanish_scale,5,EXTREME,70,50,100,5,90,80,100,2,,just more use to the words used they make more sense,0.061578
+likert_scale,5,VERY HIGH,50,10,100,5,40,20,100,1,EXCEPT FOR THE WORDS USED IT IS THE SAME MEANING TO ME,,0.789127
+spanish_scale,2,LOW,10,10,50,2,5,5,75,2,,much more definitive,0.705403
+likert_scale,5,VERY HIGH,85,90,100,5,90,95,100,1,na,,1.140466
+levels_scale,5,LEVEL 5 OF 5,70,80,30,4,80,80,30,1,easier to understand for the day to day,,0.969418
+levels_scale,3,LEVEL 3 OF 5,75,75,75,2,70,70,70,1,like the best because it is simple to remember,,0.890871
+current_scale,2,SLIGHT,10,10,95,1,50,30,95,NA,,,0.519487
+likert_scale,4,HIGH,100,90,50,3,100,100,60,2,,"I think the experimental scale is more helpful than current scale because enhanced and moderate, and high is not clear as other.  I know right away very high means severe storms expected.",0.520614
+spanish_scale,4,HIGH,70,70,70,1,10,10,10,1,Moderate,,0.759027
+levels_scale,2,LEVEL 2 OF 5,80,100,90,5,100,100,90,1,"Actually both scales are equally understandable.
+Either scale would be understood.",,1.226281
+likert_scale,1,VERY LOW,100,100,100,1,20,20,20,2,,It give you more information,0.029856
+current_scale,2,SLIGHT,33,33,33,2,50,50,75,NA,,,0.829344
+likert_scale,5,VERY HIGH,77,89,90,5,80,85,80,3,,,0.829344
+levels_scale,3,LEVEL 3 OF 5,60,25,75,1,75,65,80,3,,,0.524347
+current_scale,3,ENHANCED,80,50,75,3,100,100,100,NA,,,0.646461
+likert_scale,3,MEDIUM,9,100,90,2,100,100,95,3,,,0.829344
+spanish_scale,4,HIGH,75,50,50,4,90,90,80,2,,The words are more relateable to me,0.646461
+levels_scale,5,LEVEL 5 OF 5,100,100,75,5,100,100,75,2,,With the experimental scale the color-coded map is much more helpful than the current scale where you have to read what the chart says.,1.226281
+likert_scale,5,VERY HIGH,60,10,90,4,60,10,90,3,,,0.659765
+current_scale,4,MODERATE,65,75,80,1,65,75,75,NA,,,1.017441
+levels_scale,2,LEVEL 2 OF 5,60,75,90,3,75,90,96,1,We don't get tornado here.  You should add fire & earthquakes,,2.156199
+levels_scale,2,LEVEL 2 OF 5,25,25,25,2,20,20,25,2,,When you have a visual map it tend to be more helpful than just words,0.89507
+spanish_scale,5,EXTREME,80,20,0,5,80,20,0,2,,I just think the words used convey the severity better,0.866828
+likert_scale,4,HIGH,40,60,80,4,80,90,90,2,,The left scale is partially ambiguous. It is not clear if Enhanced or Moderate indicate a more severe storm,0.786514
+likert_scale,5,VERY HIGH,90,90,80,4,90,99,88,1,Easy to understand,,0.659765
+likert_scale,4,HIGH,80,100,75,4,90,100,75,2,,"in this country now with some people speaking limited English, the more simple words are easier for them to understand",0.759027
+levels_scale,1,LEVEL 1 OF 5,25,25,50,4,25,25,50,1,It is something that I can understand more easily.,,0.691314
+likert_scale,4,HIGH,60,40,60,5,50,30,75,2,,Terms are what I am used to hearing from reporting agencies.,0.789127
+likert_scale,2,LOW,0,0,0,3,100,0,0,1,Easy to use,,1.053077
+levels_scale,2,LEVEL 2 OF 5,50,25,25,5,25,25,50,1,yes i think it very helpful,,0.338703
+likert_scale,5,VERY HIGH,80,90,90,4,95,100,100,2,,low and medium I understand better than marginal or slight,1.180128
+levels_scale,1,LEVEL 1 OF 5,10,0,0,2,0,0,0,3,,,0.524347
+current_scale,3,ENHANCED,35,10,50,1,70,50,75,NA,,,0.622387
+levels_scale,2,LEVEL 2 OF 5,20,20,30,1,50,40,30,1,It’s very hard for you and I can get a new car for tomorrow at dinner,,0.562444
+likert_scale,2,LOW,40,30,30,2,0,0,0,3,,,0.510972
+spanish_scale,4,HIGH,75,10,1,2,75,85,15,2,,its winds percent is update,0.285576
+spanish_scale,3,MODERATE,70,100,100,4,70,100,100,2,,Terms are more on point for me,0.405715
+spanish_scale,1,MINIMAL,0,0,30,1,0,0,0,2,,In either case need better statistical information on likelihood of severe weather affecting any individual location.  But the experimental scale emphasizes the threat more,0.524347
+current_scale,3,ENHANCED,50,50,50,4,50,50,50,NA,,,1.589262
+spanish_scale,1,MINIMAL,10,10,25,1,10,0,50,2,,Simple to understand,0.786514
+current_scale,4,MODERATE,60,60,85,3,85,85,90,NA,,,0.836303
+likert_scale,5,VERY HIGH,60,100,80,3,65,100,80,1,Because it's easier to understand,,5.585142
+current_scale,2,SLIGHT,15,15,15,1,15,15,15,NA,,,0.659765
+levels_scale,4,LEVEL 4 OF 5,80,90,75,5,85,95,90,1,No,,0.09676
+levels_scale,4,LEVEL 4 OF 5,100,90,90,3,100,100,100,2,,able to grasp severity,0.786514
+current_scale,4,MODERATE,40,25,25,1,75,75,50,NA,,,0.63345
+likert_scale,1,VERY LOW,0,0,75,1,0,0,75,2,,"It is clearer as to what it is saying, medium is a lot clearer than enhanced, high is a lot clearer than moderate.",0.552526
+spanish_scale,1,MINIMAL,25,15,50,2,20,20,75,1,I understand it well and it explains it just fine,,0.809053
+likert_scale,2,LOW,10,10,10,2,20,20,20,1,The current scale gives more assurance of the prediction than the experimental scale in my opinion.,,1.046515
+levels_scale,3,LEVEL 3 OF 5,80,60,60,4,60,50,50,2,,Because im confused really dont understand,0.241044
+current_scale,3,ENHANCED,30,45,65,1,20,30,60,NA,,,1.234296
+levels_scale,4,LEVEL 4 OF 5,80,30,80,5,80,50,80,1,Easier for the majority of people to understand.,,0.524347
+current_scale,3,ENHANCED,60,50,40,3,50,30,40,NA,,,1.050215
+current_scale,1,MARGINAL,100,100,100,1,20,100,100,NA,,,0.552526
+likert_scale,1,VERY LOW,10,2,50,1,30,30,70,1,Better describes the level,,1.053077
+current_scale,3,ENHANCED,75,75,75,2,60,60,60,NA,,,1.318858
+likert_scale,3,MEDIUM,60,70,80,1,70,30,40,2,,It can tell it expertIal only,0.367809
+levels_scale,3,LEVEL 3 OF 5,75,80,50,5,75,75,75,2,,just makes more sense to me,0.824642
+likert_scale,1,VERY LOW,0,0,0,2,0,0,0,2,,The wording is clearer,0.622387
+spanish_scale,4,HIGH,50,50,50,3,50,50,50,1,Trials,,0.00984
+levels_scale,1,LEVEL 1 OF 5,65,30,50,1,20,20,20,2,,I think of this like the Likert scale which I understand from teaching school.,0.519487
+spanish_scale,1,MINIMAL,10,15,100,1,10,15,10,1,Better explanation,,0.659765
+spanish_scale,1,MINIMAL,30,50,90,1,50,50,90,3,,,0.687537
+levels_scale,4,LEVEL 4 OF 5,95,100,95,3,3,2,100,1,More direct and understandable wording. Paints a better picture.,,0.682902
+spanish_scale,2,LOW,10,5,100,2,40,0,35,1,Because it gives detail about the Meanings,,0.1185
+current_scale,4,MODERATE,60,80,85,3,60,85,40,NA,,,0.659765
+levels_scale,1,LEVEL 1 OF 5,85,70,90,3,70,60,90,2,,The numbers are more comprehensible.,1.259344
+current_scale,3,ENHANCED,60,90,90,5,50,70,90,NA,,,0.866828
+levels_scale,5,LEVEL 5 OF 5,100,100,65,1,100,100,100,1,no i cannot,,0.638544
+current_scale,1,MARGINAL,25,25,50,1,10,5,50,NA,,,0.234892
+likert_scale,2,LOW,15,25,75,2,10,20,80,2,,the words explain themselves better for most people,0.752712
+levels_scale,5,LEVEL 5 OF 5,90,100,100,4,100,100,100,3,,,0.831752
+likert_scale,3,MEDIUM,70,60,50,2,60,70,50,2,,Easier to interpret,1.053077
+levels_scale,3,LEVEL 3 OF 5,75,50,50,5,50,50,50,2,,It is broken down in sections and just makes more sense to me,0.646461
+current_scale,3,ENHANCED,30,30,50,3,30,30,50,NA,,,0.809053
+spanish_scale,4,HIGH,100,100,100,4,100,100,100,1,Easier to understand and used to using it,,0.836303
+likert_scale,4,HIGH,50,100,100,4,100,100,100,1,I think this scale is better because I can understand it.,,0.087125
+likert_scale,2,LOW,15,25,40,1,15,25,40,3,,,0.16654
+levels_scale,5,LEVEL 5 OF 5,70,80,70,5,100,100,100,1,no,,0.718998
+levels_scale,1,LEVEL 1 OF 5,10,10,50,2,10,10,50,2,,"The words are open to interpretation or can be misunderstood, the numbers are more easily understood",0.524347
+levels_scale,4,LEVEL 4 OF 5,30,35,35,2,30,35,30,2,,It’s quite amazing and awesome and more expansiate,0.338703
+levels_scale,5,LEVEL 5 OF 5,100,100,100,5,85,100,90,1,Experimental seems like it ain’t as accurate as current,,0.082
+likert_scale,4,HIGH,50,50,50,3,50,50,50,1,Because it’s good interesting and great,,0.18573
+spanish_scale,2,LOW,65,45,55,3,65,35,45,2,,Vertigo was good morning baby baby I’m just feeling better I hope you’re having good baby baby love ya,0.245087
+current_scale,4,MODERATE,85,60,75,3,70,85,80,NA,,,1.66665
+likert_scale,3,MEDIUM,75,100,75,3,50,50,25,2,,Easier to interpret at a glance,0.632158
+current_scale,1,MARGINAL,80,70,70,5,89,67,89,NA,,,0.659765
+spanish_scale,2,LOW,40,60,30,1,0,0,0,2,,It tells if it’s low or not,0.514912
+levels_scale,4,LEVEL 4 OF 5,80,80,80,5,80,80,80,1,The colors make it easier to understand.,,1.318858
+spanish_scale,4,HIGH,50,30,30,1,30,30,28,NA,,,0.405751
+levels_scale,3,LEVEL 3 OF 5,50,60,100,5,60,50,100,3,,,0.725187
+levels_scale,3,LEVEL 3 OF 5,70,100,90,5,80,100,90,2,,"I wasn't certain about the seriousness between """"enhanced"""" and """"moderate"""".",1.324152
+likert_scale,3,MEDIUM,50,30,60,1,30,60,80,1,50,,0.737672
+spanish_scale,1,MINIMAL,30,10,100,3,65,25,100,2,,the wording is easier!,1.449467
+spanish_scale,5,EXTREME,70,90,100,2,70,80,100,2,,It is more helpful because it is better to experiment the situation well before bringing the news out,0.559086
+current_scale,1,MARGINAL,30,50,75,2,50,50,85,NA,,,3.43758
+levels_scale,5,LEVEL 5 OF 5,30,20,60,5,30,30,30,1,Current scale is basically the system everyone typically uses,,0.002177
+spanish_scale,5,EXTREME,100,100,100,3,50,50,50,3,,,1.440012
+current_scale,1,MARGINAL,99,100,99,2,98,99,100,NA,,,0.959218
+spanish_scale,3,MODERATE,10,0,75,1,20,0,70,2,,More in detail.,1.312386
+current_scale,5,HIGH,90,80,50,3,100,100,100,NA,,,0.723948
+likert_scale,1,VERY LOW,50,50,50,5,50,50,50,1,yes,,0.01271
+spanish_scale,5,EXTREME,100,100,100,5,100,100,100,2,,Mo,0.066621
+spanish_scale,4,HIGH,0,0,0,2,89,100,100,2,,Easier to read,0.019231
+current_scale,1,MARGINAL,100,100,100,1,30,15,70,NA,,,1.248574
+levels_scale,4,LEVEL 4 OF 5,70,65,87,2,66,70,59,2,,it just is because it is better.,0.695565
+spanish_scale,3,MODERATE,8,7,8,5,70,50,60,2,,It’s easier to understand in my opinion,0.447322
+current_scale,3,ENHANCED,50,20,50,1,35,10,100,NA,,,0.563084
+likert_scale,4,HIGH,25,25,50,3,50,50,50,3,,,1.027323
+current_scale,2,SLIGHT,0,0,0,1,10,0,90,NA,,,1.397115
+spanish_scale,4,HIGH,0,0,0,2,0,0,0,1,The current scale is definite,,1.563552
+likert_scale,4,HIGH,75,80,80,4,90,100,90,2,,I think the experiment to scale well be more helpful because it's a layman's terms.,0.237474
+levels_scale,1,LEVEL 1 OF 5,5,80,100,5,30,40,100,1,is more easy to understand,,0.649221
+levels_scale,3,LEVEL 3 OF 5,8,8,8,5,8,8,8,1,it’s goid,,0.40764
+levels_scale,1,LEVEL 1 OF 5,20,10,40,1,10,5,50,1,The words are clearer than just the numbers,,0.71053
+likert_scale,3,MEDIUM,50,10,20,2,60,10,30,2,,It is brief and to the point of how strong the storm will be,1.053077
+spanish_scale,2,LOW,0,80,100,NA,0,80,80,3,,,0.7027
+levels_scale,4,LEVEL 4 OF 5,60,89,67,3,2,33,6,1,,,0.066621
+current_scale,4,MODERATE,60,70,100,2,70,90,100,NA,,,0.058512
+likert_scale,2,LOW,50,60,50,4,50,50,50,2,,Slight,0.659532
+likert_scale,4,HIGH,85,70,67,5,80,85,75,2,,Words are more well known and seem in better place,0.027572
+spanish_scale,3,MODERATE,40,50,44,2,30,20,50,2,,I just feel the words they use on the experimental scale explains it better.,5.585142
+current_scale,3,ENHANCED,40,50,70,5,100,100,80,NA,,,0.038923
+current_scale,3,ENHANCED,7,50,45,2,75,50,50,NA,,,0.255486
+levels_scale,4,LEVEL 4 OF 5,75,100,100,4,50,50,100,2,,It allows more room and options,0.735407
+levels_scale,5,LEVEL 5 OF 5,58,46,5,5,47,46,57,2,,easier,0.692982
+spanish_scale,3,MODERATE,55,75,55,4,23,45,34,2,,Cause it's more specific on the risk,1.116703
+likert_scale,3,MEDIUM,60,70,50,5,60,70,60,1,The overall quality and service,,0.234892
+spanish_scale,5,EXTREME,100,80,90,1,100,60,90,2,,Because experimental scale shows all proof about the weather forecast,0.234892
+spanish_scale,5,EXTREME,45,15,25,3,6,32,85,1,Current scale,,0.563084
+current_scale,4,MODERATE,75,75,75,5,0,0,0,NA,,,0.524347
+likert_scale,4,HIGH,0,0,0,3,0,0,0,1,No,,0.830457
+levels_scale,4,LEVEL 4 OF 5,90,80,100,4,70,70,80,1,It is more meaningful,,1.095888
+current_scale,1,MARGINAL,23,69,90,3,54,90,21,NA,,,0.821349
+current_scale,4,MODERATE,60,50,80,1,30,50,90,NA,,,1.015308
+levels_scale,5,LEVEL 5 OF 5,4,1,8,2,4,2,1,2,,I do not have an answer to the following question.,0.386573
+likert_scale,3,MEDIUM,60,70,50,NA,50,60,60,2,,good,0.254883
+levels_scale,1,LEVEL 1 OF 5,45,32,50,5,45,32,50,2,,Because I can understand it better,0.087125
+levels_scale,4,LEVEL 4 OF 5,90,100,90,5,95,100,95,3,,,0.659765
+likert_scale,3,MEDIUM,30,30,40,5,30,30,40,2,,it gives a better picture,0.303372
+current_scale,5,HIGH,100,100,100,3,100,100,100,NA,,,0.746508
+spanish_scale,5,EXTREME,1,3,10,3,9,7,28,2,,Don't know,0.40764
+levels_scale,3,LEVEL 3 OF 5,0,0,0,2,0,0,0,3,,,0.122924
+spanish_scale,2,LOW,10,10,90,2,20,20,80,2,,"I  think """"high"""" is a better definition than """"moderate"""" for the 4th line.  I also think the other definitions are clearer in describing each level of severity.",0.405715
+likert_scale,1,VERY LOW,65,35,45,5,65,55,45,1,Very well now you have a lot of people in the world to see you live on the beach with you no matter how,,0.245087
+likert_scale,3,MEDIUM,65,65,65,3,65,66,65,2,,It explains the weather conditions more plainly.,1.509825
+spanish_scale,3,MODERATE,70,45,60,3,80,70,65,1,To watch the weather closely,,1.194862
+spanish_scale,1,MINIMAL,30,20,20,1,10,10,10,2,,Puts in more plain English and easier to understand,1.449467
+levels_scale,2,LEVEL 2 OF 5,20,10,40,1,45,30,50,3,,,0.780491
+levels_scale,1,LEVEL 1 OF 5,50,20,30,1,60,40,20,1,Because current scale is in the moment,,1.004705
+likert_scale,1,VERY LOW,10,10,10,2,10,10,10,3,,,0.632221
+levels_scale,3,LEVEL 3 OF 5,34,67,98,NA,45,65,56,2,,Numbers,0.520334
+likert_scale,2,LOW,70,60,80,3,50,50,50,1,Easy to understand,,0.43173
+likert_scale,2,LOW,6,57,46,2,64,56,56,2,,Not sure,1.606616
+likert_scale,3,MEDIUM,56,23,23,4,23,34,34,3,,,0.723948
+levels_scale,5,LEVEL 5 OF 5,65,99,99,3,100,100,100,2,,The vidual in the experimental scale is faster to understand,1.027323
+spanish_scale,3,MODERATE,15,15,60,2,15,15,60,2,,it is more helpful because it explains what those risks mean and I can act accordingly.,0.725187
+current_scale,4,MODERATE,40,50,80,2,80,90,80,NA,,,0.892305
+levels_scale,5,LEVEL 5 OF 5,100,100,100,3,35,35,30,2,,Iit looks easy,1.557564
+likert_scale,3,MEDIUM,30,30,30,3,20,20,20,3,,,1.563552
+likert_scale,4,HIGH,13,54,69,3,54,23,98,2,,it is,0.405751
+spanish_scale,3,MODERATE,0,0,0,2,0,0,0,1,High sensitivity,,1.563552
+likert_scale,1,VERY LOW,30,30,40,4,30,40,30,2,,Very good,0.245087
+levels_scale,4,LEVEL 4 OF 5,90,90,20,3,90,90,20,2,,the levels are less vague,0.40764
+likert_scale,5,VERY HIGH,100,100,100,4,100,100,100,2,,It’s cool,0.562444
+spanish_scale,4,HIGH,60,70,80,5,40,50,50,2,,Because you will get to understand everything experimentally and lively,0.969418
+likert_scale,1,VERY LOW,10,10,80,1,10,10,80,2,,less vague verbiage,0.40764
+levels_scale,1,LEVEL 1 OF 5,25,25,25,1,10,10,10,1,it gives more details,,1.248574
+current_scale,4,MODERATE,50,40,100,2,75,75,75,NA,,,0.762074
+spanish_scale,5,EXTREME,60,50,40,3,50,60,50,2,,Okay but I don’t want to do the next thing I can,0.562444
+likert_scale,1,VERY LOW,40,70,50,2,30,30,20,1,The scale is better understandable to read,,0.692982
+likert_scale,3,MEDIUM,70,60,50,5,50,60,70,2,,I am not sure,1.341654
+current_scale,4,MODERATE,100,100,100,3,100,100,100,NA,,,0.245087
+levels_scale,4,LEVEL 4 OF 5,10,20,80,4,3,2,8,1,Easy to understand,,0.746508
+current_scale,4,MODERATE,35,40,80,1,60,80,50,NA,,,0.245087
+likert_scale,3,MEDIUM,90,85,100,4,100,90,85,1,It's traditional,,0.510972
+likert_scale,3,MEDIUM,25,25,100,5,50,50,100,1,better for me to understand,,1.189076
+levels_scale,4,LEVEL 4 OF 5,50,69,70,2,50,60,70,1,Unsure,,1.746927
+likert_scale,4,HIGH,99,99,99,5,99,99,99,1,Not sure,,0.46187
+likert_scale,5,VERY HIGH,80,90,60,3,80,90,60,2,,"While marginal and high are very intuitive, slight sounds almost the same as marginal, and enhanced sounds possibly more intense than moderate, so I would have to reference this scale almost to even make sense of it. The experimental scale is much simpler and more accessibly to laymen.",0.562444
+levels_scale,2,LEVEL 2 OF 5,75,85,87,3,70,72,73,1,More explicit information for everyone,,0.665293
+likert_scale,1,VERY LOW,80,90,80,2,90,90,80,1,Current scale is very good in the explanation and simplicity,,1.984426
+levels_scale,5,LEVEL 5 OF 5,100,100,100,1,100,100,100,1,More clear,,0.6531
+levels_scale,3,LEVEL 3 OF 5,20,20,20,3,20,20,20,1,Goodness Okay,,0.245087
+current_scale,1,MARGINAL,40,50,20,4,20,10,10,NA,,,1.015308
+spanish_scale,4,HIGH,70,40,20,3,20,40,10,2,,i think i might ya but not yet sure yet but im still,0.386573
+likert_scale,2,LOW,99,90,100,1,40,80,90,1,Because it will reduce the damage,,0.245087
+current_scale,5,HIGH,100,100,80,5,100,100,100,NA,,,0.386573
+spanish_scale,3,MODERATE,6,8,9,3,5,8,2,2,,You can understand it better,2.938326
+current_scale,5,HIGH,60,70,55,2,70,60,40,NA,,,0.76178
+likert_scale,1,VERY LOW,100,100,100,1,0,0,0,1,Cause it says raun,,0.969418
+levels_scale,5,LEVEL 5 OF 5,90,90,90,4,90,90,90,1,It is more definitive of what is happening,,0.070930000000000007
+likert_scale,2,LOW,59,30,25,3,25,10,70,1,Esay to say,,0.970652
+spanish_scale,1,MINIMAL,30,20,80,1,20,20,80,1,It is what I have been used to for many years.,,2.422068
+levels_scale,2,LEVEL 2 OF 5,45,35,30,5,75,55,40,3,,,0.245087
+likert_scale,5,VERY HIGH,76,75,90,5,50,75,50,1,The current scale explains exactly what the high and lows mean,,0.959218
+spanish_scale,4,HIGH,0,0,0,2,0,0,0,3,,,0.892305
+likert_scale,4,HIGH,90,50,100,4,50,25,100,1,It is short a to the point,,1.116703
+likert_scale,1,VERY LOW,100,100,50,2,0,10,80,2,,Easier vocabulary to understand. If I read marginal I’ll think I’m going to die,0.84817
+current_scale,1,MARGINAL,100,100,100,5,100,100,100,NA,,,0.559086
+current_scale,5,HIGH,50,60,60,5,50,60,80,NA,,,0.562444
+spanish_scale,3,MODERATE,30,10,80,2,30,20,90,2,,Because it’s short and to the point,0.234892
+spanish_scale,5,EXTREME,65,60,60,4,70,85,70,2,,It uses relatable words,0.766085
+levels_scale,2,LEVEL 2 OF 5,60,50,100,5,40,80,90,2,,none,0.970652
+spanish_scale,3,MODERATE,50,75,100,1,60,75,100,1,its my understanding,,1.157043
+likert_scale,2,LOW,40,50,50,2,60,40,50,2,,It’s easier to understand by definition,0.632158
+spanish_scale,2,LOW,50,50,50,5,43,40,48,2,,No,0.391617
+spanish_scale,3,MODERATE,60,80,90,5,80,95,75,2,,Because the words are easier to understand.,1.466319
+likert_scale,3,MEDIUM,30,49,90,2,50,50,50,2,,understand it better,0.692982
+levels_scale,5,LEVEL 5 OF 5,50,0,50,2,50,50,0,2,,Good and interesting and wonderful,1.781655
+spanish_scale,5,EXTREME,99,99,89,2,99,90,89,2,,The experimental scale is allowing one to dive into the info of the case scenario,0.890082
+likert_scale,5,VERY HIGH,30,30,50,4,25,20,80,3,,,3.79127
+current_scale,5,HIGH,80,90,100,5,100,100,100,NA,,,0.959218
+current_scale,5,HIGH,50,60,70,4,70,60,70,NA,,,0.234892
+levels_scale,4,LEVEL 4 OF 5,25,25,35,5,35,35,45,2,,It has words for people that are not visual learners,0.386573
+spanish_scale,3,MODERATE,60,50,40,5,60,70,50,2,,Thou if ur hungry I can go back and eat my food and,0.245087
+levels_scale,5,LEVEL 5 OF 5,100,100,100,4,100,100,100,1,The marginal to High level warnings. The levels are so military.,,0.659765
+current_scale,2,SLIGHT,60,70,80,1,50,60,90,NA,,,0.234892
+current_scale,1,MARGINAL,80,70,85,2,80,75,90,NA,,,0.859934
+spanish_scale,5,EXTREME,100,100,100,5,100,100,100,2,,"It explains it in better terms
+",2.04303
+spanish_scale,1,MINIMAL,5,7,5,3,2,3,2,2,,high,0.116706
+current_scale,4,MODERATE,78,60,70,2,80,60,50,NA,,,0.84817
+spanish_scale,3,MODERATE,60,40,100,4,40,60,60,1,it is explained more in detail,,0.821349
+spanish_scale,4,HIGH,40,20,50,3,80,90,90,3,,,0.367809
+spanish_scale,2,LOW,0,100,0,NA,1,0,0,2,,0,0.687537
+likert_scale,2,LOW,20,60,90,4,10,40,70,1,This is how the weather is right now,,1.562464
+levels_scale,5,LEVEL 5 OF 5,70,20,25,5,80,10,40,3,,,0.367809
+likert_scale,2,LOW,20,20,50,5,10,50,50,2,,none,0.665293
+levels_scale,5,LEVEL 5 OF 5,70,65,80,1,80,75,80,1,It’s help me to no more,,0.234892
+current_scale,1,MARGINAL,60,50,100,1,80,50,100,NA,,,1.449467
+levels_scale,2,LEVEL 2 OF 5,0,0,0,2,0,0,0,3,,,1.153716
+current_scale,4,MODERATE,70,80,90,5,75,86,90,NA,,,0.632158
+likert_scale,2,LOW,100,100,100,1,50,50,50,2,,Everything good,0.809053
+current_scale,1,MARGINAL,50,50,75,2,50,50,75,NA,,,0.405715
+current_scale,1,MARGINAL,0,50,100,2,0,0,100,NA,,,1.208131
+spanish_scale,4,HIGH,100,90,90,5,70,70,69,2,,The descripted words are easier to understand.,0.453272
+spanish_scale,3,MODERATE,50,33,75,1,75,75,80,2,,The terms seem to categorize the results more accurately,1.318858
+levels_scale,1,LEVEL 1 OF 5,6,5,7,4,59,34,60,2,,Explain mire,0.285576
+levels_scale,5,LEVEL 5 OF 5,100,90,100,5,100,100,100,1,It's what I'm used to,,0.795662
+spanish_scale,5,EXTREME,100,100,100,5,100,100,100,1,Because its easier to understand,,2.08157
+levels_scale,4,LEVEL 4 OF 5,50,50,60,3,70,80,80,1,the words that are written are very clear compare to the numbers written.,,2.738772
+spanish_scale,3,MODERATE,80,50,50,2,50,50,80,2,,To warn the people so they can get to safety or I have time to evacuate the city,0.921578
+spanish_scale,1,MINIMAL,25,35,85,3,20,30,90,2,,Marginal and slight sound very similar.,1.004705
+spanish_scale,1,MINIMAL,0,0,0,3,0,0,0,3,,,1.047413
+spanish_scale,3,MODERATE,80,70,70,5,80,80,70,2,,Because it is good,0.687537
+levels_scale,3,LEVEL 3 OF 5,33,33,77,3,50,50,88,2,,more precise,0.659765
+spanish_scale,1,MINIMAL,1,2,3,3,3,4,5,3,,,0.89339
+spanish_scale,3,MODERATE,25,10,85,1,25,10,90,2,,"It moderates the message slight becomes low, it eases the blow.  I also just noted that high becomes severe so I guess that must be taken seriously.",1.123332
+levels_scale,1,LEVEL 1 OF 5,50,60,100,2,45,48,60,2,,Because it explains how severe the weather risks are.,0.725187
+levels_scale,5,LEVEL 5 OF 5,100,100,100,5,100,100,100,1,I like the current scale better than the experimental scale because the information is quicker to understand.,,0.296943
+spanish_scale,3,MODERATE,50,50,50,3,50,50,50,3,,,0.659765
+current_scale,3,ENHANCED,70,80,50,4,90,100,100,NA,,,0.886972
+likert_scale,5,VERY HIGH,100,100,100,1,100,100,100,1,No,,0.510972
+levels_scale,2,LEVEL 2 OF 5,30,30,70,2,30,30,60,2,,It’s more informative knowing the different levels,0.129108
+spanish_scale,1,MINIMAL,40,50,100,1,20,40,100,1,Can't take it for granted,,1.231845
+likert_scale,4,HIGH,50,50,75,3,50,50,75,2,,I really don’t know what,0.296943
+current_scale,3,ENHANCED,100,100,100,5,50,50,75,NA,,,0.296943
+levels_scale,3,LEVEL 3 OF 5,80,80,80,5,90,90,90,2,,Prediction outlook,0.89339
+levels_scale,5,LEVEL 5 OF 5,100,100,100,3,100,100,100,1,more explicit,,1.590318
+likert_scale,2,LOW,40,50,90,3,80,90,80,1,Accurate,,0.09635
+likert_scale,4,HIGH,50,100,100,5,100,100,100,2,,Because it's in simple terms,0.510972
+spanish_scale,5,EXTREME,50,50,50,4,100,100,100,2,,Because I understand the experimental scale much more better.,0.658896
+levels_scale,4,LEVEL 4 OF 5,85,95,80,5,87,90,69,2,,Puts a quantitative aspect to it,2.08157
+likert_scale,4,HIGH,50,50,50,5,75,75,100,2,,Better to understand,0.649221
+current_scale,2,SLIGHT,30,30,40,2,30,30,40,NA,,,0.89339
+levels_scale,3,LEVEL 3 OF 5,90,80,100,3,90,80,70,1,Because he give  the level of notice,,0.530008
+current_scale,5,HIGH,100,100,100,5,100,100,100,NA,,,1.620843
+likert_scale,2,LOW,0,0,0,2,0,0,0,1,Because current scale is more depth on the what is really coming,,0.559086
+current_scale,2,SLIGHT,10,10,9,5,3,3,7,NA,,,1.253952
+current_scale,1,MARGINAL,15,25,90,2,55,80,60,NA,,,0.632221
+likert_scale,1,VERY LOW,60,70,70,2,40,40,30,2,,Is Relative a experience,0.632158
+current_scale,2,SLIGHT,10,5,80,1,10,5,80,NA,,,0.795662
+spanish_scale,2,LOW,25,75,75,2,25,25,25,2,,The wording of it is more understandable,2.43909
+levels_scale,2,LEVEL 2 OF 5,40,20,20,1,30,20,20,2,,The color conveys the danger more clearly,0.524347
+likert_scale,1,VERY LOW,20,30,40,2,20,40,30,1,The first time you have,,0.453272
+current_scale,5,HIGH,75,75,75,5,80,80,80,NA,,,0.632158
+likert_scale,4,HIGH,0,0,0,2,0,0,0,2,,N/A,0.386573
+likert_scale,2,LOW,80,90,75,2,90,90,90,2,,Bien,0.665293
+current_scale,2,SLIGHT,90,90,90,1,70,70,70,NA,,,1.781655
+current_scale,3,ENHANCED,0,0,0,4,0,0,0,NA,,,1.589262
+likert_scale,2,LOW,50,40,100,2,20,40,50,2,,Yes,0.285576
+spanish_scale,3,MODERATE,100,100,100,4,50,50,50,1,The current scale is easier to understand than the experimental scale.,,0.296943
+spanish_scale,5,EXTREME,90,100,100,5,100,100,100,1,Current scale is more reliable in those situations,,1.18974
+levels_scale,2,LEVEL 2 OF 5,30,70,100,2,25,70,100,2,,Being shown numbers that are relative to an overall scale is more effective than descriptive words that may mean different things to different people.,1.450914
+spanish_scale,1,MINIMAL,25,25,50,1,5,5,5,2,,It gives a better description.,1.169671
+current_scale,1,MARGINAL,60,99,100,2,30,40,30,NA,,,1.466319
+current_scale,5,HIGH,50,50,50,5,80,80,80,NA,,,0.453272
+spanish_scale,5,EXTREME,80,85,90,4,100,100,90,2,,I feel like the risks are labeled better. It's less confusing.,1.66173
+spanish_scale,1,MINIMAL,75,100,82,4,50,68,83,3,,,1.047413
+levels_scale,4,LEVEL 4 OF 5,60,40,20,2,80,60,40,3,,,1.627716
+spanish_scale,5,EXTREME,90,80,60,5,80,80,60,2,,verbiage is understandable,1.140466
+current_scale,5,HIGH,70,100,80,4,100,100,100,NA,,,0.632158
+spanish_scale,4,HIGH,45,50,65,4,45,45,45,2,,No I cannot,1.746927
+spanish_scale,3,MODERATE,50,50,60,3,40,40,40,2,,Because it's wat I understand,2.66459
+spanish_scale,4,HIGH,75,60,70,4,30,50,45,3,,,1.183702
+levels_scale,5,LEVEL 5 OF 5,100,100,70,5,100,100,80,2,,It would be easier for people to understand the scale of numbers instead of the words.,0.725187
+likert_scale,2,LOW,20,0,100,2,20,0,100,2,,Terminology much simpler and easier to comprehend,2.55249
+likert_scale,3,MEDIUM,0,0,0,2,0,0,0,1,,,0.632158
+likert_scale,4,HIGH,100,100,100,5,100,100,100,2,,"I like that it's very streamlined and simple to read. """"Enhanced"""", """"Slight"""" and """"Marginal"""" actually require me to think about the meaning of the words but the experimental scale is nice and easy, I can immediately interpret it.",1.189076
+current_scale,2,SLIGHT,50,50,50,3,50,50,50,NA,,,0.490032
+likert_scale,1,VERY LOW,30,60,70,1,10,90,98,1,,,1.509825
+spanish_scale,3,MODERATE,3,2,4,4,3,3,3,3,,,2.95241
+levels_scale,4,LEVEL 4 OF 5,100,90,98,3,100,98,98,1,The words work better than numbers,,0.766085
+levels_scale,1,LEVEL 1 OF 5,50,50,80,2,30,60,90,1,It explains the severity of each storm and what it will do,,0.296943
+current_scale,4,MODERATE,20,25,35,1,50,40,55,NA,,,1.054912
+current_scale,2,SLIGHT,75,75,75,2,75,75,75,NA,,,0.245087
+spanish_scale,5,EXTREME,50,40,45,3,100,95,25,2,,I choose this answer only because it had simple logic behind its theory to become relevant in the situation,0.780491
+likert_scale,4,HIGH,100,100,100,4,100,100,100,1,It is high,,0.562444
+levels_scale,4,LEVEL 4 OF 5,25,50,25,5,25,50,25,1,The words have a terminology definition,,0.747799
+levels_scale,1,LEVEL 1 OF 5,2,10,8,1,5,10,6,3,,,0.56602
+likert_scale,2,LOW,100,100,100,3,100,10,10,1,The,,0.054425
+likert_scale,3,MEDIUM,50,50,100,1,50,50,100,3,,,0.7027
+current_scale,3,ENHANCED,50,45,35,2,50,50,50,NA,,,0.632221
+likert_scale,4,HIGH,100,100,100,4,100,100,100,1,Better descriptions,,1.047413
+likert_scale,3,MEDIUM,60,100,80,3,60,100,60,2,,,1.86181
+spanish_scale,2,LOW,0,100,100,2,0,25,70,2,,It's more easy to understand,2.04303
+levels_scale,4,LEVEL 4 OF 5,100,98,100,5,50,50,50,3,,,1.620843
+spanish_scale,3,MODERATE,75,75,75,2,60,60,60,1,"yes i can explain 
+this experimental scale is very helpful",,0.338703
+current_scale,3,ENHANCED,30,60,70,1,25,60,30,NA,,,0.490032
+current_scale,4,MODERATE,35,35,30,3,20,30,50,NA,,,1.557564
+spanish_scale,4,HIGH,80,100,100,4,100,100,100,2,,It is helpful,0.562444
+likert_scale,1,VERY LOW,0,0,100,2,0,0,100,1,Easily understood,,0.762074
+spanish_scale,5,EXTREME,25,46,28,1,67,25,57,1,It’s better,,0.970652
+levels_scale,1,LEVEL 1 OF 5,87,20,89,3,10,10,8,1,Idk,,0.386573
+levels_scale,1,LEVEL 1 OF 5,1,2,0,2,0,0,0,1,Really not sure maybe because it states the definition,,0.766085
+spanish_scale,5,EXTREME,65,50,55,1,36,60,42,1,The only thing I can think of that would make sense for me would you want me too come in,,0.245087
+current_scale,2,SLIGHT,50,40,40,4,40,30,40,NA,,,0.245087
+current_scale,3,ENHANCED,70,65,20,5,65,55,45,NA,,,1.231845
+spanish_scale,5,EXTREME,100,50,80,3,100,50,50,1,The one you sent to the store is now on the phone and you,,0.245087
+current_scale,2,SLIGHT,0,0,0,2,50,50,50,NA,,,1.563552
+likert_scale,1,VERY LOW,75,60,55,3,80,75,55,2,,Hey I got you the money for me for the deposit and the money,0.245087
+levels_scale,1,LEVEL 1 OF 5,35,20,30,3,70,65,40,2,,Good night buddy hope you’re good buddy babe hope you’re good buddy,0.245087
+spanish_scale,1,MINIMAL,20,10,80,5,20,10,80,1,That looks more appropriate And closer to current situation,,0.61254
+likert_scale,3,MEDIUM,60,80,100,2,70,80,80,2,,I prefer a chart that clearly shows the meaning of each current scale.,0.08282
+likert_scale,4,HIGH,100,100,70,4,80,100,75,2,,More explanation to the level of the weather,0.969418
+levels_scale,2,LEVEL 2 OF 5,40,40,20,5,30,40,30,2,,Experimental scale is more useful at the first stage,0.245087
+likert_scale,1,VERY LOW,100,100,100,2,80,80,80,2,,"Sure. The experimental scale is more helpful than the current scale because it provides more granularity and accuracy. The current scale only has 5 levels, which means that there is a lot of overlap between the levels. This makes it difficult to distinguish between small changes in the data. The experimental scale, on the other hand, has 10 levels, which provides more detail and precision. This makes it easier to track changes in the data and to identify outliers.",0.245087
+levels_scale,2,LEVEL 2 OF 5,100,0,0,4,100,0,0,1,Because the words help me better to understand it,,0.56602
+likert_scale,1,VERY LOW,5,1,100,2,5,5,100,2,,"It would help those that are not as """"bright"""" to understand how dangerous the watch/warning is.",0.659765
+current_scale,4,MODERATE,75,100,50,3,80,100,100,NA,,,0.301515
+current_scale,5,HIGH,15,15,15,5,100,100,100,NA,,,1.153716
+current_scale,4,MODERATE,60,75,60,5,60,60,60,NA,,,0.234892
+likert_scale,2,LOW,55,60,65,2,50,55,60,1,been using for years,,1.053077
+current_scale,4,MODERATE,30,50,35,3,40,33,46,NA,,,0.245087
+likert_scale,1,VERY LOW,10,0,0,2,10,0,10,3,,,0.795662
+current_scale,2,SLIGHT,100,90,100,2,50,60,60,NA,,,0.234892
+levels_scale,4,LEVEL 4 OF 5,80,90,90,4,90,90,90,2,,It shows that the level of sever weather is very likely for my area,0.795662
+levels_scale,4,LEVEL 4 OF 5,90,75,20,4,90,75,20,1,Gives better definition of conditions.,,0.795662
+spanish_scale,2,LOW,75,0,100,3,100,0,100,1,it defines the potetial risk better,,1.140466
+likert_scale,2,LOW,50,50,50,1,50,50,50,1,Just looks like it,,0.632158
+levels_scale,4,LEVEL 4 OF 5,75,85,75,3,60,60,65,1,The current scale is easier for me to understand.,,0.659765
+current_scale,4,MODERATE,40,20,70,3,50,40,70,NA,,,0.795662
+spanish_scale,4,HIGH,75,90,90,5,80,95,90,2,,I find 'minimal' and 'moderate' to be clearer than 'marginal' and 'enhanced'.,1.140466
+levels_scale,4,LEVEL 4 OF 5,60,80,75,4,80,100,80,1,"they're about the same, tbh",,1.342368
+current_scale,3,ENHANCED,60,80,70,5,70,75,70,NA,,,0.524347
+current_scale,3,ENHANCED,70,90,90,4,70,90,90,NA,,,0.722613
+levels_scale,4,LEVEL 4 OF 5,100,100,100,4,100,100,100,2,,easy to understand,0.7314
+current_scale,1,MARGINAL,20,20,50,1,5,0,50,NA,,,0.830457
+current_scale,2,SLIGHT,10,40,50,1,40,30,30,NA,,,0.969418
+levels_scale,2,LEVEL 2 OF 5,99,99,99,3,99,99,99,1,They have the one in my car and I have a car,,0.859934
+current_scale,2,SLIGHT,30,70,80,1,67,67,89,NA,,,0.245087
+levels_scale,5,LEVEL 5 OF 5,75,90,0,4,80,25,0,1,it is easy for me to  understand,,0.524347
+spanish_scale,4,HIGH,80,10,10,1,40,50,10,1,Because that’s how I feel,,0.970041
+likert_scale,5,VERY HIGH,80,60,60,5,70,60,30,2,,easier to understand,1.557882
+current_scale,5,HIGH,0,50,100,4,0,50,100,NA,,,1.05702
+spanish_scale,3,MODERATE,80,70,30,4,80,60,70,2,,It is straightforward,0.715029
+current_scale,4,MODERATE,76,45,78,3,100,40,21,NA,,,1.189076
+likert_scale,3,MEDIUM,0,0,0,1,0,0,0,2,,Easier to understand for many just like a big lake wave color flags,1.449467
+spanish_scale,5,EXTREME,80,80,90,5,100,100,90,2,,it uses terms that are more easily understood,0.795662
+likert_scale,3,MEDIUM,30,30,40,3,30,40,30,2,,Experience in experimental scale is so important,0.245087
+levels_scale,1,LEVEL 1 OF 5,40,30,30,5,30,50,20,1,Very nice,,1.3462
+spanish_scale,3,MODERATE,80,100,70,1,80,100,70,2,,It tends to be easy to understand,0.245087
+current_scale,5,HIGH,40,60,40,3,40,30,50,NA,,,0.245087
+likert_scale,3,MEDIUM,75,75,80,5,70,70,60,1,na,,0.809053
+current_scale,3,ENHANCED,100,100,50,5,50,80,80,NA,,,0.649221
+current_scale,1,MARGINAL,30,20,75,3,5,0,85,NA,,,0.54899
+levels_scale,3,LEVEL 3 OF 5,60,60,60,2,70,70,70,1,The colors are helpful.,,1.318858
+levels_scale,4,LEVEL 4 OF 5,100,100,100,3,100,100,100,1,It is more appealing,,1.466319
+spanish_scale,5,EXTREME,50,90,76,4,78,60,50,3,,,1.466319
+spanish_scale,1,MINIMAL,100,100,100,NA,100,100,100,2,,You practice it yourself,0.245087
+likert_scale,1,VERY LOW,90,80,80,2,80,90,80,1,80,,0.245087
+likert_scale,3,MEDIUM,85,95,85,3,50,80,85,3,,,0.746508
+likert_scale,2,LOW,5,5,0,1,10,10,10,2,,Puts in terms I am used tp,0.659765
+spanish_scale,3,MODERATE,80,70,90,1,90,70,80,2,,tornado warning is a public warning that is issued to an area in the direct path of a tornado or a thunderstorm capable of producing a tornado,0.859934
+likert_scale,5,VERY HIGH,60,55,60,5,70,60,75,2,,The experimental is very easy to understand and everyone can read and know what it means,0.821235
+levels_scale,1,LEVEL 1 OF 5,40,40,20,3,30,40,30,2,,The way you can offer you the a beautiful day person to me pls me and you have tried it for the me know if I can trust me to come to your house and lot of sperm a I gdjdudj,0.234892
+levels_scale,2,LEVEL 2 OF 5,50,50,75,4,50,60,50,1,It is easier to understand and slightly easier,,0.245087
+spanish_scale,5,EXTREME,15,50,50,5,50,50,50,2,,Enhanced means nothing.    I don't consider Widespread storms likely to be moderate.,2.422068
+likert_scale,1,VERY LOW,10,100,100,NA,100,10,10,2,,It is easy to understand,0.715029
+current_scale,3,ENHANCED,100,100,100,3,100,100,100,NA,,,0.740392
+likert_scale,3,MEDIUM,20,10,90,3,45,35,95,1,Wording is more scientific,,0.795662
+current_scale,2,SLIGHT,59,75,70,1,45,60,65,NA,,,0.338703
+spanish_scale,4,HIGH,80,80,80,5,50,50,100,2,,But understanding,0.29234
+current_scale,1,MARGINAL,60,70,80,5,60,70,70,NA,,,0.562444
+levels_scale,4,LEVEL 4 OF 5,40,20,30,3,26,67,56,1,Very cool,,1.3462
+spanish_scale,1,MINIMAL,50,40,36,2,40,45,35,3,,,0.453272
+spanish_scale,1,MINIMAL,40,30,30,5,70,80,90,2,,Is quite reliable and trustworthy,0.338703
+levels_scale,3,LEVEL 3 OF 5,30,30,40,3,30,40,30,1,High,,0.562444
+current_scale,2,SLIGHT,25,45,30,3,25,35,40,NA,,,1.318858
+current_scale,2,SLIGHT,30,70,40,1,40,55,60,NA,,,0.245087
+levels_scale,4,LEVEL 4 OF 5,49,50,35,3,45,55,40,2,,None,0.632158
+levels_scale,2,LEVEL 2 OF 5,56,23,56,1,23,66,45,2,,It helps me,0.632158
+current_scale,5,HIGH,10,20,30,2,60,70,50,NA,,,1.189076
+spanish_scale,1,MINIMAL,75,80,80,2,50,50,50,2,,Because it gives a better wording of the storm,1.397115
+levels_scale,4,LEVEL 4 OF 5,99,99,99,4,99,99,99,1,Good description,,0.809053
+likert_scale,1,VERY LOW,10,10,100,2,50,60,100,2,,It looks more organized,0.795662
+current_scale,5,HIGH,40,100,60,5,100,100,40,NA,,,0.84817
+likert_scale,5,VERY HIGH,75,75,75,5,75,75,75,1,i think this current scale is very helpful,,0.338703
+levels_scale,4,LEVEL 4 OF 5,25,50,35,2,75,90,75,2,,It's easier to remember and is clear in wording and understanding.,2.182275
+spanish_scale,1,MINIMAL,15,5,1,1,10,5,85,2,,Seems thebeexperimental scale has a choice of words that are more discriptive and people would take fir example EXTREME  more seriously  than HIGH,3.00653
+current_scale,5,HIGH,41,9,100,3,95,75,100,NA,,,0.234892
+current_scale,1,MARGINAL,60,25,99,2,33,49,31,NA,,,0.859934
+levels_scale,2,LEVEL 2 OF 5,20,40,40,3,30,30,40,2,,It very obvious it nw,0.245087
+levels_scale,1,LEVEL 1 OF 5,60,50,50,3,50,40,60,2,,North is a big guy at the beach next weekend next week next weekend next year,0.562444
+spanish_scale,4,HIGH,50,50,50,5,80,80,80,2,,It tells you what it is,0.632158
+current_scale,3,ENHANCED,12,14,15,3,15,9,12,NA,,,2.23254
+spanish_scale,4,HIGH,50,100,100,5,75,100,100,1,I didn't read it correctly. The experimental scale is more helpful,,0.892542
+levels_scale,3,LEVEL 3 OF 5,100,100,100,2,100,100,100,1,It's simple to understand,,1.053077
+likert_scale,5,VERY HIGH,90,90,90,2,90,90,90,2,,No ideas for explain,0.859934
+spanish_scale,3,MODERATE,33,33,34,4,33,33,34,1,Quality and speed,,0.530008
+current_scale,4,MODERATE,100,50,100,1,60,50,90,NA,,,1.004705
+spanish_scale,1,MINIMAL,100,100,100,5,100,100,100,2,,It is trustworthy,0.338703
+spanish_scale,3,MODERATE,80,90,85,2,90,80,90,1,Its very good and very nice  its very eusy uased,,0.530008
+spanish_scale,4,HIGH,95,75,80,2,85,75,80,1,The first time you have a chance at the game you will have a good time and you can get to,,0.559086
+levels_scale,2,LEVEL 2 OF 5,80,75,85,3,75,80,85,2,,It is more precautionary,0.234892
+current_scale,2,SLIGHT,40,30,30,3,30,30,40,NA,,,1.397115
+levels_scale,2,LEVEL 2 OF 5,30,40,40,3,40,30,30,1,It is very good to know,,0.245087
+spanish_scale,3,MODERATE,20,50,30,3,30,20,50,2,,No comment,0.632158
+levels_scale,4,LEVEL 4 OF 5,50,50,50,1,50,50,50,1,Get a chance to look at the house and I will,,4.14141
+current_scale,2,SLIGHT,98,75,100,1,40,65,100,NA,,,0.301515
+spanish_scale,2,LOW,75,65,50,5,80,65,60,2,,Hey brother I am sorry now that your brother did that not help for help with your,0.245087
+spanish_scale,2,LOW,30,60,20,2,30,20,50,1,American captain,,4.4239
+likert_scale,3,MEDIUM,40,60,60,1,50,50,50,2,,"Terms like """"enhanced"""" or """"marginal"""" aren't very descriptive as to wht they're referring to. Neither is """"Low"""" or """"Very High"""", but at least you can compare it to itself.",2.440332
+levels_scale,1,LEVEL 1 OF 5,10,10,10,3,20,10,10,2,,Easier to understand,1.017441
+spanish_scale,1,MINIMAL,50,20,50,1,50,20,20,2,,widespread storms good performance,0.453272
+spanish_scale,2,LOW,50,34,34,2,30,10,78,1,it get straight to the point and doesn't show the map,,0.753502
+likert_scale,1,VERY LOW,49,59,60,4,80,96,57,2,,It’s obviously a cool idea,0.562444
+levels_scale,1,LEVEL 1 OF 5,50,29,40,4,30,40,40,2,,Very clear to understand,1.189076
+likert_scale,1,VERY LOW,100,89,77,3,100,79,67,2,,More details,0.530008
+spanish_scale,5,EXTREME,30,40,30,2,30,40,30,1,,,0.68591
+spanish_scale,1,MINIMAL,10,0,20,2,15,10,10,1,I would pay more attention to a slight risk rather than low risk.,,1.937455
+spanish_scale,1,MINIMAL,0,0,90,4,0,0,90,2,,the words utilized are easier to understand,1.66173
+levels_scale,4,LEVEL 4 OF 5,98,98,98,5,80,95,98,1,it gives explainations of each level,,0.7027
+spanish_scale,4,HIGH,1,1,1,3,4,5,6,2,,Yesterday to get,0.530008
+spanish_scale,3,MODERATE,30,30,30,1,45,40,35,2,,"I had no idea moderate meant widespread severe storms, and it's the second highest. Labeling it as high better fits the definition. ",4.39397
+likert_scale,5,VERY HIGH,100,100,90,3,100,100,90,1,Either scale would be good and ok to understand. I am just use to the current scale,,0.864451
+levels_scale,5,LEVEL 5 OF 5,50,100,100,5,50,40,100,1,Easier understanding,,0.854622
+current_scale,2,SLIGHT,70,80,73,5,50,70,70,NA,,,0.453272
+levels_scale,5,LEVEL 5 OF 5,0,0,0,1,0,0,0,3,,,0.970652
+likert_scale,2,LOW,30,20,30,2,30,30,30,2,,Is easy to understand for.me,0.665293
+levels_scale,3,LEVEL 3 OF 5,90,90,90,5,80,80,80,2,,Not at all,0.753502
+likert_scale,3,MEDIUM,25,75,100,5,25,25,50,1,Easier to understand,,0.447322
+spanish_scale,2,LOW,12,10,50,3,20,50,30,2,,50,0.93403
+current_scale,3,ENHANCED,10,10,50,1,15,10,50,NA,,,1.002656
+likert_scale,5,VERY HIGH,100,100,100,4,100,100,100,3,,,1.002656
+levels_scale,5,LEVEL 5 OF 5,80,76,5,5,96,88,5,3,,,0.778252
+levels_scale,4,LEVEL 4 OF 5,85,95,100,5,100,100,100,2,,Using numbers is more straight forward than words; easier to understand.,1.002656
+levels_scale,1,LEVEL 1 OF 5,5,65,80,4,10,12,10,3,,,0.735407
+current_scale,5,HIGH,95,95,100,5,100,100,100,NA,,,1.574222
+levels_scale,4,LEVEL 4 OF 5,50,25,50,2,50,50,50,3,,,0.16654
+current_scale,1,MARGINAL,50,50,50,2,80,50,80,NA,,,1.167287
+current_scale,3,ENHANCED,55,30,70,5,50,60,70,NA,,,0.65099
+likert_scale,2,LOW,50,50,50,2,50,50,50,2,,Easier to understand,0.517888
+spanish_scale,3,MODERATE,0,0,0,4,50,50,50,2,,Better wording,1.589262
+likert_scale,2,LOW,0,0,0,1,0,0,0,1,more descriptive,,1.167287
+current_scale,2,SLIGHT,5,1,10,1,100,100,100,NA,,,1.167287
+levels_scale,2,LEVEL 2 OF 5,60,65,80,1,40,55,85,1,A numerical scale can be confusing because you might think a 1 is worse than 5,,1.574222
+likert_scale,2,LOW,5,0,100,1,5,10,100,2,,The wording makes more sense and easier to relate the risk.,0.740392
+spanish_scale,1,MINIMAL,20,20,80,3,50,60,80,1,Wording seems more appropriate in the current scale,,1.608914
+likert_scale,4,HIGH,75,80,75,5,80,100,90,2,,better explanation,0.778191
+levels_scale,1,LEVEL 1 OF 5,10,0,50,1,30,10,50,3,,,1.229694
+current_scale,4,MODERATE,40,20,5,1,75,85,80,NA,,,0.746508
+levels_scale,3,LEVEL 3 OF 5,70,70,90,4,70,70,90,2,,numbers ranges are more precise,0.659765
+levels_scale,5,LEVEL 5 OF 5,90,95,60,4,100,100,65,1,I think words are more descriptive than numbers here,,0.524347
+levels_scale,1,LEVEL 1 OF 5,20,10,100,2,10,10,100,1,"Because the words are more descriptive then the levels, easier to understand",,0.740392
+spanish_scale,2,LOW,10,0,80,2,30,10,20,3,,,1.608914
+likert_scale,2,LOW,40,30,70,4,20,5,1,1,Seems more concise without being too descriptive,,0.836303
+likert_scale,5,VERY HIGH,9,10,3,1,9,10,3,2,,It seems to be to be most understandable in regards of how severe it really will be and I don't really agree with the definitions because isolated severe storms can be a very high risk.,0.864451
+current_scale,5,HIGH,95,100,95,5,100,100,100,NA,,,1.362707
+spanish_scale,3,MODERATE,45,60,20,3,30,20,10,2,,More straightforward terminology,0.478766
+current_scale,4,MODERATE,70,80,90,2,70,80,90,NA,,,0.524347
+current_scale,4,MODERATE,50,45,50,1,80,90,95,NA,,,0.478766
+levels_scale,1,LEVEL 1 OF 5,2,1,4,3,4,2,3,1,Level 1 to 5,,1.189076
+likert_scale,4,HIGH,50,70,8,4,30,20,20,2,,Good,0.530008
+levels_scale,3,LEVEL 3 OF 5,100,100,100,3,100,100,100,1,It’s easier to read,,0.472964
+spanish_scale,4,HIGH,90,90,90,1,70,70,70,2,,It’s more visual,0.478766
+spanish_scale,2,LOW,100,100,90,4,100,90,90,1,Just as a result is the same thing that the best,,1.002656
+likert_scale,4,HIGH,75,50,60,5,80,100,50,1,I don’t know,,1.208131
+likert_scale,5,VERY HIGH,70,50,50,5,80,50,50,3,,,1.002656
+levels_scale,5,LEVEL 5 OF 5,100,100,100,5,100,100,100,1,,,1.362707
+current_scale,2,SLIGHT,40,50,50,NA,50,50,50,NA,,,0.735407
+spanish_scale,1,MINIMAL,20,15,50,2,2,5,100,2,,It just flows better to me,0.665293
+likert_scale,2,LOW,0,5,5,1,10,0,100,1,Its most up to date because its current.,,1.002656
+likert_scale,5,VERY HIGH,25,10,75,5,30,10,80,2,,An experimental scale is showing you where and how bad it can be.,0.723948
+levels_scale,3,LEVEL 3 OF 5,15,15,15,4,10,10,10,2,,Easier to understand,0.716866
+levels_scale,2,LEVEL 2 OF 5,30,40,60,3,40,30,30,3,,,0.65099
+likert_scale,5,VERY HIGH,20,20,80,2,20,20,80,2,,It gives a better description of probability,0.778252
+current_scale,3,ENHANCED,100,100,100,5,100,100,100,NA,,,0.864451
+current_scale,5,HIGH,50,60,55,4,80,75,70,NA,,,0.795662
+current_scale,4,MODERATE,40,60,65,3,45,55,55,NA,,,0.970652
+likert_scale,1,VERY LOW,100,100,100,3,100,100,100,1,It more safe,,0.530008
+current_scale,1,MARGINAL,70,100,100,3,50,50,50,NA,,,0.716866
+likert_scale,2,LOW,45,100,10,1,25,100,50,1,More detailed,,0.472964
+levels_scale,1,LEVEL 1 OF 5,50,50,50,1,30,30,30,2,,I like the number system better it seems more meaningful to me. What does moderate mean?,1.353853
+levels_scale,3,LEVEL 3 OF 5,100,100,100,3,50,50,50,1,It's more right,,0.478766
+spanish_scale,5,EXTREME,60,70,75,3,5,5,5,3,,,1.608914
+levels_scale,2,LEVEL 2 OF 5,20,10,50,1,20,10,70,1,Words Ardmore aligned with what I know,,0.735407
+spanish_scale,2,LOW,30,70,100,2,20,20,100,2,,I think the verbiage would be easier for most people to understand.,0.46187
+levels_scale,4,LEVEL 4 OF 5,90,80,90,3,95,90,90,2,,Numbers are easier for me to understand then words,1.208131
+likert_scale,4,HIGH,85,85,85,3,75,75,75,1,It's easier to read and understand,,1.397115
+current_scale,1,MARGINAL,50,85,100,1,25,25,100,NA,,,1.208131
+spanish_scale,2,LOW,50,50,75,1,20,30,75,2,,Easier to interpret what is meant,1.574222
+levels_scale,4,LEVEL 4 OF 5,99,99,100,5,100,100,100,2,,gives you room to work with,0.659765
+spanish_scale,2,LOW,50,50,50,2,25,25,25,1,Less to read and more concise,,0.7027
+current_scale,5,HIGH,90,100,75,5,100,100,90,NA,,,0.740392
+spanish_scale,3,MODERATE,60,50,50,1,100,100,100,2,,for me its more detailed and you can understand it better,1.362707
+levels_scale,1,LEVEL 1 OF 5,25,10,80,2,25,10,80,3,,,0.864451
+levels_scale,4,LEVEL 4 OF 5,100,100,100,4,75,50,100,2,,Gives a better visual,0.517888
+spanish_scale,1,MINIMAL,10,10,80,1,10,10,75,2,,I understand those words better,1.002656
+likert_scale,2,LOW,25,10,90,2,15,10,90,2,,More relatable terms,1.09183
+levels_scale,2,LEVEL 2 OF 5,30,10,90,1,40,10,99,1,Gives you the level,,1.229694
+levels_scale,2,LEVEL 2 OF 5,25,20,20,5,10,10,10,2,,it lets you know how big of a chance storm will occur,0.649221
+likert_scale,2,LOW,100,100,100,3,100,100,100,1,No,,1.002656
+current_scale,4,MODERATE,50,50,50,4,95,90,98,NA,,,1.002656
+current_scale,5,HIGH,75,75,75,2,100,100,100,NA,,,0.93403
+levels_scale,1,LEVEL 1 OF 5,5,0,50,5,50,50,50,3,,,0.649221
+spanish_scale,3,MODERATE,80,90,100,3,50,60,70,1,It is easy to understand the storms coming,,0.778252
+spanish_scale,5,EXTREME,5,6,7,4,100,100,100,2,,"The words """"marginal"""" and """"enhanced"""" may not make sense to laypeople.",0.716866
+spanish_scale,2,LOW,50,60,75,5,70,60,70,3,,,0.524347
+levels_scale,3,LEVEL 3 OF 5,5,2,4,5,3,1,3,3,,,1.167287
+likert_scale,2,LOW,50,70,80,2,50,50,60,2,,Wonderful experience,0.93403
+likert_scale,2,LOW,50,80,90,2,40,50,70,2,,Broke down more for areas,1.362707
+likert_scale,1,VERY LOW,10,10,30,1,0,0,5,2,,More clear,1.208131
+current_scale,5,HIGH,45,40,100,5,100,100,80,NA,,,3.810644
+levels_scale,1,LEVEL 1 OF 5,1,1,5,4,2,100,100,1,Is describes the storm types,,0.478766
+current_scale,2,SLIGHT,3,23,67,4,34,12,90,NA,,,0.011196
+likert_scale,4,HIGH,0,0,0,5,0,0,0,1,not really,,0.740392
+levels_scale,3,LEVEL 3 OF 5,100,100,100,4,100,100,100,1,"Because it's more detailed  by steps of the storm like slight, or enhanced ",,0.778252
+likert_scale,3,MEDIUM,100,100,100,5,100,100,100,2,,"Because to a lot of people know, medium and high or easier understood",1.362707
+levels_scale,1,LEVEL 1 OF 5,100,100,100,1,100,100,100,2,,It directly indicate the level of danger in specific scale,0.769776
+current_scale,5,HIGH,85,90,80,4,70,90,75,NA,,,1.574222
+current_scale,2,SLIGHT,50,60,40,5,60,50,40,NA,,,1.397115
+current_scale,3,ENHANCED,75,95,90,3,80,90,85,NA,,,0.864451
+levels_scale,4,LEVEL 4 OF 5,90,90,90,4,90,90,90,2,,"Moderate to me would mean not much risk, enhanced is unclear",0.864451
+levels_scale,4,LEVEL 4 OF 5,70,70,50,5,70,50,50,2,,It seems more serious,0.769776
+spanish_scale,5,EXTREME,50,50,50,5,50,50,50,2,,Because that's the higher predictions,0.65099
+levels_scale,3,LEVEL 3 OF 5,80,50,95,3,30,40,20,1,"it’s a great tool used, seems to be helpful to others ",,0.723948
+current_scale,2,SLIGHT,70,80,90,1,30,30,30,NA,,,0.970652
+levels_scale,5,LEVEL 5 OF 5,50,100,50,5,100,100,50,1,"Because it tells you the e risk, people may not know what the numbers mean.",,0.864451
+levels_scale,2,LEVEL 2 OF 5,2,2,2,5,2,2,2,2,,good,1.053077
+current_scale,4,MODERATE,40,30,60,5,60,60,60,NA,,,1.208131
+likert_scale,4,HIGH,70,90,60,5,95,100,90,2,,The words are simpler to remember and recall,3.810644
+spanish_scale,2,LOW,0,0,0,1,0,0,0,3,,,1.608914
+likert_scale,2,LOW,30,0,70,4,60,60,100,2,,Easier to interpret,1.208131
+levels_scale,1,LEVEL 1 OF 5,45,57,45,4,56,46,53,2,,Ghhh,1.189076
+spanish_scale,4,HIGH,95,95,90,1,95,99,90,2,,Experimental words seem more understandable and have more of an impact (my personal opinion),1.002656
+likert_scale,3,MEDIUM,90,85,70,3,89,87,90,1,Because The current scale civer another of things than the experiment and even more useful than the experiment scale,,0.809053
+likert_scale,4,HIGH,90,95,50,4,80,90,50,1,I think it is in the terminology. The current scale is easier to understand,,1.574222
+levels_scale,4,LEVEL 4 OF 5,10,50,50,3,20,20,30,1,The first time you have a problem is if you’re going,,0.562444
+likert_scale,4,HIGH,50,60,75,5,60,50,75,1,Easier to understand in writing than on a colored map,,1.574222
+likert_scale,5,VERY HIGH,80,75,85,4,50,30,30,1,The words they use just convey it better than the other one,,0.723948
+likert_scale,2,LOW,70,80,70,4,50,50,50,2,,Seems more advanced,0.46187
+levels_scale,3,LEVEL 3 OF 5,0,0,0,2,0,0,0,3,,,0.517888
+likert_scale,2,LOW,50,50,50,3,10,10,100,3,,,0.821349
+current_scale,2,SLIGHT,40,25,99,2,25,25,10,NA,,,0.735407
+levels_scale,4,LEVEL 4 OF 5,100,100,100,4,50,50,50,2,,Their are storms that can produce tornadoes,0.892542
+spanish_scale,4,HIGH,10,5,10,5,60,60,60,2,,It sounds better,1.608914
+likert_scale,4,HIGH,30,100,100,4,80,80,90,1,"One is not more helpful than the other, they are both helpful",,0.478766
+current_scale,2,SLIGHT,2,0,75,2,10,0,75,NA,,,1.208131
+levels_scale,5,LEVEL 5 OF 5,100,95,95,5,100,100,100,2,,The current scale doesn't exactly exactly explain the true definition.,1.09183
+levels_scale,5,LEVEL 5 OF 5,100,100,70,5,100,100,70,1,it's self explanatory while the 1 of 5 scale is more vague,,3.810644
+likert_scale,4,HIGH,5,5,5,3,5,5,5,1,It's helpful,,0.46187
+levels_scale,3,LEVEL 3 OF 5,65,65,45,5,90,95,70,3,,,1.053077
+spanish_scale,5,EXTREME,90,90,90,4,90,90,99,2,,More descriptive  language used,0.716866
+levels_scale,4,LEVEL 4 OF 5,70,100,100,3,100,100,90,1,Might not remember what scale of numbers means,,0.46187
+current_scale,1,MARGINAL,35,30,40,1,25,20,30,NA,,,1.09183
+levels_scale,4,LEVEL 4 OF 5,1,1,1,5,3,2,3,2,,You have a good day at work and I don't,0.821349
+spanish_scale,5,EXTREME,75,70,65,3,90,90,85,2,,Better wording,0.716866
+levels_scale,3,LEVEL 3 OF 5,85,75,75,3,75,75,65,2,,I'm a numbers person.,1.229694
+spanish_scale,2,LOW,90,100,90,1,0,0,0,3,,,0.716866
+likert_scale,2,LOW,50,25,75,2,10,0,100,2,,"Short, concise, easy understood descriptions",0.517888
+current_scale,1,MARGINAL,100,100,100,3,100,100,100,NA,,,1.362707
+levels_scale,2,LEVEL 2 OF 5,100,100,100,3,50,75,75,2,,Can understand it better,1.608914
+levels_scale,3,LEVEL 3 OF 5,0,0,0,1,50,25,25,1,Experimental requires prior knowledge but the current you could tell me any of the levels and I could guess at a glance how important it is.,,0.517888
+likert_scale,1,VERY LOW,0,0,0,1,1,0,0,1,Easy to understand,,1.167287
+spanish_scale,5,EXTREME,50,60,70,2,50,60,60,2,,No,0.517888
+likert_scale,4,HIGH,80,80,95,5,90,95,90,2,,Terminology is clearer,1.208131
+levels_scale,3,LEVEL 3 OF 5,4,9,10,2,5,5,6,2,,5,0.716866
+likert_scale,2,LOW,0,1,100,1,0,1,100,3,,,1.608914
+current_scale,1,MARGINAL,100,100,100,3,30,30,30,NA,,,0.740392
+levels_scale,5,LEVEL 5 OF 5,100,100,100,1,100,100,100,2,,Very clear and large print,1.574222
+current_scale,5,HIGH,95,95,95,2,100,100,100,NA,,,1.362707
+levels_scale,1,LEVEL 1 OF 5,30,30,40,1,70,80,90,2,,It's less confusing,1.167287
+levels_scale,3,LEVEL 3 OF 5,1,3,3,2,25,25,50,2,,Tihgghj,0.478766
+spanish_scale,5,EXTREME,0,0,100,5,0,0,100,1,See all the time,,0.649221
+likert_scale,1,VERY LOW,25,10,95,2,20,10,95,2,,I think changing high to very high is really important.,0.864451
+likert_scale,5,VERY HIGH,80,90,90,4,90,90,90,2,,Clearer words and the scale makes more sense,1.09183
+current_scale,4,MODERATE,30,0,10,3,90,90,90,NA,,,0.524347
+current_scale,3,ENHANCED,100,100,100,4,0,0,0,NA,,,1.002656
+likert_scale,3,MEDIUM,35,35,35,1,65,25,95,1,details are more very specific about storm.,,0.836303
+spanish_scale,5,EXTREME,50,80,50,3,100,100,100,2,,Simple terms,1.167287
+levels_scale,3,LEVEL 3 OF 5,50,75,100,1,65,75,80,2,,easier to tell what the weather is like,0.780491
+current_scale,5,HIGH,5,2,10,2,100,5,20,NA,,,0.65099
+likert_scale,3,MEDIUM,80,100,50,4,60,70,90,2,,"Seems to me that more people would understand this more simplistic, straight forward wording.",0.735407
+spanish_scale,5,EXTREME,90,95,80,5,100,100,100,2,,The language is easier to understand,0.478766
+likert_scale,1,VERY LOW,100,100,100,1,5,5,5,2,,"I feel like words such as """"Enhanced"""" or """"Marginal"""" are too subjective",1.353853
+spanish_scale,3,MODERATE,65,50,80,1,65,50,80,2,,Words make a difference and to the average person that just glances this will help,0.649221
+likert_scale,4,HIGH,30,20,40,4,90,70,50,2,,The ones used now are confusing. I would think inhanced is greater than moderate.,1.167287
+current_scale,3,ENHANCED,100,100,85,5,95,100,95,NA,,,1.54124
+current_scale,1,MARGINAL,20,10,70,2,0,0,100,NA,,,0.780491
+spanish_scale,4,HIGH,60,90,100,4,70,90,95,2,,Plainer language is easier for more people to understand,0.65099
+levels_scale,3,LEVEL 3 OF 5,75,75,90,5,75,75,90,2,,I like the numbers better than the words because it is easier to understand.,0.836303
+spanish_scale,1,MINIMAL,0,0,0,1,0,0,0,2,,I understand it better,0.778252
+levels_scale,5,LEVEL 5 OF 5,100,100,100,5,100,100,100,2,,It's not as ambiguous as the words in current scale,0.735407
+levels_scale,4,LEVEL 4 OF 5,9,9,8,1,99,99,99,1,It’s easier to understand,,0.472964
+levels_scale,3,LEVEL 3 OF 5,50,50,50,4,65,50,55,3,,,1.606616
+likert_scale,3,MEDIUM,0,0,100,2,10,10,10,1,Better explained,,0.65099
+likert_scale,2,LOW,0,0,50,2,0,0,50,3,,,0.740392
+current_scale,5,HIGH,30,30,30,3,100,100,100,NA,,,0.517888
+spanish_scale,2,LOW,50,50,50,5,50,50,50,1,no i cannot,,1.229694
+spanish_scale,1,MINIMAL,50,50,100,2,60,50,100,2,,Enhanced is ambiguous while moderate seems morendifinitive,0.472964
+levels_scale,5,LEVEL 5 OF 5,75,100,50,4,90,100,50,2,,"As much as I love words, there's some room to misinterpret which order the current scale uses (Enhanced might be worse than Moderate, etc); numbering is more straightforward.",1.241617
+current_scale,5,HIGH,80,80,90,4,90,80,90,NA,,,1.449467
+levels_scale,2,LEVEL 2 OF 5,50,50,50,3,50,75,50,1,No person would understand the level of the thunderstorm.,,1.229694
+levels_scale,3,LEVEL 3 OF 5,50,50,60,4,60,65,70,1,The current scale is more detail about each levels.,,0.727429
+levels_scale,3,LEVEL 3 OF 5,75,85,85,2,50,50,85,1,Easy to understand,,0.716866
+spanish_scale,4,HIGH,7,79,99,4,79,99,99,2,,Words are simple and have a distinguishing level each .,0.84817
+levels_scale,3,LEVEL 3 OF 5,50,95,100,3,50,95,100,1,It shows where the extreme weather is and where it is headed.,,0.836303
+levels_scale,2,LEVEL 2 OF 5,20,20,90,2,20,20,90,2,,Numbers are better,0.864451
+levels_scale,5,LEVEL 5 OF 5,95,60,40,5,60,30,80,2,,It shows locations on a map,0.472964
+spanish_scale,4,HIGH,50,50,50,5,90,90,90,2,,seems more in line with the actual effect,0.405715
+spanish_scale,5,EXTREME,70,80,100,4,100,100,100,2,,uses words that tell me exactly what to expect,0.778252
+likert_scale,2,LOW,10,10,100,1,10,0,100,2,,More explanation for each category,0.46187
+spanish_scale,1,MINIMAL,25,25,75,2,80,10,90,2,,"The words used. Minimal, low, moderate, high, extreme are slightly better than Marginal (as compared to what?), slight (?), enhanced (doesn't help vs. moderate), High vs. Moderate (and that word is used already on the experimental status but for enhanced level. Then extreme, to the highest degree vs. High.",1.353853
+current_scale,2,SLIGHT,5,5,100,2,5,5,100,NA,,,0.864451
+spanish_scale,2,LOW,10,15,85,1,10,12,87,2,,"I think for more people low, moderate, and high are easier to understand than slight, enhanced, and moderate.",0.405715
+likert_scale,2,LOW,0,0,100,2,0,0,100,2,,Easier to understand,0.723948
+levels_scale,3,LEVEL 3 OF 5,80,50,100,3,80,60,100,2,,Numbers mean more,0.478766
+likert_scale,1,VERY LOW,70,30,85,1,20,20,90,3,,,0.649221
+spanish_scale,5,EXTREME,75,50,75,5,75,75,100,3,,,0.735407
+levels_scale,4,LEVEL 4 OF 5,90,100,90,3,60,75,80,2,,Details risk,0.405715
+likert_scale,2,LOW,100,90,100,3,100,100,100,2,,Because it's very high,0.478766
+spanish_scale,5,EXTREME,50,30,20,5,40,50,30,2,,Not sure,1.229694
+spanish_scale,3,MODERATE,5,5,5,1,5,5,5,2,,Extreme is high is what I think,2.422068
+spanish_scale,2,LOW,10,0,80,1,40,90,90,1,It is what I am used to,,0.524347
+spanish_scale,3,MODERATE,60,75,50,4,60,75,50,2,,Experimental scale is similar to caloric food scale or salt intake...extreme can be deadly...but then storms can be unpredicrable and not go according to prediction.,1.09183
+spanish_scale,2,LOW,10,20,25,2,10,15,20,2,,I like the words better,0.46187
+spanish_scale,5,EXTREME,75,60,25,4,100,100,50,3,,,0.405715
+current_scale,3,ENHANCED,50,50,50,4,50,50,50,NA,,,0.530008
+spanish_scale,1,MINIMAL,8,6,8,3,80,94,60,2,,Because just easier for me to read but especially understand.,0.478766
+spanish_scale,5,EXTREME,70,90,80,5,100,100,80,2,,The point comes across clearer,0.517888
+spanish_scale,5,EXTREME,90,50,85,4,100,100,100,3,,,0.735407
+levels_scale,3,LEVEL 3 OF 5,100,100,100,5,75,75,75,3,,,0.723948
+likert_scale,4,HIGH,99,75,80,5,98,100,100,2,,It makes more sense,0.864451
+spanish_scale,2,LOW,5,0,100,1,0,0,0,2,,The experimental wording is easier to understand.The minimal and extreme words spell it out better.,1.09183
+likert_scale,5,VERY HIGH,90,50,75,5,60,45,40,2,,Just because,0.740392
+likert_scale,5,VERY HIGH,70,80,80,4,70,75,80,2,,Easy to understand,0.65099
+levels_scale,4,LEVEL 4 OF 5,5,5,5,3,5,5,5,3,,,1.09183
+spanish_scale,5,EXTREME,85,90,95,4,85,85,90,2,,People are dumb expect them to be on a 4th or 3rd grade level the simpler the weather key and terminology will help with a wider range of people understanding what is going on,0.723948
+spanish_scale,4,HIGH,80,100,90,5,60,100,90,2,,Its esdier to understsnd,1.229694
+levels_scale,2,LEVEL 2 OF 5,15,5,15,1,20,10,16,1,It’s easier to understand,,0.778191
+likert_scale,3,MEDIUM,40,20,30,2,34,67,18,2,,It’s easy to understand what is being depicted,0.517888
+spanish_scale,2,LOW,0,0,0,3,0,0,0,2,,,0.723948
+spanish_scale,5,EXTREME,80,50,50,2,50,80,100,2,,High,0.517888
+likert_scale,1,VERY LOW,0,0,7,2,0,0,7,2,,"People can related to these adjectives much easier than the one that uses terms such as """"Enhanced.""""",1.229694
+levels_scale,1,LEVEL 1 OF 5,5,0,75,1,0,0,100,2,,I think putting it on a number scale helps people understand the intensity better.,0.478766
+current_scale,3,ENHANCED,40,60,70,2,50,60,70,NA,,,0.453272
+spanish_scale,1,MINIMAL,8,8,9,3,20,20,88,3,,,0.46187
+likert_scale,1,VERY LOW,50,50,50,5,50,50,50,3,,,0.478766
+current_scale,4,MODERATE,30,25,90,3,30,25,90,NA,,,0.46187
+current_scale,1,MARGINAL,87,93,94,2,27,17,100,NA,,,0.65099
+current_scale,4,MODERATE,25,25,100,1,25,25,100,NA,,,0.723948
+current_scale,4,MODERATE,10,8,5,4,5,6,5,NA,,,0.517888
+likert_scale,2,LOW,10,40,10,2,10,20,10,1,I understand and am used to the current terms.,,0.735407
+current_scale,3,ENHANCED,80,80,80,1,50,50,5,NA,,,0.778191
+current_scale,3,ENHANCED,50,50,50,3,50,10,100,NA,,,0.778191
+spanish_scale,3,MODERATE,20,10,95,3,30,10,50,2,,The experimental scale makes more sense to me in the current use of language in the US,0.453272
+current_scale,5,HIGH,70,90,80,3,100,100,80,NA,,,0.65099
+current_scale,4,MODERATE,50,60,100,1,90,100,100,NA,,,0.517888
+likert_scale,3,MEDIUM,0,0,100,1,0,0,100,2,,It's easier to comprehend,0.478766
+levels_scale,1,LEVEL 1 OF 5,50,69,78,4,0,10,0,1,Because I can better understand the risk of the Strom/tornado,,0.970652
+likert_scale,5,VERY HIGH,50,0,50,5,50,1,50,2,,"For people that are maybe just waking up and are not coherent enough yet, still sleepy ",0.778252
+likert_scale,5,VERY HIGH,100,85,100,5,100,100,100,2,,It seems to make more sense in my opinion,0.970652
+spanish_scale,3,MODERATE,65,50,70,3,40,30,70,1,It clearly describes what each scale is along with its definition,,0.46187
+likert_scale,2,LOW,0,0,100,1,0,0,100,2,,I can understand things better when I have a visual picture of it,0.740392
+levels_scale,1,LEVEL 1 OF 5,20,20,20,2,30,30,30,1,Yes its,,0.530008
+likert_scale,5,VERY HIGH,85,75,85,4,90,90,95,1,I think they are both fine .,,0.970652
+spanish_scale,2,LOW,100,100,100,2,40,30,40,2,,Low,0.65099
+spanish_scale,1,MINIMAL,70,75,80,4,50,55,60,1,Crocs are going back to the r,,1.241617
+levels_scale,3,LEVEL 3 OF 5,35,25,40,1,45,20,35,2,,"Good experimental design is important in all research, it helps to ensure the data collection, data analysis and conclusions from a study, are valid (true). Good experimental design is essential in research and fundamental to scientific progress.",0.530008
+levels_scale,3,LEVEL 3 OF 5,75,60,80,1,50,50,75,3,,,0.46187
+current_scale,3,ENHANCED,80,100,100,1,50,100,100,NA,,,1.54124
+levels_scale,3,LEVEL 3 OF 5,5,3,4,3,5,5,3,1,To forecast future,,0.68591
+spanish_scale,4,HIGH,45,20,60,5,65,75,70,2,,I think the terms in this one are better to referring to the severity of the weather,0.478766
+likert_scale,1,VERY LOW,40,100,100,3,70,80,80,2,,hhhjk,0.716866
+levels_scale,5,LEVEL 5 OF 5,100,100,100,4,100,100,100,1,Easy to understand,,0.716866
+current_scale,3,ENHANCED,5,0,80,3,15,0,85,NA,,,0.46187
+current_scale,5,HIGH,100,100,100,4,100,100,10,NA,,,0.478766
+spanish_scale,4,HIGH,80,95,80,4,80,90,80,2,,"It might because it's what I am used to. Also, the word Extreme definitely makes it seem more serious and that we should definitely stay alert and be proactive.",0.405751
+levels_scale,5,LEVEL 5 OF 5,70,50,80,3,100,95,80,2,,The experimental scale is more clear because it has number of how high the storm is. If it’s 5 of 5 then it’s at its worst possible.,0.517888
+likert_scale,2,LOW,75,90,90,1,60,50,90,1,I frequent the SPC website and am used to using it,,1.937455
+current_scale,2,SLIGHT,100,100,100,3,75,75,75,NA,,,0.478766
+spanish_scale,2,LOW,30,30,10,1,0,0,0,2,,The vocabulary is more intense,0.472964
+likert_scale,2,LOW,20,0,80,1,30,20,50,2,,The term are more recognized as a level of something. It is hard to recall what enahn ed means or moderate when you are receiving forecasts on the go,0.778252
+levels_scale,4,LEVEL 4 OF 5,45,40,75,1,50,40,75,1,It breaks it down for people that don't know the numerical breakdown,,0.65099
+likert_scale,5,VERY HIGH,60,10,85,4,70,40,85,2,,clearer,1.140466
+likert_scale,4,HIGH,95,90,90,5,100,100,75,2,,I think the experimental scale is simpler and does not leave room for personal interpretation of the severity of the storms.,0.472964
+levels_scale,2,LEVEL 2 OF 5,5,5,7,3,1,1,1,2,,I'm not sure,0.517888
+current_scale,2,SLIGHT,50,60,80,2,50,30,75,NA,,,0.821349
+current_scale,3,ENHANCED,11,1,1,4,50,50,50,NA,,,0.46187
+levels_scale,5,LEVEL 5 OF 5,90,90,50,5,95,90,80,2,,"It’s visual, shows the state, counties and cities.  Basically visually showing the zones. ",0.716866
+likert_scale,2,LOW,45,25,50,2,25,35,33,1,I'm not 100 percent sure how to explain it but current scales are more modern so better to understand sometimes right,,0.517888
+spanish_scale,5,EXTREME,100,100,100,5,20,100,100,2,,Because I can understand it better than the other one,0.723948
+spanish_scale,1,MINIMAL,50,50,50,1,40,40,40,2,,"More concise, easy to read",0.46187
+likert_scale,2,LOW,68,85,32,1,29,57,67,3,,,0.517888
+spanish_scale,3,MODERATE,40,40,40,4,70,70,70,1,I think it is much clear,,0.254883
+likert_scale,5,VERY HIGH,80,80,75,5,75,80,75,2,,Simple to understand,0.718998
+current_scale,2,SLIGHT,50,50,50,2,50,50,50,NA,,,2.08157
+spanish_scale,3,MODERATE,35,50,90,1,50,75,75,3,,,0.778191
+spanish_scale,1,MINIMAL,25,25,50,2,0,0,100,2,,Much clearer explanation,0.46187
+spanish_scale,2,LOW,100,100,100,2,100,100,100,2,,You are amazing and,0.778252
+spanish_scale,2,LOW,60,10,80,5,10,40,30,2,,Because it makes since,1.54124
+levels_scale,5,LEVEL 5 OF 5,100,100,100,4,100,100,100,2,,It included the definition of the levels.,0.778252
+likert_scale,5,VERY HIGH,80,80,90,4,80,80,80,3,,,0.410209
+current_scale,5,HIGH,0,0,0,5,0,0,0,NA,,,0.472964
+current_scale,4,MODERATE,10,10,90,5,50,50,70,NA,,,2.422068
+levels_scale,4,LEVEL 4 OF 5,100,80,100,1,0,75,100,1,No,,9.374473
+spanish_scale,1,MINIMAL,0,0,90,2,0,0,100,2,,The current scale uses words that could have different meanings if you didn't already know what they meant.,0.517888
+spanish_scale,5,EXTREME,0,0,0,2,0,0,0,1,no,,0.778252
+likert_scale,3,MEDIUM,35,35,30,4,30,35,30,1,The quality and service provider,,1.589262
+spanish_scale,3,MODERATE,75,75,75,1,75,75,100,2,,It shows you minimal low high extreme when the other one has different words like enhanced or moderate,0.46187
+current_scale,3,ENHANCED,30,0,60,3,50,0,100,NA,,,0.65099
+likert_scale,3,MEDIUM,50,60,20,1,30,4,8,2,,80,0.65099
+current_scale,3,ENHANCED,0,10,30,5,20,0,50,NA,,,0.447322
+spanish_scale,4,HIGH,90,90,90,4,59,70,75,2,,Just seems easier way to describe,0.472964
+current_scale,1,MARGINAL,70,80,70,3,0,0,50,NA,,,0.821349
+likert_scale,2,LOW,89,69,79,3,15,10,5,2,,More defined,1.183702
+likert_scale,4,HIGH,50,40,100,3,60,50,100,2,,Because I think that's the best for us,1.606616
+likert_scale,3,MEDIUM,60,50,75,1,50,40,75,2,,"I find the current scales verbiage a bit confusing. The experimental scale is very straightforward, and easy to understand.",0.472964
+current_scale,3,ENHANCED,100,100,100,1,75,75,75,NA,,,0.780491
+levels_scale,3,LEVEL 3 OF 5,100,100,100,3,60,60,60,1,Because everything is emphasize,,0.530008
+likert_scale,1,VERY LOW,50,50,50,1,30,30,0,2,,More specific and detailed,0.453272
+spanish_scale,4,HIGH,100,100,100,5,80,90,80,2,,The useage of words and meaning it shows,1.782708
+spanish_scale,1,MINIMAL,75,100,80,2,15,25,100,2,,Its in general terms and vocabulary that anyone can understand.,0.778191
+levels_scale,1,LEVEL 1 OF 5,20,25,75,1,20,15,75,2,,It’s just easier to understand for me,1.312386
+current_scale,2,SLIGHT,75,75,75,3,50,50,50,NA,,,0.472964
+spanish_scale,4,HIGH,1,4,3,3,1,6,10,2,,Low,1.183702
+spanish_scale,4,HIGH,50,85,75,3,75,90,75,2,,I think the terminology used in the experimental scale makes a little more sense to me and is how I would describe the definitions,0.821235
+current_scale,2,SLIGHT,20,30,25,2,85,77,60,NA,,,0.778191
+spanish_scale,3,MODERATE,5,10,3,5,4,2,5,2,,I don't know just would,0.821349
+likert_scale,2,LOW,99,80,98,2,99,98,80,2,,"A more reliable measurement may be to use a weight scale, where you are likely to get the same value every time you step on the scale, unless your weight ...",0.234892
+spanish_scale,2,LOW,0,0,100,1,0,0,100,1,this is self explanatory. i do not want an experimental scale. use the one that works . use the one people understand.,,1.448967
+likert_scale,5,VERY HIGH,80,60,74,2,50,70,60,2,,It gives details of how this things work.,0.234892
+likert_scale,5,VERY HIGH,28,36,46,3,69,57,48,1,It a little while I have a good time and I don’t have time for tomorrow,,0.234892
+current_scale,3,ENHANCED,68,70,80,4,65,70,65,NA,,,0.234892
+likert_scale,1,VERY LOW,50,80,50,5,30,20,40,1,The current scale of one of the realest and best person I ever had a 5,,0.234892
+likert_scale,2,LOW,70,70,72,2,72,75,75,2,,No really,0.530008
+levels_scale,4,LEVEL 4 OF 5,95,99,90,4,75,77,73,1,It informs me in words about risk.,,0.84817
+current_scale,3,ENHANCED,80,99,99,4,95,99,85,NA,,,2.097104
+levels_scale,2,LEVEL 2 OF 5,40,100,80,1,40,50,100,1,"With the current scale, it's all laid out.  In a disaster situation having to think accurately in high pressure a situation can be difficult.  Sometimes, you just don't think clearly even when you know the answer and under pressure, you could easily get things wrong that you wouldn't under normal conditions.",,1.353853
+spanish_scale,4,HIGH,70,70,70,5,70,80,70,3,,,0.780491
+levels_scale,1,LEVEL 1 OF 5,100,100,100,4,100,100,100,1,na,,1.547706
+current_scale,3,ENHANCED,80,70,80,4,70,60,80,NA,,,2.024706
+spanish_scale,2,LOW,30,30,40,2,10,10,10,3,,,1.157043
+levels_scale,5,LEVEL 5 OF 5,100,100,100,3,80,90,75,1,understandable definitions when using words,,1.968738
+levels_scale,3,LEVEL 3 OF 5,80,70,80,3,70,80,70,2,,no,0.234892
+levels_scale,4,LEVEL 4 OF 5,90,100,100,3,100,100,100,2,,can understand better,0.405715
+current_scale,2,SLIGHT,90,95,95,2,80,80,90,NA,,,0.866828
+levels_scale,1,LEVEL 1 OF 5,20,50,75,1,10,10,85,1,More details of exactly what each level means,,0.472964
+current_scale,4,MODERATE,50,50,50,1,70,50,80,NA,,,0.7314
+likert_scale,5,VERY HIGH,75,50,80,3,75,50,80,2,,The choice of wording for the experimental scale is a more accurate way of conveying the message.,0.866828
+spanish_scale,2,LOW,20,40,20,3,65,80,80,2,,Easier wording,1.606616
+likert_scale,4,HIGH,100,100,100,5,100,100,100,1,"Among the advantages are that (a) you save the time and trouble of creating your own, (b) there is already some evidence that the measure is valid (if it has been used successfully), and (c) your results can more easily be compared with and combined with previous results.thank you .",,0.338703
+levels_scale,5,LEVEL 5 OF 5,0,0,0,3,0,0,0,3,,,0.866828
+spanish_scale,1,MINIMAL,0,0,50,1,20,50,30,2,,The words used to describe the weather are much easier to understand,0.780491
+current_scale,5,HIGH,50,40,30,3,90,80,50,NA,,,0.405715
+spanish_scale,3,MODERATE,75,95,23,1,90,96,60,2,,Because it has extreme on the list,0.405715
+levels_scale,2,LEVEL 2 OF 5,50,100,100,1,50,50,50,2,,People have a hard time distinguishing the difference of a marginal slight and enhanced.,0.338703
+likert_scale,3,MEDIUM,80,70,60,4,80,76,34,2,,How you know that it should be,0.234892
+spanish_scale,3,MODERATE,60,90,60,2,40,30,70,1,I meant to say the experimental.,,1.448967
+current_scale,5,HIGH,80,100,50,4,100,100,50,NA,,,0.780491
+likert_scale,1,VERY LOW,5,2,100,2,10,10,90,2,,Less subjective terminology,1.563552
+spanish_scale,5,EXTREME,90,100,90,5,100,100,100,2,,"I think more people can tell what moderate means, compared to Enhanced ",2.182275
+likert_scale,2,LOW,10,10,100,2,25,0,100,2,,It just seems to make more sense to me about it,0.866828
+current_scale,1,MARGINAL,30,30,50,3,50,60,55,NA,,,1.312386
+levels_scale,4,LEVEL 4 OF 5,100,100,100,4,75,50,100,2,,"i think they are both the same,they give out the same message",0.405715
+current_scale,5,HIGH,100,100,100,3,100,100,100,NA,,,1.129695
+likert_scale,1,VERY LOW,20,10,10,1,0,0,0,1,terms feel more descriptive,,0.857964
